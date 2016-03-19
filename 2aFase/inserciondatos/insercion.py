@@ -36,7 +36,7 @@ def GenerarCIF():
     return CIF
 
 def GenerarTelefono():
-    telefono = str((randint(1,2)%2)+8)
+    telefono = str((randint(8,9)))
     for numero in xrange(0,8):
         telefono += str(randint(0,9))
     return telefono
