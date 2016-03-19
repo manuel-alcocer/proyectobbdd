@@ -1,8 +1,0 @@
-Localizacion::Parque eolico::Sociedad promotora::Termino municipal::Provincia::Potencia instalada MW::Nº de aerogeneradores::Potencia unitaria KW::Marca del aerogenerador::Modelo::Tecnologia
-153::Elgea-Urkilla::EÓLICAS DE EUSKADI::Barundia y Donemiliaga::Álava::32,3::38::850::GAMESA::G-58::DFIG
-162::Oiz::EÓLICAS DE EUSKADI::Bérriz y Munitibar::Vizcaya::25,5::30::850::GAMESA::G-58::DFIG
-423::Badaia::EÓLICAS DE EUSKADI::Kuartango, Ribera Alta e Iruña Oka::Álava::49,98::30::1650::Alstom-Ecotècnia::ECO80::DFIG
-523::Oiz Ampliación::EÓLICAS DE EUSKADI::Mallabia y Berriz::Vizcaya::8,5::10::850::GAMESA::G-58::DFIG
-656::Elgea::EÓLICAS DE EUSKADI::Onati y Aretxabaleta::Álava::24,42::37::660::GAMESA::G-47::DFIG 1º G
-657::Elgea Ampliación::EÓLICAS DE EUSKADI::Onati y Aretxabaleta::Guipúzkoa::2,55::3::850::GAMESA::G-52::DFIG
-740::El Abra::ACCIONA ENERGÍA::Puerto de Bilbao (Zierbena)::Vizcaya::10::5::2000::GAMESA::G-80::DFIG

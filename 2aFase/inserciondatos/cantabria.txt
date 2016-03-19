@@ -1,5 +1,0 @@
-Localizacion::Parque eolico::Sociedad promotora::Termino municipal::Provincia::Potencia instalada MW::Nº de aerogeneradores::Potencia unitaria KW::Marca del aerogenerador::Modelo::Tecnologia
-752::Cañoneras::EÓLICA 2000, S.L.::Ramales de la Victoria::Cantabria::17,85::21::850::GAMESA::G-52::DFIG
-811::Monte Cotío::VESTAS::Santander::Cantabria::3::1::3000::VESTAS::V112::FC
-833::Cañoneras II::EÓLICA 2000, S.L.::Soba::Cantabria::14,45::17::850::GAMESA::G-52::DFIG
-1071::Parque Eólico Experimental Vestas Cantabria::Vestas::Reinosa::Cantabria::3::1::3000::VESTAS::V112::DFIG
