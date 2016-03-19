@@ -67,7 +67,7 @@ def DatosCentrales(diccionario):
         if any(len(contenido) == 0 for contenido in empresa.split(':')):
             continue
         datos = empresa[:-1].split(':')
-        nombrecentral = unicode(datos[1]).upper()
+        nombrecentral = unicode(datos[1]).upper().replace("'","''")
         diccionario[datos[2].upper()]['centrales'] = {}
         diccionario[datos[2].upper()]['centrales'][nombrecentral] = {}
         diccionario[datos[2].upper()]['centrales'][nombrecentral]['localizacion'] = datos[0].upper()
