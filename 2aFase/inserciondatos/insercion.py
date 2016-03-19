@@ -35,6 +35,12 @@ def GenerarCIF():
     CIF = '%s%s%s' %(inicio, CuerpoCIF(), ultimocaracter)
     return CIF
 
+def GenerarTelefono():
+    telefono = str((randint(1,2)%2)+8)
+    for numero in xrange(0,8):
+        telefono += str(randint(0,9))
+    return telefono
+
 def Generarempresas():
     with open ('empresas.txt') as f:
         contenido = f.readlines()
@@ -71,6 +77,7 @@ def DatosCentrales(diccionario):
         diccionario[datos[2].upper()]['centrales'][datos[1].upper()]['potencia_ud'] = datos[7].upper()
         diccionario[datos[2].upper()]['centrales'][datos[1].upper()]['marca'] = datos[8].upper()
         diccionario[datos[2].upper()]['centrales'][datos[1].upper()]['modelo'] = datos[9].upper()
+        diccionario[datos[2].upper()]['centrales'][datos[1].upper()]['telefono'] = GenerarTelefono()
     return
 
 def Provincias(nombre):
@@ -118,6 +125,18 @@ def InsercionPueblos(diccionario):
             f.write("INSERT INTO MUNICIPIOS VALUES('%s', '%s', '%s')\n" % (pueblos[clave]['codigo'], pueblos[clave]['codprov'], clave.upper()))
     return pueblos
 
+def InsercionCentrales(diccionario, pueblos):
+    with open ('insercion-centrales.sql', 'w') as f:
+        for empresa in diccionario.keys():
+            cif = diccionario[empresa]['cif']
+            for central in diccionario[empresa]['centrales'].keys():
+                nombre = central
+                codigomunicipio = pueblos[diccionario[empresa]['centrales'][central]['municipio']]['codigo']
+                # Falta la dirección.. a ver que me invento
+                telefono = diccionario[empresa]['centrales'][central]['telefono']
+                f.write("INSERT INTO CENTRALES VALUES ('%s', '%s', '%s', '%s')\n" % (nombre,codigomunicipio,cif,telefono))
+    return
+
 def main():
     diccionario_de_empresas = Generarempresas()
     DatosCentrales(diccionario_de_empresas)
@@ -127,6 +146,8 @@ def main():
     InsercionProvincias()
     # Genera fichero: tabla - Municipios
     lista_de_pueblos = InsercionPueblos(diccionario_de_empresas)
+    # Genera fichero: tabla - Centrales
+    InsercionCentrales(diccionario_de_empresas,lista_de_pueblos)
 
 if __name__ == '__main__':
     main()
