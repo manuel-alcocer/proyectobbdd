@@ -1,0 +1,241 @@
+26::Radona I::IBERDROLA RENOVABLES::Adrada y Alcubilla de las Peñas::Soria::24::12::2000::GAMESA::G-90::DFIG
+27::Radona II::IBERDROLA RENOVABLES::Adrada y Alcubilla de las Peñas::Soria::32::16::2000::GAMESA::G-90::DFIG
+28::Hontalbilla II::IBERDROLA RENOVABLES::Adradas y Baraona::Soria::28,9::34::850::GAMESA::G-58::DFIG
+39::La Ruya I+D::BOREAS TECNOLOGÍAS::Aguilar del Campoo::Palencia::1,6::1::1600::Alstom-Ecotècnia::ECO74::DFIG
+52::Cerros de Radona::Eólica de Radona, S.L.::Alcubilla de las Peñas y Medinaceli::Soria::40::16::2500::GE::GE 2,5 xl::DFIG
+53::Piedras del Alto::ACCIONA ENERGÍA::Aldeanueva de la Serrezuela, Navares de Enmedio, Navares de las Cuevas y Pradales::Segovia::34::40::850::GAMESA::G-52::DFIG
+54::Urano::Danta de energías, S.A.::Aldehuelas y Villar del Rio::Soria::30,4::38::800::MADE::AE 56::SÍNCRONO
+55::Las Aldehuelas::EXPLOTACIONES EÓLICAS ALDEHUELAS, S.L.::Aldehuelas, Vizmanos, Arévalo de la Sierra, La Poveda y Sta. Cruz Yanguas::Soria::47,2::59::800::MADE::AE 52::SÍNCRONO
+56::Alentisque::PEESA EÓLICA, S.L.::Alentisque::Soria::46,5::31::1500::VESTAS::V82::DFIG
+57::Tarayuela::Biovent Energía Eólica, S.A.::Alentisque, Morón de Almazán, Momblona y Soliedra::Soria::30::15::2000::GAMESA::G-87::DFIG
+60::Montejo de Bricia::Boreas Eólica 2, S.A.::Alfoz de Bricia::Burgos::13,6::16::850::GAMESA::G-58::DFIG
+61::Arroyal::P.E. La Boga, S.L.::Alfoz de Quintanadueñas::Burgos::46,5::31::1500::GE::GE 1,5 sle-61,4m::DFIG
+62::El Páramo::Energías Naturales Molinos de Castilla, S.A.::Alfoz de Quintanadueñas::Burgos::24::16::1500::GE::GE 1,5 sle::DFIG
+76::Los Campillos::IBERENOVA PROMOCIONES::Almazán, Barca y Velamazán::Soria::34::17::2000::GAMESA::G-87::DFIG
+85::Alconada::ENERGÍAS RENOVABLES DEL DUERO, S.L.::Ampudia::Palencia::4,5::3::1500::ACCIONA WIND POWER::AW 77/1500::DFIG
+86::Cuesta Mañera::RENOVALIA RESERVE::Ampudia::Palencia::49,5::33::1500::ACCIONA WIND POWER::AW 77/1500::DFIG
+87::Esquileo I::ESQUILVENT, S.L.::Ampudia::Palencia::46,88::25::2000::GAMESA::G-90::DFIG
+88::La Dehesilla I::ESQUILVENT, S.L.::Ampudia::Palencia::46,88::25::2000::GAMESA::G-90::DFIG
+89::La Dehesilla II::ESQUILVENT, S.L.::Ampudia::Palencia::46,88::25::2000::GAMESA::G-90::DFIG
+90::La Muñeca::RENOVALIA RESERVE::Ampudia::Palencia::40,5::27::1500::ACCIONA WIND POWER::AW 77/1500::DFIG
+101::Layna::IBERDROLA RENOVABLES::Arcos de Jalón::Soria::50::25::2000::GAMESA::G-87::DFIG
+102::Bullana::IBERCYL::Arcos de Jalón, Almaluez y Medinaceli::Soria::38::19::2000::GAMESA::G-90 Y G-87::DFIG
+126::Chambón Fase 1::IBERDROLA RENOVABLES::Astudillo::Palencia::21,25::25::850::GAMESA::G-58::DFIG
+127::Chambón Fase 2::IBERDROLA RENOVABLES::Astudillo::Palencia::11,9::14::850::GAMESA::G-58::DFIG
+128::Carrasquillo::IBERDROLA RENOVABLES::Astudillo y Pedrosa del Príncipe::Palencia::49,3::58::850::GAMESA::G-58::DFIG
+129::Ávila::Parque eólico Altos de Voltoya, S.A.::Ávila y Tornadizos::Ávila::11,88::18::660::GAMESA::G-47::DFIG 1º G
+132::Grado::IBERDROLA RENOVABLES::Ayllón y Montejo de Tiermes::Segovia - Soria::27,2::32 (16 Soria y 16 Segovia)::850::GAMESA::G-52::DFIG
+133::Corral Nuevo::DYTA::Ayoluengo::Burgos::5,28::8::660::GAMESA::G-47::DFIG 1º G
+152::El Pical::ACCIONA ENERGÍA::Barruelo de Santillán::Palencia::19,8::30::660::GAMESA::G-47::DFIG 1º G
+158::Becerril::EÓLICA DE LAS PEÑAS::Becerril de Campos::Palencia::6::3::2000::VESTAS::V90::DFIG
+173::Bordecorex Norte::IBERDROLA RENOVABLES::Bordecorex::Soria::44,35::9 y 31::2000 y 850::GAMESA::G-80 / G-58::DFIG
+184::El Tablado::SISTEMAS ENERGÉTICOS EL MONCAYO, S.L.::Borobia y Beratón::Soria::19,8::30::660::GAMESA::G-47::DFIG 1º G
+185::El Manzanal::E.E. DEL BIERZO::Brazuelo::León::33,75::45::750::VESTAS::NM 52::JA
+222::Fuente Vaín::Eólica del Alfoz, S.L.::Carcedo de Burgos::Burgos::32::16::2000::VESTAS::V90::DFIG
+223::Las Fuentes::Eólica del Alfoz, S.L.::Carcedo de Burgos::Burgos::18::9::2000::VESTAS::V90::DFIG
+224::El Nogal::Eólica del Alfoz, S.L.::Carcedo de Burgos y Cardeñadijo::Burgos::24::12::2000::VESTAS::V80::DFIG
+225::Campanario::Eólica del Alfoz, S.L.::Carcedo de Burgos y Revillarruz::Burgos::38::19::2000::VESTAS::V90::DFIG
+227::Cruz de Carrutero Fase A::Parque eólico Cruz de Carrutero, S.L.::Cardeñosa de Volpejera, Villamuera de la Cueza y Villanueva de Rebollar::Palencia::10,9::25::1670::Alstom-Ecotècnia::ECO80::DFIG
+228::Cruz de Carrutero Fase B::Parque eólico Cruz de Carrutero, S.L.::Cardeñosa de Volpejera, Villamuera de la Cueza y Villanueva de Rebollar::Palencia::29,1::25::1670::Alstom-Ecotècnia::ECO80::DFIG
+240::Fuente Salada::IBERDROLA RENOVABLES::Castellanos de Castro y Sasamón::Burgos::46,4::29::1670::Alstom-Ecotècnia::ECO80::DFIG
+244::Castilfrío::CETASA::Castilfrio::Soria::24,75::33::750::MADE::AE 52::SÍNCRONO
+245::Valbonilla Fase I::IBERDROLA RENOVABLES::Castrojériz::Burgos::4,25::5::850::GAMESA::G-58::DFIG
+246::Valbonilla Fase II::IBERDROLA RENOVABLES::Castrojériz::Burgos::6,85::3 y 1::2000 y 850::GAMESA::G-80 / G-58::DFIG
+247::Alto de la Degollada::GAMESA ENERGÍA::Castrojériz::Burgos::50::25::2000::GAMESA::G-90::DFIG
+248::El Carril::ENERGÍA GLOBAL CASTELLANA::castrojériz y Pedrosa del Príncipe::Burgos::18::14::2000::GAMESA::G-90::DFIG
+249::El Carril II::IBERCYL::castrojériz y Pedrosa del Príncipe::Burgos::10::5::2000::GAMESA::G-90::DFIG
+250::Los Collados::IBERDROLA RENOVABLES CASTILLA Y LEÓN::Castrojériz, Villasandino y Sasamon::Burgos::11,2::7::1670::Alstom-Ecotècnia::ECO80::DFIG
+251::San Lorenzo C::VAPAT::Castromonte, Peñaflor de Hornija y Torrelobatón::Valladolid::28,13::15::2000::GAMESA::G-90::DFIG
+252::San Pedro::E.E. DEL BIERZO::Castropodame y Torre::León::7,5::10::750::VESTAS::NM 52::JA
+253::El Redondal Fase 1::OLIVENTO, S.L.::Castropodame y Turienzo Castañero::León::14,45::17::850::GAMESA::G-52::DFIG
+254::El Redondal Fase 2::OLIVENTO, S.L.::Castropodame y Turienzo Castañero::León::16,15::5 y 14::850::GAMESA::G-52 / G-58::DFIG
+257::Valdeperondo::IBERDROLA RENOVABLES::Cea y Sahagún::León::46::23::2000::GAMESA::G-90::DFIG
+261::POBLACIÓN DE CERRATO-FASE I (EXPERIMENTAL)::EOLINCYL, S.L.::Cerrato::Palencia::0,15::1::150::ELECTRIA WIND::Garví 150/28::
+277::Cogollos II (Fase A)::Productor Regional de Energía Renovable, S.A.::Cogollos::Burgos::44::22::2000::GAMESA::G-87::DFIG
+278::Cogollos II (Fase B)::Productor Regional de Energía Renovable, S.A.::Cogollos::Burgos::6::3::2000::GAMESA::G-87::DFIG
+279::Los Llanos (Fase A)::Productor Regional de Energías Renovables III, S.A.::Cogollos, Hontoria de la Cantera y Revillarruz::Burgos::13,5::7::2000::GAMESA::G-87 (Torre de 78 m)::DFIG
+280::Los Llanos (Fase b)::Productor Regional de Energías Renovables III, S.A.::Cogollos, Hontoria de la Cantera y Revillarruz::Burgos::24,5::12::2000::GAMESA::G-87 (Torre de 78 m)::DFIG
+287::Dueñas::IBERDROLA RENOVABLES::Costrarroleña::Palencia::3,4::4::850::GAMESA::G-52::DFIG
+288::El Toranzo::HIDROMEDIA::Cueva de Agreda y Borobia::Soria::18::30::600::GAMESA::G-47::DFIG 1º G
+321::La Sía::Boreas Eólica 2, S.A.::Espinosa de los Monteros::Burgos::29,7::27::1100::MADE::AE 61::JA
+322::Los Castríos::Los Castríos, S.A.::Espinosa de los Monteros::Burgos::26,4::24::1100::MADE::AE 61::JA
+326::Peña Nebina::Energías Renovables de Peña Nebina, S.L.::Ferreruela::Zamora::20::10::2000::GAMESA::G-90::DFIG
+327::Sierra de las Carbas::P.E. Sierra de las Carbas::Ferreruela::Zamora::40::20::2000::VESTAS::V90::DFIG
+328::Valdelín::GAS NATURAL FENOSA RENOVABLES::Folgoso de la Ribera::León::18::9::2000::VESTAS::V90::DFIG
+329::Valdelín Ampliación::GAS NATURAL FENOSA RENOVABLES::Folgoso de la Ribera, Igüeña y Torre del Bierzo::León::6::3::2000::VESTAS::V90::DFIG
+334::Hontalbilla I::IBERDROLA RENOVABLES::Frechilla Almazán, Baraona y Villasayas::Soria::36,55::43::850::GAMESA::G-58::DFIG
+345::Portelrubio::SOCIEDAD DE ENERGÍA DE CASTILLA Y LEÓN, S.A. (ENCALSA)::Fuentelsaz de Soria y Almarza::Soria::4,98::6::850::GAMESA::G-52::DFIG
+346::La Cotorra::EÓLICA MIRASIERRA S.L.::Fuentes de Valdepero::Palencia::1,5::1::1500::GAMESA::G-90::
+347::El Raso::Eólica El Raso, S.L.::Fuentes de Valdepero::Palencia::4,5::3::1500::GAMESA::G-90::
+348::Rodal::EÓLICA MIRASIERRA, S.L.::Fuentes de Valdepero::Palencia::4,5::3::1500::GAMESA::G-90::DFIG
+349::San Adrián::EÓLICA MIRASIERRA, S.L.::Fuentes de Valdepero::Palencia::4::2::2000::GAMESA::G-87::
+350::Valdepero::GAS NATURAL FENOSA RENOVABLES::Fuentes Valdepero y Palencia::Palencia::30::20::1500::VESTAS::V90::DFIG
+353::Cerro Blanco::ENERGÍA GLOBAL CASTELLANA::Galbarros, Briviesca, Reinoso y Salinillas del Bureba::Burgos::42::21::2000::GAMESA::G-83::DFIG
+356::Matabuey::Eólica Salmantina, S.L.::Garcihernández::Salamanca::16,2::8::1800::VESTAS::V90::DFIG
+357::Zorraquín::ACCIONA ENERGÍA::Gomyo y Villaciervos::Soria::12::6::2000::GAMESA::G-87::DFIG
+372::Celada V::ACCIONA ENERGÍA::Herrera de Valdecañas y Villahán::Palencia::26::13::2000::GAMESA::G-90::DFIG
+379::El Pulpal::ACCIONA ENERGÍA::Hinojosa del Campo, Ólvega y Pozalmuro::Soria::17,25::23::750::VESTAS::NM 48::JA
+381::El Rebollar::EÓLICA MIRASIERRA, S.L.::Hontoria de Cerrato::Palencia::5::3::1665::GAMESA::G-90::
+382::Encinedo::ACCIONA ENERGÍA::Hornillos de Cerrato y Baltanás::Palencia::30::15::2000::GAMESA::G-90::DFIG
+383::Hornillos::ACCIONA ENERGÍA::Hornillos de Cerrato y Baltanás::Palencia::26::13::2000::GAMESA::G-90::DFIG
+384::Los Angostillos::ACCIONA ENERGÍA::Hornillos de Cerrato y Baltanás::Palencia::28::14::2000::GAMESA::G-90::DFIG
+385::El Cuadrón::ACCIONA ENERGÍA::Hornillos de Cerrato y Torquemada::Palencia::22::11::2000::GAMESA::G-90::DFIG
+386::Celada I::ACCIONA ENERGÍA::Hornillos de Cerrato, Torquemada y Herrera de Valdecañas::Palencia::34::17::2000::GAMESA::G-90::DFIG
+387::Páramo los Angostillos::ACCIONA ENERGÍA::Hornillos del Cerrato::Palencia::26::13::2000::GAMESA::G-90::DFIG
+392::La Lastra::P.E. La Boga, S.L.::Huérmeces::Burgos::11,69::7::1600::Alstom-Ecotècnia::ECO74-70m::DFIG
+393::Sombrío::ENERGÍA GLOBAL CASTELLANA::Huérmeces y Merindad de Río::Burgos::28::14::2000::GAMESA::G-87::DFIG
+394::La Caldera::La Caldera Energía Burgos::Huérmeces y Villadiego::Burgos::22,5::15::1500::GE::GE 1,5 sle::DFIG
+395::Urbel del Castillo II::Biovent Energía Eólica, S.A.::Huérmeneces, Montorio y Urbel del Castillo::Burgos::50::25::2000::GAMESA::G-87::DFIG
+424::Espina::Parque Eólico Espina, S.L.::La Espina::León::18::9::2000::GAMESA::G-87::DFIG
+440::Peñaflor III::Bionor::La Mudarra, Castromonte y Peñaflor de Hornija::Valladolid::49::27 Y 3::1670 Y 1300::Alstom-Ecotècnia::ECO80::
+456::La Lora::MADE TECNOLOGÍAS RENOVABLES, S.A.::La Riba de Valdelucio::Burgos::0,6::1::600::MADE::AE 45::JA
+457::La Lora I::P.E. La Boga, S.L.::La Riba de Valdelucio::Burgos::49,6::31::1600::Alstom-Ecotècnia::ECO80-80m::DFIG
+458::La Lora II::P.E. La Boga, S.L.::La Riba de Valdelucio::Burgos::49,6::31::1600::Alstom-Ecotècnia::ECO80-80m::DFIG
+469::Altos de Cartagena::PE Monte las Navas::Las Navas del Marqués::Ávila::21,12::32::660::MADE::AE 46::JA
+470::Navas del Marqués::PE Monte las Navas::Las Navas del Marqués::Ávila::10,56::16::660::MADE::AE 46::JA
+471::Navazuelo::PE Monte las Navas::Las Navas del Marqués::Ávila::17,16::26::660::MADE::AE 46::JA
+474::Sierra de Dueña::IBERDROLA RENOVABLES::Las Veguillas, Membibre de la Sierra, Frades de la Sierra y Pedrosillo de los Aires::Salamanca::31,45::37::850::GAMESA::G-58::DFIG
+489::La Mesa::BURGALESA::Los Altos::Burgos::9::15::600::ENERCON::E-40::FC
+490::Otero y Peña la Cuesta::BURGALESA::Los Altos::Burgos::4,8::10::500::ENERCON::E-40::FC
+491::Peña Alta Ampliación::ACCIONA ENERGÍA::Los Altos::Burgos::3,4::4::850::GAMESA::G-52::DFIG
+492::Los Zapateros::VAPAT::Los Balbases y Castrojériz::Burgos::49,4::26::2000::VESTAS::V90::DFIG
+493::La Zarzuela::VAPAT::Los Balbases, Castrojériz y Vallegera::Burgos::41,8::22::1900::VESTAS::V90::DFIG
+497::Aerogenerador Experimental G-87 (Lubián)::Ibereólica Investigación y Desarrollo, S.L.::Lubián::Zamora::2::1::2000::GAMESA::G-87::DFIG
+498::Aerogenerador experimental G90::Ibereólica Investigación y Desarrollo, S.L.::Lubián::Zamora::2::1::2000::GAMESA::G-80::DFIG
+499::Cinseiro::Cinseiro, S.L.::Lubián::Zamora::12::8::1500::GAMESA::G-83::DFIG
+500::Hedroso-Aciberos::Ibereólica Hedroso-Aciberos, S.A.U.::Lubián::Zamora::31,45::37::850::GAMESA::G-58::DFIG
+501::Hedroso-Aciberos Ampliación Ampliación::Ibereólica Hedroso-Aciberos, S.A.U.::Lubián::Zamora::14::7::2000::GAMESA::G-87::DFIG
+502::Lubián (Fase I)::Ibereólica Lubián, S.A.U.::Lubián::Zamora::36::18::2000::GAMESA::G-80::DFIG
+503::Lubián Ampliación::Ibereólica Lubián, S.A.U.::Lubián::Zamora::14::7::2000::GAMESA::G-80::DFIG
+504::Padornelo Ampliación::Ibereólica Hedroso-Aciberos, S.A.U.::Lubián::Zamora::18::9::2000::GAMESA::G-87::DFIG
+505::La Gamoneda::ACCIONA ENERGÍA::Lubián y Hermisende::Zamora::19,8::30 y 35::660 y 850::GAMESA::G-42 y G-58::JA
+506::La Gamoneda Ampliación::ACCIONA ENERGÍA::Lubián y Hermisende::Zamora::29,75::35::850::GAMESA::G-58::DFIG
+507::San Ciprián::ACCIONA ENERGÍA::Lubián y Hermisende::Zamora::17,85::21::850::GAMESA::G-58::DFIG
+508::Aguallal::ACCIONA ENERGÍA::Lubián y Pías::Zamora::11,88::18, 27 y 1::660, 850 y 2000::GAMESA::G-47, G-58 y G-80::DFIG
+509::Aguallal Ampliación::ACCIONA ENERGÍA::Lubián y Pías::Zamora::2::1::2000::GAMESA::G-80::DFIG
+510::Aguallal Ampliación::ACCIONA ENERGÍA::Lubián y Pías::Zamora::22,95::27::850::GAMESA::G-58::DFIG
+511::La Mallada::Investigación y Desarrollo de Energías Renovables (IDER)::Lucillo::León::44,8::28::1670::Alstom-Ecotècnia::ECO74::DFIG
+512::Lucillo::Investigación y Desarrollo de Energías Renovables (IDER)::Lucillo::León::17,6::11::1600::Alstom-Ecotècnia::ECO74::DFIG
+513::Cerro Becerril::Investigación y Desarrollo de Energías Renovables (IDER)::Lucillo y Sta.Coloma de Somoza::León::14,4::9::1670::Alstom-Ecotècnia::ECO74::DFIG
+519::Tres picos::ENERPAL- Gestión y Mantenimiento Eólico del Norte::Magaz de Pisuegra::Palencia::2,4::3::800::MADE::AE 52::SÍNCRONO
+520::Dos Picos::MADE TECNOLOGÍAS RENOVABLES, S.A.::Magaz de Pisuegra::Palencia::1,6::2::800::MADE::AE 52::SÍNCRONO
+521::Valdehorno::EÓLICA MIRASIERRA, S.L.::Magaz de Pisuegra::Palencia::8::4::2000::GAMESA::G-87::DFIG
+522::Magaz::Parque Eólico Magaz, S.L.::Magaz de Pisuegra y Palencia::Palencia::30::15::2000::VESTAS::V90::DFIG
+525::Era del Pico::Investigación y Desarrollo de Energías Renovables (IDER)::Mallonseca, Castropodame y T.Bierzo::León::11,9::10 y 4::850::GAMESA::G-58 / G-52::DFIG
+554::Caramonte::Eólica de Medinaceli, S.L.::Medinaceli::Soria::49,94::22::2270::NORDEX::N90::DFIG
+555::Carrascalejo y Monte Alto::Eólica de Medinaceli, S.L.::Medinaceli::Soria::15::10::1500::ACCIONA WIND POWER::AW 77/1500::DFIG
+556::Sierra Ministra::PEESA::Medinaceli::Soria::42::20::2100::SUZLON::S88::JA
+557::Ventosa del Ducado (FASE A)::IBERCYL::Medinaceli, Yelo y Miño de Medinaceli::Soria::18::22::2000::GAMESA::G-87::DFIG
+558::Ventosa del Ducado (FASE B)::IBERCYL::Medinaceli, Yelo y Miño de Medinaceli::Soria::26::22::2000::GAMESA::G-87::DFIG
+560::El Teruelo::IBERDROLA RENOVABLES::Melgar de Yuso, Villodré y Astudillo::Palencia::43,35::51::850::GAMESA::G-58::DFIG
+563::Montija::GAS NATURAL FENOSA RENOVABLES::Merindad de Montija::Burgos::30,8::28::1100::MADE::AE 61::JA
+564::Rabinaldo::PARQUES DE GENERACIÓN EÓLICA, S.L.::Merindad de rio Ubierna::Burgos::9::6::1500::GAMESA::G-80::DFIG
+565::El Negredo::Energías Naturales Molinos de Castilla, S.A.::Merindad de Río Ubierna::Burgos::18::9::1800::VESTAS::V90::DFIG
+566::Quintanilla::PARQUES DE GENERACIÓN EÓLICA, S.L.::Merindad de Río Ubierna::Burgos::20::10::2000::GAMESA::G-90::DFIG
+567::Quintanilla Sobresierra::DENERSA::Merindad de Río Ubierna::Soria::0,85::1::850::GAMESA::G-58::DFIG
+568::El Coterejón II::IBERENOVA PROMOCIONES::Merindad de Vadeporres y Valle de Valdebezana::Burgos::6::3::2000::GAMESA::G-87::DFIG
+569::El Coterejón I::Energías Renovables del Bierzo (ERBI)::Merindad de Valdeporres::Burgos::16,2::9::1800::VESTAS::V90::DFIG
+570::La Cotera::IBERDROLA RENOVABLES CASTILLA Y LEÓN::Merindad de Valdeporres y Valle de Valdebezana::Burgos::18::9::2000::GAMESA::G-87::DFIG
+571::La Torada::ACCIONA ENERGÍA::Merindad de Valdivieso::Burgos::9,24::14::660::GAMESA::G-58::DFIG
+572::La Torada Ampliación::ACCIONA ENERGÍA::Merindad de Valdivieso::Burgos::2,55::3::850::GAMESA::G-58::DFIG
+573::Peña Alta::ACCIONA ENERGÍA::Merindad de Valdivieso::Burgos::13,2::34 y 7::660 y 850::GAMESA::G-47 y G-52::DFIG 1º G
+574::La Peñuca::PARQUE EÓLICO LA PEÑUCA, S.L.::Merindad Valdeporres y Merindad Sotoscueva::Burgos::33::22::1650::VESTAS::NM 72::JA
+575::La Magdalena::IBERDROLA RENOVABLES::Merindad de Valdeporres y Valle Valdebezana::Burgos::23,8::28::850::GAMESA::G-52::DFIG
+580::Monasterio de Rodilla::EÓLICA LA BRÚJULA, S.A.::Monasterio de Rodilla::Burgos::11,4::4 y 4::850 y 2000::GAMESA::G-52 / G-80::DFIG
+581::Veleta::EÓLICA LA BRÚJULA, S.A.::Monasterio de Rodilla, Fresno de Rodilla y Santa María del Invierno::Burgos::14,45::17::850::GAMESA::G-58::DFIG
+582::Bureba::ENERGÍA GLOBAL CASTELLANA::Monasterio de Rodilla, Galbarros, Briviesca, Santa Olalla de Bureba, Reinoso y Quintanavides::Burgos::12::12::2000::GAMESA::G-87::DFIG
+583::La Brújula::EÓLICA LA BRÚJULA, S.A.::Monasterio de Rodilla y Valle de las Navas::Burgos::29,75::35::850::GAMESA::G-58::DFIG
+585::La Vega I::Sociedad gestora de parques eólicos de Castilla y León, S.A.::Monfarracinos::Zamora::5::1 Y 1::3000 Y 2000::VESTAS::V90::DFIG
+586::La Vega II::Sociedad gestora de parques eólicos de Castilla y León, S.A.::Monfarracinos::Zamora::5::1 Y 1::3000 Y 2000::VESTAS::V90::DFIG
+590::Montamarta::GEZA::Montamarta, Palacios del Pan y Andavías::Zamora::22,4::14::1670::Alstom-Ecotècnia::ECO80::DFIG
+591::Canalejas::IBERDROLA RENOVABLES::Montejo Tiermes y Retortillo::Soria::18,7::22::850::GAMESA::G-52::DFIG
+592::La Calzada::Energías Naturales Molinos de Castilla, S.A.::Montorio::Burgos::30,6::16::2000::VESTAS::V90::DFIG
+593::Alto de Pocillo::EÓLICA MIRASIERRA, S.L.::Monzón de Campos::Palencia::4::2::2000::GAMESA::G-87::DFIG
+594::Grijota::ENERGÍA DE CASTILLA Y LEÓN, S.A. (ENCALSA)::Monzón de Campos::Palencia::4,98::6::830::GAMESA::::DFIG
+595::Las Canteras::EÓLICA MIRASIERRA, S.L.::Monzón de Campos::Palencia::8::4::2000::GAMESA::G-87::DFIG
+596::Monte de Villajimena::EÓLICA MIRASIERRA, S.L.::Monzón de Campos::Palencia::6::3::2000::GAMESA::G-87::DFIG
+600::Morón de Almazán::ENERGÍA GLOBAL CASTELLANA::Morón de Almazán y Adradas::Soria::50::25::2000::GAMESA::G-87::DFIG
+605::Valdelanave::Bionor::Muelas del Pan::Zamora::10::5::2000::GAMESA::G-90::DFIG
+632::Valpardo::ACCIONA ENERGÍA::Navalperal del Pinares::Ávila::21,25::5 y 20::850::GAMESA::G-58 / G-52::DFIG
+633::Valdihuelo::ENEL GREEN POWER ESPAÑA, S.L.::Navalperal del Pinares y Ávila::Ávila::16,15::9 y 10::850::GAMESA::G-52 y G-58::DFIG
+642::Ojos Albos::Parque eólico Altos de Voltoya, S.A.::Ojos Albos::Ávila::14,52::22::660::GAMESA::G-47::DFIG 1º G
+648::El Hierro::GEZA::Olmillos de Castro y Santa Eufemia del Barco::Zamora::22,4::14::1670::Alstom-Ecotècnia::ECO80::DFIG
+653::El Toranzo Ampliación::HIDROMEDIA::Ólvega y Borobia::Soria::7,26::11::660::GAMESA::G-47::DFIG 1º G
+654::Sierra del Madero I::P.E.S. MADERO::Ólvega y Noviercas::Soria::14,85::45::330::MADE::AE-32::JA
+655::Sierra del Madero II::P.E.S. MADERO::Ólvega y Noviercas::Soria::13,86::21::660::MADE::AE 46::JA
+658::Magaña::CETASA::Oncala::Soria::24,75::33::750::VESTAS::NM 52::JA
+659::Oncala::CETASA::Oncala::Soria::24,75::33::750::VESTAS::NM 48::JA
+660::El Cayo::CETASA::Oncala, Huérteles y S.Pedro Manrique::Soria::24,75::33::750::MADE::AE 52::SÍNCRONO
+672::Padornelo::Ibereólica Padornelo, S.A.U.::Padornelo y Aciberos::Zamora::31,45::37::850::GAMESA::G-58::DFIG
+678::Bandeleras::P.E. Bandeleras::Palacios del Arzobispo y Zamayón::Salamanca::36::18::2000::GAMESA::G-90::DFIG
+682::El Castre::ELECDEY::Pedraza de Campos y Torremormojón::Palencia::25,6::16::1670::Alstom-Ecotècnia::ECO80::DFIG
+688::El Navazo Fase I::IBERDROLA RENOVABLES::Pedrosa del Príncipe::Burgos::29,75::35::850::GAMESA::G-58::DFIG
+689::El Navazo Fase II::IBERDROLA RENOVABLES::Pedrosa del Príncipe y Castrojériz Astudillo::Burgos - Palencia::8,8::4 y 1::2000 y 800::GAMESA::G-80 / G-52::DFIG
+690::Lodoso::P.E. La Boga, S.L.::Pedrosa del Río Urbel::Burgos::49,5::33::1500::GE::GE 1,5 sle-61,4m::DFIG
+691::Marmellar::P.E. Marmellar, S.L.::Pedrosa del Río Urbel::Burgos::49,5::33::1500::GE::GE 1,5 sle-61,4m::DFIG
+692::Peñaflor IV::Bionor::Peñaflor de Hornija::Valladolid::49::27 Y 3::1670 Y 1300::Alstom-Ecotècnia::ECO80::
+693::San Lorenzo D::VAPAT::Peñaflor de Hornija::Valladolid::33,75::18::2000::GAMESA::G-90::DFIG
+702::Aerogenerador I+D Gamesa::ACCIONA ENERGÍA::Pías::Zamora::2::1::2000::GAMESA::G-83::DFIG
+703::Sistral::ACCIONA ENERGÍA::Pías y Porto::Zamora::8,5::10::850::GAMESA::G-52::DFIG
+720::Páramo de Poza I::EÓLICAS PÁRAMO DE POZA, S.A.::Poza de la Sal::Burgos::49,5::66::750::Alstom-Ecotècnia::ECO48::JA
+721::Páramo de Poza I Ampliación::EÓLICAS PÁRAMO DE POZA, S.A.::Poza de la Sal::Burgos::0,89::1::1670::Alstom-Ecotècnia::ECO74::DFIG
+722::Páramo de Poza II::EÓLICAS PÁRAMO DE POZA, S.A.::Poza de la Sal::Burgos::48,74::67::750::Alstom-Ecotècnia::ECO48::JA
+723::Pozalmuro I+D::EÓLICA POZALMURO::Pozalmuro::Soria::1,5::1::1500::VESTAS::NM 64::DFIG
+738::Dehesa de Tablares::Recursos eólicos de valdivia::Puebla de Valdivia::Palencia::0,85::1::850::GAMESA::G-58::DFIG
+750::Valdelacasa III::GAS NATURAL FENOSA RENOVABLES::Quintana del Castillo y Villagatón-Branuelas::León::10,8::6::1800::VESTAS::V90::DFIG
+751::Llanos de San Martín::EÓLICA LA BRÚJULA, S.A.::Quintanavides y Castil de Peones::Burgos::17,85::5 y 16::850::GAMESA::G-52 / G-58::DFIG
+754::Nerea::GEZA::Requejo y Pedralba de la Pradería::Zamora::39,75::53::750::Alstom-Ecotècnia::ECO48::JA
+755::Sierro::IBERDROLA RENOVABLES::Retortillo de Soria::Soria::19,55::23::850::GAMESA::G-52::DFIG
+756::Valdesamario::Energías Especiales del Alto Ulla, S.A.::Riello, Valdesamario y Villagatón::León::24::12::2000::GAMESA::G-87::DFIG
+757::Sierra Sesnández::ENERGÍAS RENOVABLES SIERRA SESNÁNDEZ, S.L.::Riofrío de Aliste y Ferreruela::Zamora::20::10::2000::GAMESA::G-97::DFIG
+773::La Cueza::IBERDROLA RENOVABLES::Sahagún::León::8::4::2000::GAMESA::G-90::DFIG
+774::Valdecarrión::IBERDROLA RENOVABLES::Sahagún::León::34::17::2000::GAMESA::G-90::DFIG
+789::El Lanchal::ENEL GREEN POWER ESPAÑA, S.L.::San Juan de la Nava::Ávila::21,25::10 y 15::850::GAMESA::G-52 y G-58 (Torre de 55 m)::DFIG
+790::Pucheruelo::ENEL GREEN POWER ESPAÑA::San Juan de la Nava::Ávila::22,95::27::850::GAMESA::G-58::DFIG
+791::El Rincón::EÓLICA SIERRA DE ÁVILA, S.L.::San Juan del Olmo y Balbarda::Ávila::8::4::2000::VESTAS::V90::DFIG
+792::Cabeza Mesá::EÓLICA SIERRA DE ÁVILA, S.L.::San Juan del Olmo y Vadillo de la Sierra::Ávila::29,6::15::1800::VESTAS::V90::DFIG
+799::El Pedrón (I+II)::Investigación y Desarrollo de Energías Renovables (IDER)::Santa Coloma de Somoza::León::43,2::27::1600::Alstom-Ecotècnia::ECO74::DFIG
+800::Argañoso::ENERGÍA GLOBAL CASTELLANA::Santa Colomba de Samoza y Torre del Bierzo::León::22::11::2000::GAMESA::G-90::DFIG
+802::Peña Roldana::GEZA::Santa Eufemia del Barco::Zamora::35,2::22::1670::Alstom-Ecotècnia::ECO80::DFIG
+812::Teso Santo::Parque Eólico Teso Santo, S.L.::Santiz y Palacios del Arzobispo::Salamanca::50::25::2000::VESTAS::V90::DFIG
+813::Rodera Alta::P.E. Rodera Alta::Santiz, Valdelosa y Zamayón::Salamanca::34::17::2000::GAMESA::G-90::DFIG
+814::Sargentes::P.E. La Boga, S.L.::Sargentes de la Lora y Basconcillos del Tozo::Burgos::24::12::2000::VESTAS::V90-80m::DFIG
+836::Los Concejiles::EÓLICA SORIHUELA, S.L.::Sorihuela::Salamanca::11,69::7::1670::Alstom-Ecotècnia::ECO74::DFIG
+839::Aldeavieja::ENEL GREEN POWER ESPAÑA::Sta. Maria del Cubillo::Ávila::14,52::22::660::GAMESA::G-47::DFIG 1º G
+840::Cruz de Hierro::Parque eólico Altos de Voltoya, S.A.::Sta. Maria del Cubillo::Ávila::14,52::22::660::GAMESA::G-47::DFIG 1º G
+841::Cruz de Hierro Ampliación::Parque eólico Altos de Voltoya, S.A.::Sta. Maria del Cubillo::Ávila::6,6::4::1650::GAMESA::G-66::DFIG
+842::Hiperión II::EON Renovables::Suellacabras::Soria::49,94::20::2500::GE::GE 2,5 xl::DFIG
+843::Juno::Danta de energías, S.A.::Suellacabras, Narros, Magaña y Aracón::Soria::49,5::33::1500::VESTAS::NM 72::JA
+844::Valmediano::IBERDROLA RENOVABLES::Tábara y Faramontanos::Zamora::34::40::850::GAMESA::G-58::DFIG
+847::Sierra del Cortado::P.E.S. MADERO::Tajahuerce y Almenar de Soria::Soria::18,48::14::1320::MADE::AE 61::JA
+902::Castil de Tierra::PEESA::Tejado::Soria::36::20::2100::SUZLON::S88::JA
+906::Villalazán::ENERGÍA DE CASTILLA Y LEÓN, S.A. (ENCALSA)::Toro::Zamora::4,98::6::830::GAMESA::G-58::DFIG
+907::Peña del Gato::Energías Especiales del Alto Ulla::Torre del Bierzo, Villagatón e Igüeña::León::50::25::2000::VESTAS::V90::DFIG
+908::San Lorenzo A::Parques eólicos San Lorenzo, S.L.U.::Torrelobatón::Valladolid::48,75::26::1875::VESTAS::V90::DFIG
+909::San Lorenzo B::Parques eólicos San Lorenzo, S.L.U.::Torrelobatón, Castromonte, Peñaflor de Hornija, San Pelayo y Torrecilla de la Torre::Valladolid::39,375::21::1875::VESTAS::V90::DFIG
+913::Luna::Danta de energías, S.A.::Trévago, Fuentestrún, Valdegeña, Matalebreras y Villar del Campo::Soria::49,5::33::1500::VESTAS::NM 72::JA
+922::Colladillo::EÓLICA SIERRA DE ÁVILA, S.L.::Valdecasa, Narrillos del Rebollar y Balbarda::Ávila::30,6::17::1800::VESTAS::V90::DFIG
+923::Valdeporres::IBERDROLA RENOVABLES::Valdeporres y Valdebezana::Burgos::31,45::37::850::GAMESA::G-52::DFIG
+925::El Perul::P.E. La Boga, S.L.::Valladiego y Urbel del Castillo::Burgos::49,6::31::1600::Alstom-Ecotècnia::ECO74-70m::DFIG
+927::El Canto::ACCIONA ENERGÍA::Valle de Manzanedo::Burgos::15,18::23 y 6::660 y 850::GAMESA::G-47 y G-58::DFIG 1º G
+928::El Canto Ampliación::ACCIONA ENERGÍA::Valle de Manzanedo::Burgos::5,1::6::850::GAMESA::G-58::DFIG
+929::Páramo de Vega::IBERCYL::Valle de Santibáñez y Huérmeces::Burgos::18::9::2000::GAMESA::G-87::DFIG
+930::Las Viñas (Fase B)::IBERDROLA RENOVABLES::Valle de Santibáñez, Alfoz de Quintanadueñas y Merindad de Río Ubierna::Burgos::15,9::8::2000::GAMESA::G-87::DFIG
+931::Las Viñas (Fase A)::IBERDROLA RENOVABLES::Valle de Santibáñez, Alfoz de Quintanadueñas y Merindad de Río Ubierna::Burgos::22,1::11::2000::GAMESA::G-87::DFIG
+932::Las Pardas::PRORENER::Valle de Sedano::Burgos::49,5::33::1500::ACCIONA WIND POWER::AW 77/1500::DFIG
+933::El Cerro::S.E. VALLE DE SEDANO, S.A.::Valle de Sedano y los Altos de Dobro::Burgos::19,8::30 y 12::660 y 850::GAMESA::G-47 y G-58::DFIG 1º G
+934::El Cerro Ampliación::ACCIONA ENERGÍA::Valle de Sedano y los Altos de Dobro::Burgos::10,2::12::850::GAMESA::G-58::DFIG
+935::Cantiruela::PRORENER::Valle de Sedano::Burgos::15::10::1500::ACCIONA WIND POWER::AW 77/1500::DFIG
+960::Villacastín::Parque eólico Altos de Voltoya, S.A.::Villacastín y Santa María el Cubillo::Segovia::14,52::22::660::GAMESA::G-47::DFIG 1º G
+961::Brulles::VAPAT::Villadiego::Burgos::40::20::2000::VESTAS::V90::DFIG
+962::Labradas I::IBERDROLA RENOVABLES::Villaferrueña y Arrabalde::Zamora::23,8::28::850::GAMESA::G-52::DFIG
+963::Labradas I Ampliación::IBERDROLA RENOVABLES::Villaferrueña, Arrabalde, Villagería y Alcubilla::Zamora::12,75::15::850::GAMESA::G-58::DFIG
+964::Valbuena::ELECDEY::Villafranca Montes de Oca y Cerratón de Juarros::Burgos::30,4::19::1600::Alstom-Ecotècnia::ECO80::DFIG
+970::Villamiel::EÓLICA ARLANZÓN, S.A.::Villamiel de la Sierra::Burgos::17,85::21::850::GAMESA::G-52::DFIG
+974::El Gallo::VAPAT::Villaquirán de los Infantes, Villaldemiro, Tamarón y Los Balbases::Burgos::49,4::26::1900::VESTAS::V90::DFIG
+982::Villoruebo::EÓLICA ARLANZÓN, S.A.::Villoruevo::Burgos::16,15::19::850::GAMESA::G-52::DFIG
+1056::Ágreda::Parque Eólico Sierra del Madero::Ágreda::Soria::18::12::1500::ACCIONA WIND POWER::AW 77/1500::
+1063::Sierra del Cortado Ampliación::Parque Eólico Sierra del Madero::Tajahuerce, Almenar y Pinilla del Campo::Soria::13,5::9::1500::ACCIONA WIND POWER::AW-77::
+1068::Peña Miján::SUMINISTROS EÓLICOS DEL NORTE::Aguilar del Campoo::Palencia::6::3::2000::GAMESA::G-90 Torre de 78::DFIG
+1069::Las Traperas::M TORRES DISEÑOS INDUSTRIALES, S.A.::Medina del Campo::Valladolid::9,9::6::1650::M-TORRES::TWT 1,65/77::
+1070::Peña el Santo::Suministros eólicos, S.L.::Aguilar de Campo::Palencia::2::1::2000::VESTAS::V90

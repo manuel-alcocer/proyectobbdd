@@ -1,0 +1,21 @@
+Localizacion::Parque eolico::Sociedad promotora::Termino municipal::Provincia::Potencia instalada MW::Nº de aerogeneradores::Potencia unitaria KW::Marca del aerogenerador::Modelo::Tecnologia
+68::Sierra de los Lagos::PARQUES EÓLICOS DEL CANTÁBRICO, S.A.::Allande::Asturias::38,94::56 y 3::660 y 850::GAMESA::G-47 y G-52::DFIG 1º G
+69::Carondio y Muriellos::Generaciones Especiales I::Allande y Villayón::Asturias::50::25::2000::GAMESA::G-80::DFIG
+161::Belmonte::PARQUE EÓLICO BELMONTE, S.A.::Belmonte de Miranda::Asturias::34,85::41::850::GAMESA::G-52 / G-58::DFIG
+165::Penouta::Electra Norte, SAU::Boal::Asturias::5,95::7::850::GAMESA::G-52::DFIG
+166::El Candal::PRODUCCIONES ENERGÉTICAS ASTURIANAS, S.L.::Boal y Castropol::Asturias::38::19::2000::GAMESA::G-80::DFIG
+305::Allo d´Abara::ACCIONA ENERGÍA::El Franco y Coaña::Asturias::6::3::2000::GAMESA::G-90::DFIG
+364::El Acebo::PARQUES EÓLICOS DEL CANTÁBRICO, S.A.::Grandas de Salime::Asturias::17,82::27::660::GAMESA::G-47::DFIG 1º G
+365::Sierra de la Cuesta::PARQUES EÓLICOS DEL CANTÁBRICO, S.A.::Grandas de Salime::Asturias::7,92::12::660::GAMESA::G-47::DFIG 1º G
+472::Peña del Cuervo::PARQUE EÓLICO LAS REGUERAS S.L.U.::Las Regueras y Candamo::Asturias::16::8::2000::GAMESA::G-90::DFIG
+775::Sierra de Bodenaya::EON Renovables::Salas::Asturias::18::12::1500::GE::GE 1,5 sle::DFIG
+776::Curiscao Fase II::EÓLICA CURISCAO PUMAR, S.A.::Salas y Cudillero::Asturias::6,8::8::850::GAMESA::G-58::DFIG
+777::Curiscao Fase I::EÓLICA CURISCAO PUMAR, S.A.::Salas y Valdes::Asturias::42,5::50::850::GAMESA::G-52::DFIG
+778::Baos y Pumar Fase I::EÓLICA CURISCAO PUMAR, S.A.::Salas, Valdes y Cudillero::Asturias::30,6::36::850::GAMESA::G-52::DFIG
+779::Baos y Pumar Fase II::EÓLICA CURISCAO PUMAR, S.A.::Salas, Valdes y Cudillero::Asturias::9,35::11::850::GAMESA::G-52::DFIG
+798::Xunqueira::Xunqueira Eólica, s.l.::San Tirso de Abres::Asturias::8::3::3000::VESTAS::V90::DFIG
+904::Pico Gallo::EON Renovables::Tineo::Asturias::24,42::37::660::MADE::AE 46::JA
+905::Sierra de Tineo::EON Renovables::Tineo::Asturias::44::22::2000::VESTAS::V90::DFIG
+972::Chao das Grallas::Alto de Abara, S.L.U.::Villanueva de Oscos::Asturias::28::14::2000::GAMESA::G-80::DFIG
+973::La Bobia - San Isidro::TERRANOVA ENERGY CORP., S.A.::Villanueva de Oscos::Asturias::49,3::58::850::GAMESA::G-52::DFIG
+981::El Segredal::CANTABER GENERACIÓN EÓLICA, S.L.::Villayón::Asturias::36::18::2000::GAMESA::G-80::DFIG

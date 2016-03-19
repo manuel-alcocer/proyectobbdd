@@ -1,0 +1,39 @@
+Localizacion::Parque eolico::Sociedad promotora::Termino municipal::Provincia::Potencia instalada MW::Nº de aerogeneradores::Potencia unitaria KW::Marca del aerogenerador::Modelo::Tecnologia
+91::Peñas de Dios I::RENOMAR::Andilla::Valencia::39::26::1500::ACCIONA WIND POWER::AW 77/1500::DFIG
+92::Peñas de Dios II::RENOMAR::Andilla, Chelva y Calles::Valencia::28,5::19::1500::ACCIONA WIND POWER::AW 77/1500::DFIG
+98::Cerro Negro::Santa Catalina, S.L.::Aras de los Olmos::Valencia::16::8::2000::VESTAS::V90::DFIG
+99::Muela de Santa Catalina - Cerro Negro::Santa Catalina, S.L.::Aras de los Olmos::Valencia::25,5::17::1500::GE::GE 1,5 sle::DFIG
+134::El Mulatón::Corporación Acciona Eólica::Ayora::Valencia::38::19::2000::GAMESA::G-87::DFIG
+135::La Solana::Corporación Acciona Eólica::Ayora::Valencia::44,2::52::850::GAMESA::G-58::DFIG
+136::Las Bodeguillas::Corporación Acciona Eólica::Ayora::Valencia::36,55::43::850::GAMESA::G-58::DFIG
+137::Losilla::ACCIONA EÓLICA DE LEVANTE::Ayora::Valencia::24::16::1500::ACCIONA WIND POWER::AW 77/1500::DFIG
+138::Rincón del Cabello::Corporación Acciona Eólica::Ayora::Valencia::40::20::2000::GAMESA::G-87::DFIG
+146::Mazorral y Rajola::PROYECTOS EÓLICOS VALENCIANOS::Barracas y El Toro::Castellón::28,05::33::850::GAMESA::G-52::DFIG
+147::Alto Casillas I::ENEL GREEN POWER ESPAÑA::Barracas y Viver::Castellón::30::15::2000::GAMESA::G-87::DFIG
+148::Alto Palancia I::PROYECTOS EÓLICOS VALENCIANOS::Barracas y Viver::Castellón::26::6 y 7::2000::GAMESA::G-80 / G-87::DFIG
+149::Alto Palancia II::PROYECTOS EÓLICOS VALENCIANOS::Barracas y Viver::Castellón::46::8 y 15::2000::GAMESA::G-80 / G-87::DFIG
+150::Alto Palancia III::Corporación Acciona Eólica::Barracas y Viver::Castellón::32::16::2000::GAMESA::G-87::DFIG
+187::La Cabrera Ampliación::ACILOE::Buñol::Valencia::3,4::4::850::GAMESA::G-52::DFIG
+188::La Cabrera I::ACILOE::Buñol::Valencia::2,64::4::660::GAMESA::G-47::DFIG 1º G
+189::La Cabrera II::ACILOE::Buñol::Valencia::14,45::16::850::GAMESA::G-52::DFIG
+241::Folch I::RENOMAR::Castellfort::Castellón::49,5::33::1500::ACCIONA WIND POWER::AW 77/1500::DFIG
+242::Folch II::RENOMAR::Castellfort::Castellón::15::10::1500::ACCIONA WIND POWER::AW 77/1500::DFIG
+243::Arriello::RENOMAR::Castellfort, Villafranca del Cid y Ares del Maestre::Castellón::49,5::33::1500::ACCIONA WIND POWER::AW 77/1500::DFIG
+313::Benalaz I::ACCIONA EÓLICA DE LEVANTE::Enguera::Valencia::37,5::25::1500::ACCIONA WIND POWER::AW 77/1500::DFIG
+314::Benalaz II::ACCIONA EÓLICA DE LEVANTE::Enguera::Valencia::13,5::9::1500::ACCIONA WIND POWER::AW 77/1500::DFIG
+315::Benalaz II::ACCIONA EÓLICA DE LEVANTE::Enguera::Valencia::3::2::1500::ACCIONA WIND POWER::AW 77/1500::DFIG
+316::Salomón::ACCIONA EÓLICA DE LEVANTE::Enguera::Valencia::37,5::25::1500::ACCIONA WIND POWER::AW 77/1500::DFIG
+330::Refoyas::RENOMAR::Forcall y Todolella::Castellón::49,5::33::1500::ACCIONA WIND POWER::AW 77/1500::DFIG
+403::Boira::ACCIONA EÓLICA DE LEVANTE::Jarafuel::Valencia::34,5::23::1500::ACCIONA WIND POWER::AW 77/1500::DFIG
+404::Villanueva I::Parques eólicos de Villanueva, S.L.U.::Jarafuel::Valencia::48,3::21::2300::ENERCON::E-70::FC
+405::Villanueva II::Parques eólicos de Villanueva, S.L.U.::Jarafuel::Valencia::18,4::8::2300::ENERCON::E-70::FC
+462::El Viudo::Santa Catalina, S.L.::La Yesa::Valencia::40::16::2500::GE::GE 2,5 xl::DFIG
+463::El Viudo II::Santa Catalina, S.L.::La Yesa::Valencia::26::13::2000::GAMESA::G-90::DFIG
+464::Cerro de la Nevera::RENOMAR::La Yesa, Chelva y Andilla::Valencia::31,5::21::1500::ACCIONA WIND POWER::AW 77/1500::DFIG
+598::Torre Miró I::RENOMAR::Morella::Castellón::49,5::33::1500::ACCIONA WIND POWER::AW 77/1500::DFIG
+599::Torre Miró II::RENOMAR::Morella::Castellón::49,5::33::1500::ACCIONA WIND POWER::AW 77/1500::DFIG
+649::Manzanera::RENOMAR::Olocau del Rey::Castellón::25,5::17::1500::ACCIONA WIND POWER::AW 77/1500::DFIG
+650::Muela de Todolella::RENOMAR::Olocau del Rey y Todolella::Castellón::40,5::27::1500::ACCIONA WIND POWER::AW 77/1500::DFIG
+704::Alto Casillas II::ENEL GREEN POWER ESPAÑA::Pina de Montalgrao::Castellón::30::15::2000::GAMESA::G-87::DFIG
+714::Cabrillas::RENOMAR::Portell de Morella::Castellón::28,5::19::1500::ACCIONA WIND POWER::AW 77/1500::DFIG
+715::Plá d´Embalagué::RENOMAR::Portell de Morella::Castellón::37,5::25::1500::ACCIONA WIND POWER::AW 77/1500::DFIG

@@ -1,0 +1,158 @@
+1::Fonsagrada::ACCIONA ENERGÍA::A Fonsagrada, Castroverde, Baleira, Ribeira de Piquín y Pol::Lugo::45,54::69::660::MADE::AE 46::JA
+2::Punago::ACCIONA ENERGÍA::A Fonsagrada, Castroverde, Baleira, Ribeira de Piquín y Pol::Lugo::30,36::46::660::GAMESA::AE 46::JA
+3::Montouto 2000::Montouto 2000 (HGP)::A Cañiza, Arbo y As Neves::Pontevedra::39,75::53::750::VESTAS::Multipower 52::DFIG
+4::Tea::ACCIONA ENERGÍA::A Cañiza, Covelo (Pontevedra) y Melón (Ourense)::Ourense - Pontevedra::48,1::37::1300::SIEMENS::IZAR 55/1300::JA
+5::Monte do Ceo::SALTOS DEL OITAVÉN, S.L.::A lama::Pontevedra::2,55::3::850::GAMESA::G-58::DFIG
+6::Serra do Cando::OLIVENTO, S.L.::A Lama, Cotobade y Forcarei::Pontevedra::24,42::37::660::GAMESA::G-47::DFIG
+7::Serra do Cando 1ª Ampliación::OLIVENTO, S.L.::A Lama, Cotobade y Forcarei::Pontevedra::4,81::6 y 1::660 y 850::GAMESA::G-47 y G-52::DFIG
+8::Fonteavia I::ACCIONA ENERGÍA::A Lama, Fomelos, Covelo (Pontevedra) y Avión (Ourense::Ourense - Pontevedra::20,8::16::1300::SIEMENS::IZAR 55/1300::JA
+9::Fonteavia II::ACCIONA ENERGÍA::A Lama, Fomelos, Covelo (Pontevedra) y Avión (Ourense::Ourense - Pontevedra::28,6::22::1300::SIEMENS::IZAR 55/1300::JA
+10::Monte Seixo Ampliación::OLIVENTO, S.L.::A Lama, Forcarei y Cotobade::Pontevedra::10,56::16::660::GAMESA::G-47::DFIG 1º G
+11::Monte Seixo::OLIVENTO, S.L.::A Lama, Forcarei, Cotobade y Cercedo::Pontevedra::24,42::37::660::GAMESA::G-47::DFIG 1º G
+12::Fiouco::NORVENTO MONTOUTO, S.L.::Abadín::Lugo::24::15::1600::Alstom-Ecotècnia::ECO74::DFIG
+13::Labrada::ACCIONA ENERGÍA::Abadín::Lugo::18,75::25::750::VESTAS::NM 44::JA
+14::Montemayor Sur::ACCIONA ENERGÍA::Abadín::Lugo::12,75::17::750::VESTAS::NM 44::JA
+15::Montouto::NORVENTO MONTOUTO, S.L.::Abadín::Lugo::20,46::31::660::MADE::AE 46::JA
+16::Refachón::ACCIONA ENERGÍA::Abadín::Lugo::21::28::750::VESTAS::NM 44::JA
+17::Terral::ACCIONA ENERGÍA::Abadín::Lugo::27::36::750::VESTAS::NM 44::JA
+18::Alto do Seixal (Farrapa 2ª Fase)::SISTEMAS ENERGÉTICOS ALTO DO SEIXAL, S.A.U.::Abadín, Mondoñedo y A Pastoriza::Lugo::30::9 y 6::2000::GAMESA::G-87 / G-80::DFIG
+19::Farrapa::GAMESA ENERGÍA::Abadín, Mondoñedo, Pastoriza::Lugo::20::10::2000::GAMESA::G-80::DFIG
+20::La Celaya::DESARROLLOS EÓLICOS DE LUGO, S.A.::Abadín y Vilalba::Lugo::28,8::32::900::VESTAS::NM 52::JA
+21::Monseivane::DESARROLLOS EÓLICOS DE LUGO, S.A.::Abadín y Vilalba::Lugo::41,4::46::900::VESTAS::NM 52::JA
+63::Cuadramón::ACCIONA ENERGÍA::Alfoz y Abadin::Lugo::18,75::25::750::VESTAS::NM 44::JA
+64::Montemayor Norte::ACCIONA ENERGÍA::Alfoz y Abadín::Lugo::21::28::750::VESTAS::NM 44::JA
+97::Serra da Loba::OLIVENTO, S.L.::Aranga (La Coruña) y Guitiriz (Lugo)::La Coruña - Lugo::36::18::2000::GAMESA::G-83::DFIG
+100::Arbo::FERSA (Fomento de Energías Renovables)::Arbo::Pontevedra::2,7::2::1500::Alstom-Ecotècnia::ECO74::DFIG
+113::Arteixo::FOMENTO DE LAS ENERGÍAS RENOVABLES 2001, S.A.::Arteixo::La Coruña::2::1::2000::Alstom-Ecotècnia::ECO80::DFIG
+114::Polígono Sabón (Inditex)::INDITEX::Arteixo::La Coruña::0,85::1::850::GAMESA::G-58::DFIG
+115::As Neves (Parque eólico Singular)::Fomento de energías renovables 2001, s.a.::As Neves::Pontevedra::2,4::3::800::ENERCON::E-48::FC
+116::Caxado::ACCIONA ENERGÍA::As Pontes::La Coruña::24,42::37::660::MADE::AE 46::JA
+117::San Xoan::ACCIONA ENERGÍA::As Pontes (La Coruña) y Muras (Lugo)::La Coruña - Lugo::15,84::48::330::MADE::AE 32::JA
+118::Carballeira::ACCIONA ENERGÍA::As Pontes de García Rodríguez (La Coruña) y Xermade (Lugo)::La Coruña - Lugo::24,42::37::660::MADE::AE 46::JA
+119::Pena da Loba::ACCIONA ENERGÍA::As Pontes y Mañón::La Coruña::24,42::37::660::MADE::AE 46::JA
+120::Coto Teixido::ENEL GREEN POWER ESPAÑA::As Pontes, Mañón y Ortigueira::La Coruña::23,1::35::660::MADE::AE 46::JA
+121::As Somozas II::ENERG.AMBIENT. DE SOMOZAS::As Somozas::La Coruña::1,67::1::1670::Alstom-Ecotècnia::ECO74::DFIG
+122::Monte das Augas::Parque Eólico Monte das Augas, S.L.::As Somozas::La Coruña::3::1::3000::VESTAS::V90::DFIG
+123::Requeixo::SOMERSA::As Somozas::La Coruña::10,5::7::1670::Alstom-Ecotècnia::ECO74::DFIG
+124::Somozas::Energías Ambientales Somozas, S.A.::As Somozas::La Coruña::48::80::600::Alstom-Ecotècnia::ECO44::JA
+130::Deva::ACCIONA ENERGÍA::Avión, Carballeda de Avia, Melón (Ourense) y Covelo (Pontevedra)::Ourense - Pontevedra::39,6::66::600::SIEMENS::IZAR BONUS MK-IV::JA
+140::Serra do Larouco::IBERDROLA RENOVABLES::Baltar, Xinzo de Limia y Cualedro::Ourense::41,65::49::850::GAMESA::G-58::DFIG
+141::Nogueira::IBERDEGA::Bande y Verea::Ourense::2,55::2::2000 y 850::GAMESA::G-80 / G-52::DFIG
+142::Vieiro::IBERDEGA::Bande y Verea::Ourense::19,6::16 y 3::850 y 2000::GAMESA::G-52, G-80 y G-87::DFIG
+167::Coto de Codesas::GAS NATURAL FENOSA RENOVABLES::Boimorto, Melida, Sobrado y Toques::La Coruña::17::20::850::VESTAS::V52::JA
+191::Silvarredonda::GAS NATURAL FENOSA RENOVABLES::Cabana de Bergantiños::La Coruña::16,9::13::1300::SIEMENS::IZAR 55/1300::JA
+198::Cabo Vilano I WEC's::P. EÓLICO CABO VILANO::Camariñas::La Coruña::0,3::2 y 1::200 y 100::VESTAS::V25 y V20::JA
+199::Cabo Vilano II A.I.E.::GAS NATURAL FENOSA RENOVABLES::Camariñas::La Coruña::3,6::20::150::MADE::AE 23::JA
+200::Do Vilán::ENEL GREEN POWER ESPAÑA::Camariñas::La Coruña::16,9::13::1300::SIEMENS::IZAR 55/1300::JA
+201::Viravento::ENEL GREEN POWER ESPAÑA::Camariñas::La Coruña::1,2::1::1200::SIEMENS::Izar Bonus 1,3::JA
+202::Pena Forcada::E.E. DEL NOROESTE::Camariñas y Laxe::La Coruña::33,8::26::1300::SIEMENS::IZAR 55/1300::JA
+220::Forgoselo::SISTEMAS ENERG. FORGOSELO::Capelo y San Sadurniño::La Coruña::24,42::37::660::GAMESA::G-47::DFIG 1º G
+221::Penas Grandes::GALICIA VENTO, S.L.::Carballedo (Lugo) y Rodeiro (Pontevedra)::Lugo - Pontevedra::14,4::9::1600::Alstom-Ecotècnia::ECO74::DFIG
+229::A Capelada I::P. EÓLICO A CAPELADA A.I.E.::Cariño, Cedeira y Ortigueira::La Coruña::16,5::50::330::MADE::AE 30::JA
+230::A Capelada II::P. EÓLICO A CAPELADA A.I.E.::Cariño, Cedeira y Ortigueira::La Coruña::14,85::45::330::MADE::AE 32::JA
+231::Adraño (Paxareiras IIB)::ACCIONA ENERGÍA::Carnota y Mazaricos::La Coruña::21,6::36::600::SIEMENS::IZAR BONUS MK-IV::JA
+258::Os Corvos::P.E. OS CORVOS::Cedeira y Ortigueira::La Coruña::10,2::17::600::VESTAS::NTK 600/43::JA
+259::Coucepenido::P.E. COUCEPENIDO::Cedeira y Ortigueira::La Coruña::22,8::38::600::VESTAS::NTK 600/43::JA
+264::Prototipo experimental NED100 con generador comercial (Cervo 1)::Norvento Energía Distribuida, S.L.::Cervo::Lugo::0,1::1::100::NORVENTO::NED-100::
+265::Buio::ACCIONA ENERGÍA::Cervo, O Valadouro, Viveiro y Xove::Lugo::40,3::31::1300::SIEMENS::IZAR 55/1300::JA
+266::Gamoide::ACCIONA ENERGÍA::Cervo,O Valadouro y Foz::Lugo::32,5::25::1300::SIEMENS::IZAR 55/1300::JA
+267::Serra do Burgo Ampliación::IBERDROLA RENOVABLES::Chandreixa de Queixa::Ourense::11,9::9 y 4::850::GAMESA::G-58 y G-52::DFIG
+268::Serra do Burgo::IBERDROLA RENOVABLES::Chandrexa de Queixa y Castro Caldelas::Ourense::16,15::19::850::GAMESA::G-58::DFIG
+269::Pena da Cruz::IBERDROLA RENOVABLES::Chandrexa de Queixa y Castro Caldelas::Ourense::12,75::15::850::GAMESA::G-52::DFIG
+270::Pena da Cruz Ampliación::IBERDROLA RENOVABLES::Chandrexa de Queixa, Castro Caldelas y Montederramo::Ourense::10,2::12::850::GAMESA::G-52::DFIG
+271::Chantada::GALICIA VENTO, S.L.::Chantada (Lugo) y Rodeiro (Pontevedra)::Lugo - Pontevedra::50::30::1670::Alstom-Ecotècnia::ECO74::DFIG
+284::Castelo::ENERGÍAS ESPECIALES DE ALTO ULLA, S.A.::Coristanco y Tordoia::La Coruña::16,5::25::660::GAMESA::G-47::DFIG 1º G
+290::Monte arca::Sistemas Energéticos La Estrada::Cuntis y A Estrada::Pontevedra::6::3::2000::GAMESA::G-87::DFIG
+291::Currás::ACCIONA ENERGÍA::Curras y Mazaricos::La Coruña::7,8::6::1300::SIEMENS::IZAR 55/1300::JA
+295::Valsagueiro::DESARROLLOS EÓLICOS DUMBRÍA, S.A.U.::Dumbría::La Coruña::32,5::25::1300::SIEMENS::IZAR 55/1300::JA
+296::Ameixenda - Filgueira::ACCIONA ENERGÍA::Dumbria y Cee::La Coruña::34,8::58::600::SIEMENS::IZAR BONUS MK-IV::JA
+297::Ponte Rebordelo::DESARROLLOS EÓLICOS DUMBRÍA, S.A.U.::Dumbría y Vimianzo::La Coruña::40,3::31::1300::SIEMENS::IZAR 55/1300::JA
+331::Campo das Cruces::Arcos de Grava, S.L.::Forcarei::Pontevedra::1,8::1::1800::VESTAS::V90::DFIG
+332::Masgalán-Campo Do Coco::IBERDROLA RENOVABLES::Forcarei, Silleda y Lalín::Pontevedra::49,5::75::660::GAMESA::G-47::DFIG 1º G
+333::Bidueiros Fase I::Parques eólicos de Buio, S.L.::Fornelos de Montes y Covelo (Pontevedra) y Avión (Ourense)::Ourense - Pontevedra::37,7::29::1300::SIEMENS::IZAR 55/1300::JA
+335::Cova da Serpe::Parque eólico Cova da Serpe, S.L.::Friol y Guitiriz::Lugo::24::12::2000::VESTAS::V80::DFIG
+336::Cova da Serpe Ampliación::Parque eólico Cova da Serpe, S.L.::Friol y Guitiriz::Lugo::25,2::9 y 3::1800 y 3000::VESTAS::V90::DFIG
+337::Pena Armada::E.E. PEÑA ARMADA::Friol y Palas de Rei::Lugo::20,7::23::900::VESTAS::NM 52::JA
+368::Casa::GAS NATURAL FENOSA RENOVABLES::Guitiriz y Villalba::Lugo::29,9::13::2300::SIEMENS::S82::JA
+402::Irixo::Irixo Eólico, S.A. (Grupo San Miguel)::Irixo, Piñor de Cea y Carballiño::Ourense::19,8::11::1800::VESTAS::V90::DFIG
+465::Ameixeiras -Testeiros::IBERDROLA RENOVABLES::Lalín (Pontevedra) y O Irixo (Ourense)::Ourense - Pontevedra::49,5::75::660::GAMESA::G-47::DFIG 1º G
+466::Monte Carrio::SIST. ENERG. LALÍN::Lalín y Vila de Cruces::Pontevedra::31,45::37::850::GAMESA::G-58::DFIG
+468::Peña Galluda::ENGASA::Laracha::La Coruña::0,66::1::660::MADE::AE 46::JA
+496::Monte Treito::IBERDROLA RENOVABLES::Lousame, Rois, Dodro y Rianxo::La Coruña::30,39::21 y 19::850 y 660::GAMESA::G-58 / G-47::DFIG
+526::Malpica::P. EÓLICO DE MALPICA, S.A.::Malpica de Bergantiños::La Coruña::15,075::65 y 2::225::Alstom-Ecotècnia::ECO28 y ECO48::JA
+527::Malpica Ampliación::P. EÓLICO DE MALPICA, S.A.::Malpica de Bergantiños::La Coruña::1,5::2::750::Alstom-Ecotècnia::ECO48::JA
+528::Faladoira I::ENEL GREEN POWER ESPAÑA::Mañón y Ortigueira::La Coruña::24,42::37::660::MADE::AE 46::JA
+529::Coriscada::SISTEMAS ENERG. MAÑON-ORTIGUEIRA::Mañón y Ortigueira::La Coruña::24::40::600::GAMESA::G-42::JA
+530::Serra da Panda::SISTEMAS ENERGÉTICOS SERRA DA PANDA::Mañón y Ortigueira::La Coruña::18,48::28::660::GAMESA::G-47::DFIG 1º G
+542::Outes::Energías Ambientales de Outes, S.A.::Mazaricos::La Coruña::33,6::21::1670::Alstom-Ecotècnia::ECO74::DFIG
+543::Paxareiras I (Paxareiras-Montevós)::EURUS::Mazaricos y Muros::La Coruña::20,4::34::600::SIEMENS::IZAR BONUS MK-IV::JA
+544::Virxe do Monte::ACCIONA ENERGÍA::Mazaricos, Muros y Carnota::La Coruña::19,2::32::600::SIEMENS::IZAR BONUS MK-IV::JA
+559::Serra de Meira::SISTEMAS ENERGÉTICOS Viveiro::Meira y Ribeira de Piquín::Lugo::49,3::58::850::GAMESA::G-58::DFIG
+561::Careón::E.E. DE CAREÓN::Melide y Toques::La Coruña::18::30::600::VESTAS::NM 44::JA
+584::Mondoñedo::FERGO GALICIA VENTO, S.L.::Mondoñedo::Lugo::49,4::31::1670::Alstom-Ecotècnia::ECO74::DFIG
+587::Sotavento::SOTAVENTO GALICIA, S.A.::Monfero (A Coruña) y Xermade (Lugo)::La Coruña - Lugo::17,56::6 (4, 1, 1), 4, 4, 5 (1 y 4) y 5 (4 y 1)::660,800, 1320; 640; 660; 750 y 900; 600 y 1300::MADE, ECOTÉCNIA, GAMESA, SIEMENS, VESTAS::AE46, AE52, AE61, ECO44 640, G47, 1.3, MK4, NM48 y NM 52::JA, DFIG y SÍNCRONO
+588::Serra da Loba Ampliación (Pena Revolta)::GAMESA ENERGÍA::Monfero y Aranga::La Coruña - Lugo::14::7::2000::GAMESA::G-87::DFIG
+589::Touriñán (Serra do Moncoso)::Serra do Moncoso::Monfero, Irixoa y Aranga::La Coruña::24,65::29::850::GAMESA::G-52::DFIG
+610::Bustelo::ACCIONA ENERGÍA::Muras::Lugo::25,08::76::330::MADE::AE 32::JA
+611::Coruxeiras::NORVENTO CURUXEIRAS, S.L.::Muras::Lugo::49,6::31::1670::Alstom-Ecotècnia::ECO74::DFIG
+612::Leboreiro::ENEL GREEN POWER ESPAÑA::Muras::Lugo::21,12::32::660::MADE::AE 46::JA
+613::Lomba::ACCIONA ENERGÍA::Muras::Lugo::22,5::30::750::VESTAS::NM 44::JA
+614::Silán::ACCIONA ENERGÍA::Muras::Lugo::13,2::20::660::MADE::AE 46::JA
+615::Ventoada::ACCIONA ENERGÍA::Muras::Lugo::22,5::30::750::VESTAS::NM 44::JA
+616::Nordés::ACCIONA ENERGÍA::Muras y O Valadouro::Lugo::20,25::27::750::VESTAS::NM 44::JA
+617::Muras I::IBERDROLA RENOVABLES::Muras y Ourol::Lugo::24,42::37::660::GAMESA::G-47::DFIG 1º G
+618::Muras II::IBERDROLA RENOVABLES::Muras y Ourol::Lugo::24,42::37::660::GAMESA::G-47::DFIG 1º G
+619::Soán::ACCIONA ENERGÍA::Muras y Valadouro::Lugo::19,5::26::750::VESTAS::NM 44::JA
+620::Soán Alabe-Ampliación::ACCIONA ENERGÍA::Muras y Valadouro::Lugo::21,75::29::750::VESTAS::NM 44::JA
+621::Pena Grande::ACCIONA ENERGÍA::Muras y Ourol::Lugo::17,16::26::660::MADE::AE 46::JA
+622::Pena Luisa::ACCIONA ENERGÍA::Muras y Ourol::Lugo::21,78::33::660::MADE::AE 46::JA
+623::Pedra Chantada::ACCIONA ENERGÍA::Muras, Ourol y O Valadouro::Lugo::21,78::33::660::MADE::AE 46::JA
+624::Carba::ACCIONA ENERGÍA::Muras y Villalba::Lugo::19,8::30::660::MADE::AE 46::JA
+625::Goia Peñote::IBERDROLA RENOVABLES::Muras, Xermade y Vilalba::Lugo::40::40 y 3::850 y 2000::GAMESA::G-52 / G-80::DFIG
+626::Pedregal Tremuzo I::SIST. ENERG. MOUROS-OUTES::Muros::La Coruña::30,6::16::850::GAMESA::G-52::DFIG
+627::Pedregal Tremuzo II::SIST. ENERG. MOUROS-OUTES::Muros::La Coruña::14::16::850::GAMESA::G-52::DFIG
+628::Paxareiras II AI (Paxareiras-Montevós)::EURUS::Muros y Carnota::La Coruña::19,2::32::600::SIEMENS::IZAR BONUS MK-IV::JA
+629::A Ruña::ACCIONA ENERGÍA::Muros y Mazaricos::La Coruña::24,6::41::600::SIEMENS::IZAR BONUS MK-IV::JA
+634::Corzán::ENERGÍAS ESPECIALES DEL NOROESTE::Negreira::La Coruña::36::40::900::VESTAS::Multipower 52::JA
+635::Corzán Ampliación::ENERGÍAS ESPECIALES DEL NOROESTE::Negreira::La Coruña::7,2::8::900::VESTAS::Multipower 52::JA
+637::Sil Ampliación (1ª Fase)::IBERDROLA ENERGÍAS RENOVABLES DE GALICIA, S.A.U.::Nogueira de Ramuín::Ourense::28::14::2000::GAMESA::G-52::DFIG
+638::Sil Ampliación (2ª Fase)::IBERDROLA ENERGÍAS RENOVABLES DE GALICIA, S.A.U.::Nogueira de Ramuín::Ourense::12::6::2000::GAMESA::G-80::DFIG
+639::Sil::IBERDROLA RENOVABLES::Nogueira de Remuín, Xunqueira de Espadañedo, Parada de Sil, Esgos y Montederramo::Ourense::49,24::54 y 16::660 y 850::GAMESA::G-47 y G-52::DFIG 1º G y DFIG
+640::Serra do Páramo::VIRANDEL::O Paramo y Parandela::Lugo::20::10::2000::VESTAS::V90::DFIG
+641::Vicedo::Parque Eolico de Vicedo, S.L.::O Vicedo::Lugo::24,6::41::600::SIEMENS::IZAR BONUS MK-IV::JA
+661::Monte rande::Promotora Eólica de Galicia, S.L.::Ortigueira::La Coruña::9,35::11::850::GAMESA::G-52::DFIG
+666::Couteiro::Eólicos de Mariña, S.L.::Ourol::Lugo::7,8::3 y 1::2300 y 900::ENERCON::E-70 y E-44::FC
+667::Mareiro::ACCIONA ENERGÍA::Ourol::Lugo::15::20::750::VESTAS::NM 44::JA
+668::Ourol::HIDROELÉCTRICA DE OUROL, S.L.::Ourol::Lugo::18,7::22::850::GAMESA::G-52::DFIG
+669::Parque eólico O Chao::Hidroeléctrica del Arnoya, S.L.::Ourol y Muras::Lugo::8::4::2000::ENERCON::::
+670::Vilachá::Sociedad Eólica de Ourol, S.L.::Ourol y Muras::Lugo::7,8::3 y 1::2300 y 900::ENERCON::E-70 y E-44::FC
+671::Leste::ACCIONA ENERGÍA::Ourol y O Valadouro::Lugo::14,25::19::750::VESTAS::NM 44::JA
+673::Padrón::FERSA (Fomento de Energías Renovables)::Padrón::La Coruña::1,7::2::850::GAMESA::G-52::DFIG
+710::Parque Eólico Pobra do Caramiñal::Proyectos y Desarrollos Renovables, S.A.::Pobra do Caramiñal::La Coruña::3::1::3000::ENERCON::E-82::FC
+711::Corme::DESARROLLOS EÓLICOS CORME, S.A.::Ponteceso::La Coruña::18,3::61::300::DESA::A300::JA
+712::Monte da Barda::CANEPA GREEN ENERGY::Ponteceso::La Coruña::3::2::1670::Alstom-Ecotècnia::ECO74::DFIG
+713::Pousadoiro - Fonseca (Fase 1)::Sistemas Energéticos A pontenova-riotorto, S.A.U.::Pontenova, A Pastoriza y Riotorto::Lugo::23,5::11 y 1::2000 y 1500::GAMESA::G-87 y G-80::DFIG
+716::Graiade::Eólica de Graiade::Porto do Son::La Coruña::19,5::10 y 1::1800 y 1500::VESTAS::V80 y V90::DFIG
+717::Parque Eólico Porto do Son::Hidroeléctrica del Freixas, S.L.::Porto do Son::La Coruña::3::1::3000::ENERCON::E-82::FC
+718::Barbanza I::P.E. BARBANZA, S.A.::Porto do Son y Pobra do Caramiñal::La Coruña::19,8::60::330::MADE::AE 30::JA
+719::Barbanza II::P.E. BARBANZA, S.A.::Porto do Son y Pobra do Caramiñal::La Coruña::9,24::26::330::MADE::AE-32::JA
+760::Monte Cabezas::GALICIA VENTO, S.L.::Rodeiro::Pontevedra::38,4::23::1670::Alstom-Ecotècnia::ECO74::DFIG
+761::Farelo::GALICIA VENTO, S.L.::Rodeiro y Agolada (Pontevedra) y Antas de Ulla (Lugo)::Lugo - Pontevedra::28,8::18::1600::Alstom-Ecotècnia::ECO74::DFIG
+801::Fontesilva::EÓLICA FONTESILVA, S.L.U.::Santa Comba y Coristanco::La Coruña::21,6::12::1800::VESTAS::V90::DFIG
+831::Couto de San Sebastian::Energías renovables Montes de San Sebastián, S.L.::Silleda y A Estrada::Pontevedra::18::9::2000::VESTAS::V80::DFIG
+834::Coto de Codesas II::GAS NATURAL FENOSA RENOVABLES::Sobrado y Boimorto::La Coruña::21,25::25::850::VESTAS::V52::JA
+924::Novo::Energías Ambientales de Novo S.A.::Valdoviño y Narón::La Coruña::18,75::25::750::Alstom-Ecotècnia::ECO48::JA
+949::Xiabre Ampliación::ENGASA EÓLICA::Vilagarcía, Catoira y Caldas de Reis::Pontevedra::12::5::2000 Y 3000::VESTAS::V90::DFIG
+950::Xiabre I::ENGASA EÓLICA::Vilagarcía, Catoira y Caldas de Reis::Pontevedra::19,8::11::1800::VESTAS::V90::DFIG
+951::Xiabre II::ENGASA EÓLICA::Vilagarcía, Catoira y Caldas de Reis::Pontevedra::11,4::5::1800 y 3000::VESTAS::V90::DFIG
+952::Vilalba::ACCIONA ENERGÍA::Vilalba::Lugo::25,08::38::660::MADE::AE 46::JA
+965::Primer Prototipo experimental NED100 (Villalba)::Norvento Energía Distribuida, S.L.::Villalba::Lugo::0,1::1::100::NORVENTO::NED-100::
+983::Monte Redondo::Energías Ambientales Vimianzo, S.A.::Vimianzo::La Coruña::49,5::66::750::Alstom-Ecotècnia::ECO47::JA
+984::O Barrigoso::CANEPA GREEN ENERGY::Vimianzo::La Coruña::3::2::1670::Alstom-Ecotècnia::ECO74::DFIG
+985::Chan do Tenón::ENEL GREEN POWER ESPAÑA::Viveiro y O Vicedo::Lugo::22,4::28::850::GAMESA::G-58::DFIG
+986::Pena Ventosa::ENEL GREEN POWER ESPAÑA::Viveiro, O Vicedo y Ourol::Lugo::44,8::28::1600::GAMESA::G-66::DFIG
+987::Viveiro::SISTE. ENERG. VIVEIRO::Xove y Viveiro::Lugo::36,55::43::850::GAMESA::G-52::DFIG
+988::Rioboo::ACCIONA ENERGÍA::Xove y Viveiro::Lugo::20,8::16::1300::SIEMENS::IZAR 55/1300::JA
+999::Zas::DESARROLLOS EÓLICOS DE GALICIA, S.A.::Zas y Santa Comba::La Coruña::24::80::300::DESA::A300::JA
+1060::PES Cerceda::FERGO GALICIA VENTO, S.L.::Cerceda::La Coruña::2,55::2::1670::Alstom-Ecotècnia::E-74::
+1061::Prototipo experimental NED100 con generador de diseño propio (Cervo 2)::Norvento Energía Distribuida, S.L.::Cervo::Lugo::0,1::1::100::NORVENTO::NED-100::

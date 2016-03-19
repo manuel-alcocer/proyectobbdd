@@ -1,0 +1,47 @@
+Localizacion::Parque eolico::Sociedad promotora::Termino municipal::Provincia::Potencia instalada MW::Nº de aerogeneradores::Potencia unitaria KW::Marca del aerogenerador::Modelo::Tecnologia
+73::Coll del Panissot::Parc Eólic Coll de Panissot, S.L.U.::Almatret::Lleida::9::3::3000::Alstom-Ecotècnia::ECO110::DFIG
+74::Els Escambrons::ACCIONA ENERGÍA::Almatret::Lleida::48::16::3000::ACCIONA WIND POWER::AW 3000::DFIG
+75::Parc Eolic Almatret::Element Power::Almatret::Lleida::49,4::22 y 3::2000 y 1800::VESTAS::V90::DFIG
+125::Barbers::TARRACO EÓLICA ASCÓ, S.A.::Ascó::Tarragona::30::12::2500::NORDEX::N90::
+154::Torre Madrina (Fase A)::Parc Eolic Torre Madrina, S.L.U.::Batea y Gandesa::Tarragona::24::10::2500::GE::GE 2,5 xl::DFIG
+155::Torre Madrina (Fase B)::Parc Eolic Torre Madrina, S.L.U.::Batea y Gandesa::Tarragona::24::10::2500::GE::GE 2,5 xl::DFIG
+156::Coll de Moro I y II::Parc Eolic Coll de Moro, S.L.U.::Batea, Gandesa, Bot y Vilalba dels Arcs::Tarragona::48::20::2500::GE::GE-2.5::DFIG
+160::Les Rotes::TARRACO EÓLICA LES GARRIGUES, S.A.::Bellaguarda y La Granadella::Lleida::44::22::2000::VESTAS::V90::DFIG
+195::Serra Voltorera::Parc Eólic Serra Voltorera, S.L.U.::Cabra del Camp, Barberà de la Conca, Montblanc y Pira::Tarragona::16::10::1670::Alstom-Ecotècnia::ECO74::DFIG
+238::Mudéfer::SOCIEDAD CATALANA D´ENERGIES RENOVABLES (CATER) (PARC EOLIC MUDEFER, S.L.)::Caseres::Tarragona::45::25::1800::VESTAS::V90::DFIG
+239::Mudéfer II::SOCIEDAD CATALANA D´ENERGIES RENOVABLES (CATER) (PARC EOLIC MUDEFER, S.L.)::Caseres::Tarragona::12,6::7::1800::VESTAS::V90::DFIG
+281::Conesa I::GERR GRUPO ENERGÉTICO XXI, S.A.::Conesa::Tarragona::30::15::2000::GAMESA::G-90::DFIG
+282::Conesa II::GERR GRUPO ENERGÉTICO XXI, S.A.::Conesa y Forés::Tarragona::32::16::2000::GAMESA::G-90::DFIG
+283::Corbera::EDPR::Corbera D´Ebre::Tarragona::49,2::14 y 8::1800 y 3000::VESTAS::V90::DFIG
+293::Collet deis Feixos::ESBRUG, S.L.::Duesaigües::Tarragona::7,92::6::1320::MADE::AE 61::JA
+294::Mas de la Potra::ESBRUG, S.L.::Duesaigües i Pradell de la Teixeta::Tarragona::2,6::2::1300::MADE::AE 61::JA
+308::Coll de la garganta::Parc Eolic Coll de la Garganta, S.L.U.::El Molar, Torre del Español y La Figuera::Tarragona::21,71::13::1670::Alstom-Ecotècnia::ECO80::DFIG
+309::La Collada::GENERACIÓ D'ENERGIA (Eòlica del Perelló, SL)::El Perelló::Tarragona::3::1::3000::Alstom-Ecotècnia::ECO100::DFIG
+310::Les Calobres::ELECTRA MESTRAL, S.L.::El Perelló::Tarragona::12,75::17::750::GE::GE 750::DFIG
+311::Les Colladetes::ENERVENT, S.A.::El Perelló::Tarragona::36,63::54::660::GAMESA::G-47::DFIG 1º G
+425::Fatarella::Bon Vent de l'Ebre, S.L.U.::La Fatarella::Tarragona::48::21::2300::SIEMENS::SWT-2,3-93::DFIG
+438::Monclues::TARRACO EÓLICA LES GARRIGUES, S.A.::La Granadella::Lleida::30::15::2000::VESTAS::V90::DFIG
+439::Sant Antoni::TARRACO EÓLICA LES GARRIGUES, S.A.::La Granadella::Lleida::48,2::20::2500::NORDEX::N100::JA
+680::Les Forques::GERR GRUPO ENERGÉTICO XXI, S.A.::Passanant, Vallbona de Les Monges y Espuga de Francoli::Tarragona::30::15::2000::GAMESA::G-90::DFIG
+681::Les Forques II::GERR GRUPO ENERGÉTICO XXI, S.A.::Passanat::Tarragona::12::6::2000::GAMESA::G-90::DFIG
+732::Trucafort::SOCIETAT EÓLICA L'ENDERROCADA::Pradell de la Teixeta, L´Argentera, La Torre de Fontaubella y Colldejou::Tarragona::29,85::66 y 25::225 y 600::Alstom-Ecotècnia::ECO28 / ECO44::JA
+747::Pujalt::Parque Eólico Pujalt, s.l.::Pujalt y Calonge de Segarra::Tarragona::42::21::2000::VESTAS::V90::DFIG
+748::Turó del Magre::Parque Eólico Turó del Magre, SL::Pujalt, Veciana, Argencola (Barcelona ) y Sant Guim de Freixenet (Lleida)::Barcelona::28::10 y 5::1800 y 2000::VESTAS::V90::DFIG
+749::Alta Anoia::CIVIS CORPORACIÓN::Pujalt, Veciana, Prats de Rei y Calonge de Segarra::Tarragona::28::10 y 5::1800 Y 2000::VESTAS::V90::DFIG
+815::Savallá::GERR GRUPO ENERGÉTICO XXI, S.A.::Savallá del Comtat::Tarragona::18::9::2000::GAMESA::G-90::DFIG
+822::Serra de Rubió I::ACCIONA ENERGÍA::Serra de Rubió y Castellfollit del Boix::Barcelona::49,5::33::1500::ACCIONA WIND POWER::AW 77/1500::DFIG
+823::Serra de Rubió II::ACCIONA ENERGÍA::Serra de Rubió y Castellfollit del Boix::Barcelona::25,5::17::1500::ACCIONA WIND POWER::AW 77/1500::DFIG
+848::Montargull::GERRSA::Talavera (Lleida) y Llorat (Tarragona)::Lleida y Tarragona::30::15::2000::GAMESA::G-90::DFIG
+849::Montargull Ampliación::GERRSA::Talavera (Lleida), Llorat y Santa Coloma de Queralt (Tarragona)::Lleida y Tarragona::14::7::2000::GAMESA::G-90::DFIG
+891::Serra de Vilobí::ACCIONA ENERGÍA::Tarrés y Fulleda::Lleida::40,5::27::1500::ACCIONA WIND POWER::AW 77/1500::DFIG
+910::Ecovent CAT II y III::ECOVENT PARC EOLIC::Tortosa::Tarragona::48,1::37::1300::NORDEX::N62::DFIG
+911::Pebesa (Baix Ebre)::PARC EOLIC BAIX EBRE, S.A.::Tortosa::Tarragona::4,05::27::150::Alstom-Ecotècnia::ECO20::JA
+912::Tortosa (Coll d´Alba)::ACCIONA ENERGÍA::Tortosa::Tarragona::29,9::23::1300::MADE::AE 61::JA
+926::Serra del Tallat::ACCIONA ENERGÍA::Vallbona de Les Monges y Passanat::Lleida::49,5::33::1500::ACCIONA WIND POWER::AW 77/1500::DFIG
+938::El Motarro::EÓLICA DEL MONTALT::Vandellòs i L´Hospitalet de L´Intant::Tarragona::2,64::2::1320::NORDEX::Nordex N60::DFIG
+939::Veciana::PARC EÒLIC VECIANA - CABARO, S.L.::Veciana::Barcelona::29,27::18::1670::Alstom-Ecotècnia::ECO80::DFIG
+953::Vilalba::Bon Vent de Vilalba, S.L.U.::Vilalba dels Arcs::Tarragona::48::10 y 11::3000 y 1800::VESTAS::V90::DFIG
+954::Vilalba dels Arcs::EOLIC PARTNERS TARRAGONA::Vilalba dels Arcs::Tarragona::24::10::2500::GE::GE 2,5 xl::DFIG
+955::Les Comes::Parc Eòlic Les Comes S.L.::Vilalba dels Arcs::Tarragona::3::2::1500::ACCIONA WIND POWER::AW 77/1500::DFIG
+1005::La Llacuna::::::Barcelona::0,23::1::230::ENERCON::E-30::FC
+1062::Serra de Vilobí II::ACCIONA ENERGÍA::Tarrés::Lleida::9::3::3000::ACCIONA WIND POWER::AW-116/3000::

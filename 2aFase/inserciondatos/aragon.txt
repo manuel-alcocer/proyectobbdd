@@ -1,0 +1,88 @@
+Localizacion::Parque eolico::Sociedad promotora::Termino municipal::Provincia::Potencia instalada MW::Nº de aerogeneradores::Potencia unitaria KW::Marca del aerogenerador::Modelo::Tecnologia
+40::San Cristóbal de Aguilón::Aguilón 20, S.A.::Aguilón::Zaragoza::50::25::2000::GAMESA::G-87::DFIG
+67::La Loma::NEO ELECTRA MANAGMENT, S.L. (Comiolica, S.L.)::Aliaga::Teruel::36::12::3000::SINOVEL::SL3000/113::
+78::Sasoplano (Almudévar)::EXPLOTACIONES EÓLICAS SASO PLANO, S.A.::Almudévar::Huesca::39,2::49::800::GAMESA::G-58::DFIG
+79::Santa Quiteria::PARQUE EÓLICO SANTA QUITERIA, S.L.::Almudévar y Tardienta::Huesca::36::40::900::VESTAS::NM 52::JA
+159::Belchite::PARQUE EÓLICO BELCHITE, S.L.::Belchite::Zaragoza::49,5::30::1650::VESTAS::NM 82::DFIG
+174::Boquerón I::CEASA::Borja::Zaragoza::21,78::33::660::GAMESA::G-47::DFIG 1º G
+175::Boquerón II (Ampliación)::CEASA::Borja::Zaragoza::14,52::22::660::GAMESA::G-47::DFIG 1º G
+176::Boquerón III (Ampliación)::CEASA::Borja::Zaragoza::13,2::20::660::GAMESA::G-47::DFIG 1º G
+177::Borja I::CEASA::Borja::Zaragoza::16,2::27::600::VESTAS::V42::JA
+178::Borja II (Arbolitas)::CEASA::Borja::Zaragoza::21,51::11 y 19::660 y 750::GAMESA / VESTAS::G-47 / NM 48::DFIG 1º G y JA
+179::Campo de Borja::CEASA::Borja::Zaragoza::1,98::3::660::GAMESA::G-47::DFIG 1º G
+180::Molino de Arbolitas::MOLINO DE ARBOLITAS, S.L.::Borja::Zaragoza::1,5::1::1500::VESTAS::NM 72::JA
+181::Molino de Carragüeyes::Molino de Caragüeyes, S.L.::Borja::Zaragoza::0,75::1::750::VESTAS::NM 48::JA
+182::Parque Eólico I+D El Boyal I::GAMESA ENERGÍA::Borja::Zaragoza::4,5::1::4500::GAMESA::G-128 Torre de 120m::DFIG
+183::Parque Eólico I+D El Boyal II::GAMESA ENERGÍA::Borja::Zaragoza::4,5::1::4500::GAMESA::G-128 Torre de 120m::DFIG
+190::San Juan de Bargas::SAN JUAN DE BARGAS EÓLICAS, S.L.::Bureta, Magallón y Alberite de San Juan::Zaragoza::44,8::6 y 50::800::MADE::AE 52 y AE 56::SÍNCRONO
+196::Cerro de Atalaya I+D::LAS NAVARRICAS DE BORDÓN::Cadrete::Zaragoza::1,65::1::1670::Alstom-Ecotècnia::ECO80::DFIG
+197::Plana de la Balsa::EXPLOTACIONES EÓLICA PLANA DE LA BALSA, S.A.::Cadrete y María de Huerva::Zaragoza::24::32::750::VESTAS::NM 48::JA
+215::Sierra Costera II::Explotaciones Eólicas Sierra Costera, S.A.::Cañada Velilla, Cuevas de Almudén, Mexquita de Jarque y Galve::Teruel::40,8::48::850::GAMESA::G-58::DFIG
+289::El Puerto (Unificado)::EXPLOTACIONES EÓLICAS EL PUERTO::Cuevas de Almudén::Teruel::25,08::38::660::MADE::AE 46::JA
+299::Arza I+D::Syder::Ejea de los Caballeros::Zaragoza::0,225::1::225::VESTAS::V 29::JA
+318::Escucha (Unificado)::EXPLOTACIONES EÓLICAS DE ESCUCHA::Escucha::Teruel::19,14::29::660::MADE::AE-46::JA
+319::San Just::Explotaciones Eólicas de Escucha::Escucha::Teruel::9,24::14::660::MADE::AE 46::JA
+320::Valdeconejos::S.E. Abadia::Escucha y Utrillas::Teruel::32,3::38::850::GAMESA::G-58::DFIG
+339::Fuendetodos I::IBERDROLA RENOVABLES::Fuendetodos::Zaragoza::46::23::2000::GAMESA::G-80::DFIG
+340::Fuendetodos II::IBERDROLA RENOVABLES::Fuendetodos::Zaragoza::47,6::56::850::GAMESA::G-58::DFIG
+341::Entredicho::IBERDROLA RENOVABLES::Fuendetodos y Azuara::Zaragoza::36::18::2000::GAMESA::G-80::DFIG
+366::Ciesma de Grisel + Ampliación Grisel::Parque Eólico Grisel, S.L.::Grisel::Zaragoza::13,5::18::750::VESTAS::NM 48::JA
+367::Grisel II::Parque Eólico Grisel, S.L.::Grisel::Zaragoza::3::4::750::VESTAS::NM 48::JA
+369::Río Gallego::PARQUE EÓLICO DEL RIO GALLEGO, S.L.U.::Gurrea de Gállego::Huesca::38,7::43::900::VESTAS::NM 52::JA
+370::La Sotonera::PARQUE EÓLICO LA SOTONERA, S.L.::Gurrea de Gallego y Alcalá de Gurrea::Huesca::18,9::6 y 6::1500 y 1650::VESTAS::NM 72 Y NM 82::JA
+371::Las Gorgas::PARQUE EÓLICO RÍO GALLEGO, S.L.::Gurrea de Gallego y Alcalá de Gurrea::Zaragoza::2,7::3::900::VESTAS::NM 52::JA
+406::I+D Jaulín::GAMESA ENERGÍA::Jaulín::Zaragoza::4,5::1::4500::GAMESA::G-128 Torre de 120m::DFIG
+407::Cabezo Negro I+D::Sistemas Energéticos Cabezo Negro::Jaulín::Zaragoza::4,5::1::4500::GAMESA::G10X::FC
+441::Aragón::PARQUE EÓLICO ARAGÓN::La Muela::Zaragoza::5,28::16::330::MADE::AE 30::JA
+442::El Pilar::CORPORACIÓN EÓLICA DE ZARAGOZA::La Muela::Zaragoza::15::25::600::GAMESA::G-44::JA
+443::La Carracha::PARQUE EÓLICO LA CARRACHA, S.L.::La Muela::Zaragoza::49,5::66::750::VESTAS::NM 48::JA
+444::La Muela II::EÓLICA VALLE DEL EBRO::La Muela::Zaragoza::13,2::40::330::MADE::AE 30::JA
+445::La Muela III::EÓLICA VALLE DEL EBRO::La Muela::Zaragoza::16,5::25::660::MADE::AE 46::JA
+446::La Muela Norte::OLIVENTO, S.L.::La Muela::Zaragoza::29,75::35::850::GAMESA::G-58::DFIG
+447::La Plana I::SIST. ENERG. LA PLANA::La Muela::Zaragoza::4,15::2 y 1::1650 y 850::VESTAS / GAMESA::V66 y G-52::JA
+448::La Plana I+D::SIST. ENERG. LA PLANA::La Muela::Zaragoza::2::1::2000::GAMESA::G-80::DFIG
+449::La Plana I+D Ampliación::SIST. ENERG. OPIÑEN::La Muela::Zaragoza::2::1::2000::GAMESA::G-80::DFIG
+450::La Plana II::SISTEMAS ENERGÉTICOS MAS GARULLO::La Muela::Zaragoza::16,5::25::660::GAMESA::G-47::DFIG 1º G
+451::La Plana III::SISTEMAS ENERGÉTICOS LA MUELA::La Muela::Zaragoza::21::35::600::GAMESA::G-42::JA
+452::Plana de Jarreta::PLANA DE JARRETA, S.L.::La Muela::Zaragoza::49,5::66::750::VESTAS::NM 48::JA
+453::Plana de Zaragoza::EXPLOTACIONES EÓLICAS PLANAS DE ZARAGOZA::La Muela::Zaragoza::24::32::750::VESTAS::NM 48::JA
+454::Valdecuadros (I+D)::NEG MICON, SAU::La Muela::Zaragoza::2,1::1 y 2::600 y 750::VESTAS::NTK 600/43 y NM 750/48::JA
+517::Magallón 26::PROY. EÓLICOS ARAGONESES::Magallón::Zaragoza::10,8::12::900::VESTAS::NM 52::JA
+518::Santo Cristo de Magallón::GEÓLICA MAGALLÓN II, S.L.::Magallón::Zaragoza::40::20::2000::VESTAS::V90::DFIG
+524::Mallén::EON Renovables::Mallén::Zaragoza::30::15::2000::VESTAS::V90::DFIG
+538::Bosque Alto::EÓLICA BOSQUE ALTO, S.A.::María de Huerva::Zaragoza::21,75::29::750::VESTAS::NM 48::JA
+539::Plana de María::EXPLOTACIONES EÓLICAS PLANAS DE MARIA, S.L.::María de Huerva::Zaragoza::24::32::750::VESTAS::NM 48::JA
+603::Cabezo de San Roque::EÓLICA CABEZO DE SAN ROQUE, S.A.::Muel::Zaragoza::23,25::31::750::VESTAS::NM 48::JA
+604::Muel::EXPLOT. EÓLICA DE MUEL::Muel::Zaragoza::16,2::27::600::VESTAS::NTK 600/43::JA
+683::El Águila::DESARROLLOS EÓLICOS EL ÁGUILA::Pedrola::Zaragoza::19,5::15::1300::NORDEX::N62::DFIG
+684::Montero::MOLINOS DEL EBRO, S.A.::Pedrola::Zaragoza::25,5::30::850::GAMESA::G-58::DFIG
+685::Atalaya I::MOLINOS DEL EBRO, S.A.::Pedrola y Luceni::Zaragoza::25,5::30::850::GAMESA::G-52::DFIG
+686::Atalaya II::MOLINOS DEL EBRO, S.A.::Pedrola y Luceni::Zaragoza::24::30::800::MADE::AE 56::SÍNCRONO
+687::El Bayo::MOLINOS DEL EBRO, S.A.::Pedrola y Luceni::Zaragoza::49,5::30 y 30::850 y 800::GAMESA / MADE::G-52 / AE 56::DFIG Y SÍNCRONO
+709::Dehesa del Coscojar::DESARROLLOS EÓLICOS DEL EBRO::Plasencia de Jalón::Zaragoza::15::25::600::NORDEX::N43::JA
+741::Puerto Escandón::MOLINOS DEL JALÓN, S.A.::Puerto de Escandón::Teruel::25::13::2000::GAMESA::G-90::DFIG
+753::Puntaza de Remolinos::CEASA::Remolinos::Zaragoza::11,73::18::660::GAMESA::G-42::DFIG 1º G
+759::Robres::EÓLICA DEL EBRO, S.A.::Robres::Huesca::24::10 y 3::1800 y 2000::VESTAS::V90::DFIG
+770::Cantales::Parque Eólico Los Cantales, S.L.U.::Rueda de Jalón::Zaragoza::24::12::2000::VESTAS::V90::DFIG
+771::La Serreta+ampliación la Serreta::MOLINOS DEL EBRO, S.A.::Rueda de Jalón::Zaragoza::49,5::75::660::GAMESA::G-47::DFIG 1º G
+772::Los Visos::MOLINOS DEL EBRO, S.A.::Rueda de Jalón::Zaragoza::37,5::25::1500::GE::GEWE 83::DFIG
+824::Almaren::Explotaciones Eñlkicas Sierra La Virgen, S.A.::Sestrica::Zaragoza::11,9::14::850::GAMESA::G-58::DFIG
+825::Sierra de la Virgen::EXPLOTACIONES EÓLICAS SIERRA DE LA VIRGEN::Sestrica y Calatayud::Zaragoza::28,8::36::850::MADE::AE 59::SÍNCRONO
+828::Rabosera::DESARROLLOS EÓLICOS DE RABOSERA, S.A.::Sierra de Luna::Huesca::31,35::19::1650::VESTAS::NM 82::JA
+829::Virgen de la Peña de Alfajarín::IBERIA APROVECHAMIENTOS EÓLICOS, S.A.U.::Sierra de Luna::Zaragoza::30::15::2000::VESTAS::V90::DFIG
+837::Sos del Rey Católico::ACCIONA ENERGÍA::Sos del Rey Católico::Zaragoza::18,7::22::850::GAMESA::G-52::DFIG
+838::Sos del Rey Católico II::ACCIONA ENERGÍA::Sos del Rey Católico::Zaragoza::30::20::1500::ACCIONA WIND POWER::AW 77/1500::DFIG
+850::Tarazona Sur::ELECDEY::Tarazona::Zaragoza::9,6::12::800::MADE::AE 52::SÍNCRONO
+851::Tardienta I::IBERDROLA RENOVABLES::Tardienta::Huesca::49,5::75::660::GAMESA::G-47::DFIG 1º G
+852::Tardienta II::SIST. ENERG. TORRALBA, S.A.::Tardienta y Torralba::Huesca::44,2::52::850::GAMESA::G-52::DFIG
+896::Sancho Abarca::Aragonesa del Viento, S.A. (ARVISA)::Tauste::Zaragoza::10,2::4 Y 1::1800 Y 3000::VESTAS::V90::DFIG
+897::Planas de Pola (Tauste)::CEASA::Tauste y Pradilla de Ebro::Zaragoza::35,64::54::660::GAMESA::G-47::DFIG 1º G
+918::Sierra Selva I::ACCIONA ENERGÍA::Uncastillo::Zaragoza::18,15::27,5::660::GAMESA::G-47::DFIG 1º G
+920::La Torrecilla (Fase I)::GAMESA ENERGÍA::Utrillas, Pancrudo y Martín del Río::Teruel::16,15::19::850::GAMESA::G-58::DFIG
+921::La Torrecilla (Fase II)::GAMESA ENERGÍA::Utrillas, Pancrudo y Martín del Río::Teruel::22,1::26::850::GAMESA::G-58::DFIG
+993::Acampo Arias::ACAMPO ARIAS, S.L.::Zaragoza::Zaragoza::12::6::2000::VESTAS::V90::DFIG
+994::Acampo Armijo::RWE Innogy Aersa, S.A.U.::Zaragoza::Zaragoza::18::24::750::VESTAS::NM 48::JA
+995::Acampo Hospital (EXPO)::ENEL GREEN POWER ESPAÑA::Zaragoza::Zaragoza::5,4::3::1800::VESTAS::V90::
+996::El Espartal::Iberaragón::Zaragoza::Zaragoza::6::3::2000::GAMESA::G-87 Torre 78 m::DFIG
+997::Los Labrados::EXPLOT. EÓLICAS LOS LABRADOS::Zaragoza, Cadrete y María de Huerva::Zaragoza::24::32::750::VESTAS::NM 48::JA
+1003::I+D+i Walga::Fundación para el Desarrollo de las nuevas Tecnologías::::Huesca::0,635::::::

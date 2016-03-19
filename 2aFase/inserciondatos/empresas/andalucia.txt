@@ -1,0 +1,154 @@
+Localizacion::Parque eolico::Sociedad promotora::Termino municipal::Provincia::Potencia instalada MW::Nº de aerogeneradores::Potencia unitaria KW::Marca del aerogenerador::Modelo::Tecnologia
+22::Los Jarales::UNIWINDET, S.L.::Abla::Almería::16,5::8::2100::SUZLON::S88::JA
+23::Tacica de Plata::Sistemas Energéticos Tacica de Plata::Abla y Las Tres Villas::Almería::26::13::2000::GAMESA::G-87::DFIG
+24::Las Lomillas::UNIWINDET, S.L.::Abrucena::Almería::12::6::2100::SUZLON::S88::JA
+25::El Colmenar II::AL ANDALUS WIND POWER::Abrucena y Fiñana::Almería::28::10::3000::VESTAS::V90.3::DFIG
+46::Loma de Ayala::UNIWINDET, S.L.::Alboloduy::Almería::19,5::10::2100::SUZLON::S88::JA
+47::Loma del Capón::Sinia Renovables, S.C.R.R.S.::Albuñuelas::Granada::30,6::17::1800::VESTAS::V100::DFIG
+50::Loma de Lázaro::ACCIONA ENERGÍA::Alcalá de los Gazules::Cádiz::16::8::2000::ENERCON::E-82::FC
+51::Viento de Alcalá::ACCIONA ENERGÍA::Alcalá de los Gazules::Cádiz::42::21::2000::ENERCON::E-82::FC
+72::Llanos del Espino::ACCIONA ENERGÍA::Almargen y Teba::Málaga::38::19::2000::GAMESA::G-87::DFIG
+80::Tharsis::ALDESA ENERGÍAS RENOVABLES::Alosno::Huelva::4,25::5::850::GAMESA::G-58::DFIG
+103::Altamira::GAMESA ENERGÍA::Ardales::Málaga::49,3::25::2000::GAMESA::G-90::DFIG
+104::Puerto de Málaga::Iberanda::Ardales::Málaga::12::6 y 1::2000 y 850::GAMESA::G-87 Y G-52::DFIG
+105::Cerro de la Higuera::Sistemas Energéticos de la Higuera::Ardales y Teba::Málaga::44::22::2000::GAMESA::G-87::DFIG
+106::Puerto de Málaga Ampliación::ARESA::Ardales, Carratraca::Málaga::12,85::6 y 1::2000 y 850::GAMESA::G-87 Y G-52::DFIG
+107::Parque Eólico La Cámara::GAMESA ENERGÍA::Ardales y Teba::Málaga::18::4::4500::GAMESA::G-128 Torre de 120m::DFIG
+131::Monte Gordo::EOLICA DEL GUADIANA, S.L.::Ayamonte y Villablanca::Huelva::48::24::2000::VESTAS::V90::DFIG
+144::Buenavista::DESARROLLOS EÓLICOS DE BUENAVISTA, S.A.::Barbate::Cádiz::7,8::26::300::DESA::A300::JA
+157::Los Morrones::ACCIONA ENERGÍA::Baza y Zújar::Granada::30::15::2000::GAMESA::G-87::DFIG
+203::El Álamo::Eólica Guadalteba, S.L.U.::Campillos::Málaga::36::10 y 8::2000::GAMESA::G-90 y G-87::DFIG
+204::La Cuesta::Eólica Guadalteba, S.L.U.::Campillos::Málaga::27,2::14::2000::GAMESA::G-90::DFIG
+205::Los Barrancos::ENEL GREEN POWER ESPAÑA, S.L.::Campillos::Málaga::20::10::2000::GAMESA::G-87::DFIG
+206::Menaute::ENEL GREEN POWER ESPAÑA::Campillos::Málaga::37,4::19::2000::ENERCON::E-82::FC
+207::Cerro Gavira::ACCIONA ENERGÍA::Campillos y Sierra de Yeguas::Málaga::41,65::21::2000::GAMESA::G-87::DFIG
+208::Cortijo La Linera::Sistemas Energéticos de la Linera::Campillos y Teba::Málaga::28::13 y 1::2000::GAMESA::G-90 y G-87::DFIG
+216::La Escalereta::Eólica Guadalteba, S.L.U.::Cañete la Real::Málaga::5,8::3::2000::GAMESA::G-80::DFIG
+217::La Nava::Eólica Guadalteba, S.L.U.::Cañete la Real::Málaga::27,2::14::2000::GAMESA::G-80::DFIG
+232::Sierra de Aguas::ARESA::Casarabonela y Alora::Málaga::13,6::16::850::GAMESA::G-52::DFIG
+233::Sierra de Aguas Ampliación::ARESA::Casarabonela y Alora::Málaga::1,7::2::850::GAMESA::G-52::DFIG
+234::Ignacio Molina::LDV CASARES, S.L.::Casares::Málaga::8::4::2000::ENERCON::E-70::FC
+235::Los Llanos::EXPLOTACIONES EÓLICAS SIERRA DE UTRERA::Casares::Málaga::19,8::30::660::GAMESA::G-47::DFIG 1º G
+236::Los Llanos Ampliación (El Juncal)::EXPLOTACIONES EÓLICAS SIERRA DE UTRERA::Casares::Málaga::13,6::16::850::GAMESA::G-52::DFIG
+272::La Victoria::EON Renovables::Chiclana de la Frontera::Cádiz::23,21::12::2000::VESTAS::V90::DFIG
+292::Dólar III::IBERDROLA ENERGÍAS RENOVABLES DE ANDALUCÍA::Dólar y Ferreira::Granada::49,5::21 y 4::2000::GAMESA::G-87 Y G-90::DFIG
+298::Palomarejo::BECOSA EÓLICO PALOMAREJO, S.A.U.::Écija::Sevilla::30::15::2000::GAMESA::G-90 (TORRE DE 78 M)::DFIG
+300::El Saucito (Fase B)::Iberdrola Renovables::El Almendro::Huelva::30,25::13 y 5::2000 y 850::GAMESA::G-90 y G-58::DFIG
+301::La Retuerta (Fase B)::Sistemas Energéticos La Retuerta::El Almendro::Huelva::38::19::2000::GAMESA::G-90::DFIG
+302::Tallisca::Sistemas Energéticos La Tallisca::El Almendro::Huelva::40::20::2000::GAMESA::G-90::DFIG
+303::Valdefuentes::Sistemas Energéticos Valdefuentes::El Almendro::Huelva::28::14::2000::GAMESA::G-90::DFIG
+306::El Granado::ACCIONA ENERGÍA::El Granado::Huelva::14,45::17::850::GAMESA::G-58::DFIG
+307::El Sardón::OLIVENTO, S.L.::El Granado::Huelva::25,5::30::850::GAMESA::G-58::DFIG
+317::Enix::ENEL GREEN POWER ESPAÑA::Enix::Almería::13,2::40::330::MADE::AE 30::JA
+325::Ferreira II::IBERDROLA ENERGÍAS RENOVABLES DE ANDALUCÍA::Ferreira y La Calahorra::Granada::49,5::25::2000::GAMESA::G-87::DFIG
+390::Huéneja III::IBERDROLA ENERGÍAS RENOVABLES DE ANDALUCÍA::Huenéja::Granada::49,5::25::2000::GAMESA::G-87::DFIG
+391::Dólar I::IBERDROLA ENERGÍAS RENOVABLES DE ANDALUCÍA::Huenéja y Dólar::Granada::49,5::25::2000::GAMESA::G-90::DFIG
+408::Alijar::ALDESA ENERGÍAS RENOVABLES::Jeréz de la Frontera::Cádiz::24::16::1500::ACCIONA WIND POWER::AW 77/1500::DFIG
+409::Bolaños::IBERENOVA PROMOCIONES::Jeréz de la Frontera::Cádiz::24::12::2000::GAMESA::G-87::DFIG
+410::Chorreaderos Bajos::IBERDROLA ENERGÍAS RENOVABLES DE ANDALUCÍA::Jeréz de la Frontera::Cádiz::30::15::2000::GAMESA::G-87::DFIG
+411::Doña Benita Cuellar::IBERDROLA ENERGÍAS RENOVABLES DE ANDALUCÍA::Jeréz de la Frontera::Cádiz::32::16::2000::GAMESA::G-87::DFIG
+412::El Olivillo::ALDESA ENERGÍAS RENOVABLES::Jeréz de la Frontera::Cádiz::25,5::17::1500::ACCIONA WIND POWER::AW 77/1500::DFIG
+413::Jerez::WIGEP Andalucía, S.A.::Jeréz de la Frontera::Cádiz::42,5::22::2100::SUZLON::S88::JA
+414::La Rabia::GECAL, S.A::Jeréz de la Frontera::Cádiz::21,71::13::1670::Alstom-Ecotècnia::ECO80::DFIG
+415::Los Isletes::IBERENOVA PROMOCIONES::Jeréz de la Frontera::Cádiz::9,94::5::2000::GAMESA::G-80::DFIG
+416::Roalabota::ALDESA ENERGÍAS RENOVABLES::Jeréz de la Frontera::Cádiz::28,05::19::1500::ACCIONA WIND POWER::AW 77/1500::DFIG
+467::Las Lomas::WINDET EÓLICA ANDALUZA::Lanjarón y El Pinar::Granada::15::10::1500::VESTAS::NM 82::JA
+473::Tres Villas::UNIWINDET, S.L.::Las Tres Villas::Almería::49,5::25::2100::SUZLON::S88::JA
+475::Las Lomas::Parque Eólico Lomas de Lecrín, s.l.::Lecrín::Granada::2::1::2000::ENERCON::E-82::FC
+476::Lecrín::Parque Eólico Lecrín, S.L.::Lecrín::Granada::12::6::2000::ENERCON::E-82::FC
+477::Lomas de Manteca::Parque Eólico Lomas de Manteca, S.L.::Lecrín::Granada::4::2::2000::ENERCON::E-82::FC
+487::Cueva Dorada::COMPAÑÍA EÓLICA GRANADINA::Loja::Granada::16,15::19::850::GAMESA::G-58::DFIG
+488::Los Sillones::COMPAÑÍA EÓLICA GRANADINA::Loja::Granada::19,55::23::850::GAMESA::G-58::DFIG
+494::El Pino::Energías Eólicas del Pino, S.L.::Los Barrios::Cádiz::24,6::4 y 7::3000 y 1800::VESTAS::V90::DFIG
+495::Cerro Durán::Eólica Guadalteba, S.L.U.::Los Corrales, El Saucejo y Almargen::Sevilla y Málaga::45::5, 13 y 5::2000::GAMESA::G-90, G-87 y G-80::DFIG
+546::Almeriques::Eólica La Janda, S.L.U.::Medina y Sidonia::Cádiz::25,72::12 y 1::2000 y 1720::VESTAS::V90::DFIG
+547::El Venzo::IBERENOVA PROMOCIONES::Medina y Sidonia::Cádiz::8::4::2000::GAMESA::G-87::DFIG
+548::Las Monjas::Eólica La Janda, S.L.U.::Medina y Sidonia::Cádiz::26::7, 6 y 1::1800, 2000 y 1400::VESTAS::V90::DFIG
+549::Las Monjas Fase II::Eólica La Janda, S.L.U.::Medina y Sidonia::Cádiz::8::4::2000::VESTAS::V90::DFIG
+550::Los Alburejos::IBERENOVA PROMOCIONES::Medina y Sidonia::Cádiz::10::5::2000::GAMESA::G-87::DFIG
+551::Rancho Viejo::Eólica La Janda, S.L.U.::Medina y Sidonia::Cádiz::14,4::8::1800::VESTAS::V90::DFIG
+552::Las Vegas::AL ANDALUS WIND POWER::Medina y Sidonia::Cádiz::22::10::2300::SIEMENS::SWT-2,3::DFIG
+553::Zorreras::P&T TECNOLOGÍA IBER, S.L.U.::Medina y Sidonia::Cádiz::32::19::2000::GAMESA::G-87::DFIG
+601::El Conjuro::S.E. Montes del Conjuro::Motril, Gualchos, Vélez Benaudalla y Lújar::Granada::17::14 y 6::850::GAMESA::G-52 / G-58::DFIG
+602::El Conjuro::WINDET EÓLICA ANDALUZA::Motril y Gualchos::Granada::13,6::16::850::GAMESA::G-58::DFIG
+630::Las Perdices::INGENIERÍA VARGAS, S.L.::Nacimiento::Almería::0,85::1::850::GAMESA::G-52::DFIG
+631::Nacimiento::SISTEMAS ENERGÉTICOS NACIMIENTO::Nacimiento::Almería::23,8::12::2000::GAMESA::G-87::DFIG
+636::Sierra del Trigo (Fase I y II)::OLIVENTO, S.L.::Noalejo::Jaén::15,18::23::660::GAMESA::G-47::DFIG 1º G
+662::Cantalejos::Eólica Guadalteba, S.L.U.::Osuna::Sevilla::14::7::2000::GAMESA::G-90::DFIG
+663::Gomera (Fase A)::Sistemas Energéticos Gomera::Osuna::Sevilla::6::3::2000::GAMESA::G-90::DFIG
+664::La Valdivia::ALDESA ENERGÍAS RENOVABLES::Osuna::Sevilla::28,5::19::1500::ACCIONA WIND POWER::AW 77/1500::DFIG
+665::Gomera (Fase A)::Sistemas Energéticos Gomera::Osuna::Sevilla::12::6::2000::GAMESA::G-90::DFIG
+674::Padul::ENEL GREEN POWER ESPAÑA::Padul::Granada::18::11::2000::VESTAS::V90::DFIG
+675::Valcaire::SINERGIA ANDALUZA, S.L.::Padul::Granada::16::8::2000::VESTAS::V90::DFIG
+735::El Centenar::Iberdrola Renovables::Puebla de Guzmán::Huelva::40::20::2000::GAMESA::G-90::DFIG
+736::Las Cabezas (Fase B)::Sistemas Energéticos Las Cabezas::Puebla de Guzmán::Huelva::17,4::7 y 4::2000 y 850::GAMESA::G-90 y G-58::DFIG
+737::Majal Alto::Iberdrola Renovables::Puebla de Guzmán y El Almendro::Huelva::50::25::2000::GAMESA::G-90::DFIG
+742::Cortijo de Guerra I::Parque eólico Puerto Real, S.L.::Puerto Real::Cádiz::40,8::17::3000::VESTAS::V90::DFIG
+743::Cortijo de Guerra I Ampliación::Parque eólico Puerto Real, S.L.::Puerto Real::Cádiz::1,2::1::1200::VESTAS::V90::
+744::Cortijo de Guerra II::LDV CORTIJO DE GUERRA, S.L.::Puerto Real::Cádiz::28::14::2000::ENERCON::E-70::FC
+745::La Castellana::ACCIONA ENERGÍA::Puerto Real::Cádiz::46::17 Y 4::2000 Y 3000::ENERCON y ACCIONA WIND POWER::E-82 Y AW 3000::FC
+787::Chorreaderos Altos::IBERDROLA ENERGÍAS RENOVABLES DE ANDALUCÍA::San José del Valle y Jeréz de la Frontera::Cádiz::20,59::11::2000::GAMESA::G-87::DFIG
+788::Los Isletes::AL ANDALUS WIND POWER::San José del Valle y Jeréz de la Frontera::Cádiz::25,3::11::2300::SIEMENS::SWT-2,3::DFIG
+797::Los Lirios::AGE GENERACIÓN EÓLICA, S.A.::San Silvestre de Gúzman::Huelva::48::24::2000::GAMESA::G-90::DFIG
+816::La Cerradilla II::SISTEMAS ENERGÉTICOS LA CERRADILLA, S.A.U.::Serón::Almería::22::11::2000::GAMESA::G-90::DFIG
+817::Serón I::EyRA::Serón::Almería::49,5::21 y 4::2000::GAMESA::G-90 y G-87::DFIG
+818::Serón II::AL ANDALUS WIND POWER::Serón::Almería::10::5::2000::GAMESA::G-90::DFIG
+819::El Carrascal I::SISTEMAS ENERGÉTICOS EL CARRASCAL, S.A.U.::Serón y Tíjola::Almería::49,5::20, 3 y 2::2000::GAMESA::G-90, G-80, G-87::DFIG
+820::El Carrascal II::SISTEMAS ENERGÉTICOS EL CHAPARRAL, S.A.U.::Serón y Tíjola::Almería::28::14::2000::GAMESA::G-90::DFIG
+821::La Cerradilla::SISTEMAS ENERGÉTICOS LA CERRADILLA, S.A.U.::Serón y Tíjola::Almería::49,5::25::2000::GAMESA::G-90::DFIG
+830::El Puntal::Sociedad Eólica El Puntal, S.L.::Sierra de Yeguas::Málaga::26::13::2000::GAMESA::G-87::DFIG
+853::Almendarache::WIESA 6::Tarifa::Cádiz::21::11::2000::GAMESA::G-87::DFIG
+854::Aviadores::DERROLLOS EÓLICOS ALMARCHAL, S.A.U.::Tarifa::Cádiz::6::4::1500::VESTAS::V72::JA
+855::Cortijo de Iruelas::ACCIONA ENERGÍA::Tarifa::Cádiz::13,6::17::800::MADE::AE 59::SÍNCRONO
+856::EEE (Repotenciado)::SOCIEDAD EÓLICA DE ANDALUCÍA, S.A.::Tarifa::Cádiz::32::16::2000::ENERCON::E-70::FC
+857::El Bancal::PARQUE EÓLICO BANCAL, S.L.::Tarifa::Cádiz::21::10::2000::VESTAS::V90::DFIG
+858::El Cabrito / La Locustura (Laese)::PROASEGO::Tarifa::Cádiz::1,65::1::1650::VESTAS::V66::JA
+859::El Gallego::ACCIONA ENERGÍA::Tarifa::Cádiz::24::30::800::MADE::AE 59::SÍNCRONO
+860::El Pandero::ACCIONA ENERGÍA::Tarifa::Cádiz::20::7 y 3::2000::GAMESA::G-80 / G-87::DFIG
+861::El Ruedo::ACCIONA ENERGÍA::Tarifa::Cádiz::16::20::800::MADE::AE 56::SÍNCRONO
+862::Hinojal I::Parque eólico Hinojal, S.L.::Tarifa::Cádiz::13,8::6 y 1::2000 y 1800::VESTAS::V90::DFIG
+863::Hinojal II::Parque eólico Hinojal, S.L.::Tarifa::Cádiz::7,4::3 y 1::1800 y 2000::VESTAS::V90::DFIG
+864::KW Tarifa (El Cabrito)::KW Tarifa::Tarifa::Cádiz::36,9::90::410::Kenetech::33 M VS::JA
+865::La Herrería::AEROGENERADORES DEL SUR, S.A.::Tarifa::Cádiz::46,76::28::1670::Alstom-Ecotècnia::ECO74::DFIG
+866::La Joya (PEESA)::P.E.E.S.A. (PLANTA EÓLICA EUROPEA, S.A.)::Tarifa::Cádiz::6::12::500::VESTAS::NTK 500/37::JA
+867::La Manga::ACCIONA ENERGÍA::Tarifa::Cádiz::12::15::800::MADE::AE 59::SÍNCRONO
+868::La Risa::Desarrollos Eólicos Almarchal, S.A.U.::Tarifa::Cádiz::12::6::2000::VESTAS::V80::DFIG
+869::La Tahuna::PROASEGO::Tarifa::Cádiz::20::10::2000::ENERCON::E-70::FC
+870::La Torre I::ACCIONA ENERGÍA::Tarifa::Cádiz::16::8::2000::GAMESA::G-87::DFIG
+871::Levantera::AGE GENERACIÓN EÓLICA, S.A.::Tarifa::Cádiz::0,65::5 y 1::100 y 150::AWP / MADE::AW 56/100 / AE 20::JA
+872::Loma de Almendarache::ACCIONA ENERGÍA::Tarifa::Cádiz::12::6::2000::GAMESA::G-87::DFIG
+873::Los Lances::SOCIEDAD EÓLICA LOS LANCES, S.A.::Tarifa::Cádiz::10,68::8 y 9::660 y 600::MADE y Alstom-Ecotècnia::AE 46 y ECO44/600::JA
+874::Los Siglos::Parque Eólico Los Siglos, S.L.::Tarifa::Cádiz::18::10::2000::VESTAS::V90::DFIG
+875::Monteahumada I::MADE TECNOLOGÍAS RENOVABLES, S.A.::Tarifa::Cádiz::2,42::1, 1 y 1::1300, 800 y 330::MADE::AE 61, AE 52 y AE 30::JA y SÍNCRONO
+876::Pasada de Tejeda::AEROGENERADORES DEL SUR, S.A.::Tarifa::Cádiz::10,02::6::1670::Alstom-Ecotècnia::ECO74::DFIG
+877::Pedregoso A::EÓLICA EL PEDREGOSO::Tarifa::Cádiz::16,2::9::1800::VESTAS::V90::DFIG
+878::Pedregoso B::EÓLICA EL PEDREGOSO::Tarifa::Cádiz::16,2::9::1800::VESTAS::V90::DFIG
+879::Pedregoso D::EÓLICA DEL PINO::Tarifa::Cádiz::16,2::9::1800::VESTAS::V90::DFIG
+880::PESUR (Repotenciado)::SOCIEDAD EÓLICA DE ANDALUCÍA, S.A.::Tarifa::Cádiz::42::21::2000::ENERCON::E-70::FC
+881::Prototipo DESA Hinojal/Tahivilla::DESARROLLOS EÓLICOS DE TARIFA::Tarifa::Cádiz::0,6::1::600::DESA::A600::JA
+882::Prototipo Ecotécnia (Tarifa)::Alstom-Ecotècnia::Tarifa::Cádiz::0,5::1::500::Alstom-Ecotècnia::::JA
+883::Prototipo Ecotècnia Tarifa::Alstom-Ecotècnia::Tarifa::Cádiz::0,6::1::600::Alstom-Ecotècnia::::JA
+884::Puerto Facinas::Eólica La Janda, S.L.U.::Tarifa::Cádiz::12::6::2000::GAMESA::G-80::DFIG
+885::Río Almodóvar::ACCIONA ENERGÍA::Tarifa::Cádiz::12,8::16::800::MADE::AE 56::SÍNCRONO
+886::Tahivilla::DESARROLLOS EÓLICOS DE TARIFA::Tarifa::Cádiz::30::100::300::DESA::A300::JA
+887::Tarifa II::Alstom-Ecotècnia::Tarifa::Cádiz::0,15::1::150::Alstom-Ecotècnia::::JA
+888::Tarifa III::Alstom-Ecotècnia::Tarifa::Cádiz::0,2::1::200::Alstom-Ecotècnia::::JA
+889::Zarzuela II::Parque eólico Hinojal, S.L.::Tarifa::Cádiz::14,8::2 y 6::2000 y 1800::VESTAS::V90::DFIG
+890::Zorreras (las)::PROASEGO::Tarifa::Cádiz::20::10::2000::ENERCON::E-70::FC
+903::Tíjola::AL ANDALUS WIND POWER::Tíjola::Almería::36::16::2300::SIEMENS::SWT 2,3::DFIG
+916::La Noguera::AL ANDALUS WIND POWER::Turrillas y Lucainena de las Torres::Almería::28,9::13::2300::SIEMENS::SWT-2,3::DFIG
+940::Lomas de las Peñuelas::Eólica La Janda, S.L.U.::Vejer de la frontera::Cádiz::9::3::3000::VESTAS::V112::FC
+941::Cerro Conilete::EDPR::Vejer de la Frontera::Cádiz::9::3::3000::VESTAS::V112::FC
+942::Loma del Suyal (Fase A)::Eólica La Janda, S.L.U.::Vejer de la Frontera::Cádiz::4::2::3000::VESTAS::V112::FC
+943::Loma del Suyal (Fase B)::Eólica La Janda, S.L.U.::Vejer de la Frontera::Cádiz::4::1::3000::VESTAS::V112::FC
+944::Los Granujales::ENEL GREEN POWER ESPAÑA, S.L.::Vejer de la Frontera::Cádiz::24::12::2000::GAMESA::G-87 (TORRE 67)::DFIG
+945::Mostaza::Eólica La Janda, S.L.U.::Vejer de la Frontera::Cádiz::18::9::2000::VESTAS::V90::DFIG
+946::Tejonero::Eólica La Janda, S.L.U.::Vejer de la Frontera::Cádiz::32::16::2000::VESTAS::V90::DFIG
+947::Santa María de Nieva Fase I::Explotaciones eólicas Vélez Rubio, S.L.::Velez-Rubio::Almería::14::7::2000::GAMESA::G-97::DFIG
+948::Santa María de Nieva Fase II::Explotaciones eólicas Vélez Rubio, S.L.::Velez-Rubio y Huercal-Overa::Almería::34,5::18::2000::GAMESA::G-97::DFIG
+971::Sierra de Arcas::LUZ DE VIENTO, S.L.U.::Villanueva de Algaidas::Málaga::20::10::2000::VESTAS::V100::DFIG
+1000::Jaufil::Parque Eólico Jaufíl, S.L.::Zújar::Granada::4::2::2000::ENERCON::E-82::FC
+1058::Las Angosturas::ENEL GREEN POWER ESPAÑA::Campillos y Tella::Málaga::36::18::2000::GAMESA::G-87::DFIG
+1059::Los Madroñales::ENEL GREEN POWER ESPAÑA::Almargen y El Saucejo::Málaga::34::17::2000::GAMESA::G-87 Torre 78::
+1065::Parque Eólico Experimental Cerros Pelaos::Unión Eólica Andaluza, S.L.::Padul::Granada::3::2::1500::EOZEN::1,5/78::
+1066::Parque Eólico Experimental San José::Unión Eólica Andaluza, S.L.::Huéneja::Granada::1,5::1::1500::EOZEN::EOZEN 1,5 MW/82::

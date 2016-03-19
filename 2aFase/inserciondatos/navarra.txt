@@ -1,0 +1,50 @@
+Localizacion::Parque eolico::Sociedad promotora::Termino municipal::Provincia::Potencia instalada MW::Nº de aerogeneradores::Potencia unitaria KW::Marca del aerogenerador::Modelo::Tecnologia
+37::Las Llanas de Codés (Aras)::ACCIONA ENERGÍA::Aguilar de Codés, Viana y Azuelo::Navarra::33::22::1500::ACCIONA WIND POWER::AW 77/1500::DFIG
+38::Las Llanas de Codés I (Aguilar)::ACCIONA ENERGÍA::Aguilar de Codés, Viana y Azuelo::Navarra::50::20 y 32::1300 y 750::AWP / LAGERWEY::AW 70/1300 Y LAGERWEY LW 50::DFIG
+41::Salajones::ACCIONA ENERGÍA::Aibar y Lumbier::Navarra::19,14::29::660::GAMESA::G-47::DFIG 1º G
+95::San Esteban I A::Dessarrollo de Energías Renovables de Navarra::Añorbe y Tirapu::Navarra::24,42::37::660::GAMESA::G-47::DFIG 1º G
+96::San Esteban II A - Añorbe::Dessarrollo de Energías Renovables de Navarra::Biurrun-Olcoz y Unzué::Navarra::11,05::13::850::GAMESA::G-52::DFIG
+112::San Esteban I B - Egastiaga::Dessarrollo de Energías Renovables de Navarra::Artajona::Navarra::6::4::1500::ACCIONA WIND POWER::AW 77/1500::DFIG
+139::Las Llanas de Codés II (Azuelo)::ACCIONA ENERGÍA::Aguilar de Codés, Azuelo, Marañón, Lapoblación y Bargota::Navarra::43,2::13,12 y 18::1500, 850 y 750::GE / GAMESA / LAGERWEY::GE 77 / G-52 / LW50::DFIG
+143::San Esteban II C - Caraquidoya::Dessarrollo de Energías Renovables de Navarra::Biurrun-Olcoz y Unzué::Navarra::15::10::1500::ACCIONA WIND POWER::AW 77/1500::DFIG
+163::Leitza/Beruete::ACCIONA ENERGÍA::Beruete y Leitza::Navarra::19,2::32::600::GAMESA::G-42::JA
+164::San Esteban II B - Olcoz::Dessarrollo de Energías Renovables de Navarra::Biurrun-Olcoz y Unzué::Navarra::16::8::2000::GAMESA::G-87::DFIG
+192::San Gregorio::EÓLICA CABANILLAS, S.L.::Cabanillas::Navarra::15::25::600::Alstom-Ecotècnia::ECO44::JA
+193::Serralta::EÓLICA CABANILLAS, S.L.::Cabanillas::Navarra::15::25::600::Alstom-Ecotècnia::ECO44::JA
+194::Serralta Ampliación::EÓLICA CABANILLAS, S.L.::Cabanillas::Navarra::1,5::1::1500::M-TORRES::TWT 70/1500::SÍNCRONO
+218::Caparroso::EÓLICA CAPARROSO, S.L.::Caparroso::Navarra::32,25::43::750::Alstom-Ecotècnia::ECO48::JA
+219::Caparroso::EÓLICA CAPARROSO, S.L.::Caparroso::Navarra::1,6::1::1600::Alstom-Ecotècnia::ECO80::DFIG
+260::Aizkibel::ACCIONA ENERGÍA::Galar::Navarra::12,52::17 y 1::660 y 1300::GAMESA / AWP::G-47 / IT 60::DFIG 1º G y DFIG
+312::La Calera Experimental::M Torres Desarrollos Energéticos S.L.::Enériz::Navarra::4,95::3::1650::M-TORRES::MT TWT 77/1500::SÍNCRONO
+323::Moncayuelo::ACCIONA ENERGÍA::Falces::Navarra::48::32::1500::ACCIONA WIND POWER::AW 77/1500::DFIG
+324::TRANSPORTE::ACCIONA ENERGÍA::Falces::Navarra::49,5::33::1500::ACCIONA WIND POWER::AW 77/1500::DFIG
+351::La Bandera::EÓLICA LA BANDERA, S.L.::Fustiñana, Cabanillas y Bardenas Reales::Navarra::30,1::43::750::Alstom-Ecotècnia::ECO48::JA
+352::La Bandera Ampliación::EÓLICA LA BANDERA, S.L.::Fustiñana, Cabanillas y Bardenas Reales::Navarra::1,25::1::1250::Alstom-Ecotècnia::ECO62::DFIG
+396::Ibargoiti::ACCIONA ENERGÍA::Ibargoiti, Leoz y Ezprogui::Navarra::28,08::38 y 2::660 y 1500::GAMESA / ACCIONA WIND POWER::G-47 y AW 77/1500::DFIG 1º G
+478::Leoz::ACCIONA ENERGÍA::Leoz::Navarra::24,66::1 y 40::660 y 600::GAMESA / VESTAS::G-47 / V600::DFIG
+479::Peña Blanca I::ACCIONA ENERGÍA::Leoz::Navarra::14,52::22::660::GAMESA::G-47::DFIG 1º G
+480::Uzkita::DESARROLLOS DE ENERGÍAS RENOVABLES DE NAVARRA::Leoz::Navarra::24,65::29::850::GAMESA::G-52::DFIG
+481::Peña Blanca II::ACCIONA ENERGÍA::Leoz y Tafalla::Navarra::36,47::52, 1 y 1::660, 1300 y 850::GAMESA / AWP / GE::G-47 / IT 70 / G-52::DFIG
+482::Lerga::ACCIONA ENERGÍA::Lerga::Navarra::25,08::33 y 8::600 y 660::GAMESA::::DFIG 1º G
+486::Lomba Experimental::M Torres Desarrollos Energéticos S.L.::Lodosa::Navarra::4,95::3::1650::M-TORRES::MT TWT 77/1500::SÍNCRONO
+514::Aibar::ACCIONA ENERGÍA::Aibar::Navarra::36,84::49 y 3::660 y 1500::GAMESA / AWP::G-47 / AW 1500::DFIG 1º G y DFIG
+515::Izco::ACCIONA ENERGÍA::Lumbier, Aibar y Ezprogui::Navarra::33::50::660::GAMESA::G-47::DFIG 1º G
+643::La Caya (Experimental)::M Torres Desarrollos Energéticos S.L.::Olite::Navarra::4,95::2 y 1::1650::M-TORRES::TWT 1,65-77 y TWT 1,65-82::SÍNCRONO
+644::La Fraila::MTORRES DESARROLLOS ENERGÉTICOS, S.L.::Olite::Navarra::4,5::3::1500::M-TORRES::MT TWT 77/1500::SÍNCRONO
+651::Echagüe::ACCIONA ENERGÍA::Olóriz, Unzué y Monreal::Navarra::23,95::35 y 1::660 y 850::GAMESA::G-47 y G-52::DFIG 1º G y DFIG
+652::Alaiz y ampliación::ACCIONA ENERGÍA::Olóriz y Unzué::Navarra::33,09::49 y 1::660 y 750::GAMESA / GE::G-47 / GE 50::DFIG 1º G y DFIG
+699::Caluengo::DESARROLLOS DE ENERGÍAS RENOVABLES DE NAVARRA::Peralta y Funes::Navarra::49,5::33::1500::GE::GE 1,5 sle::DFIG
+700::Sierra Selva I::ACCIONA ENERGÍA::Petilla de Aragón::Navarra::14,85::22,5::660::GAMESA::G-47::DFIG 1º G
+739::Villanueva::EÓLICA DE VILLANUEVA S.L.::Puente la Reina y Arraiza::Navarra::19,8::30::660::GAMESA::G-47::DFIG 1º G
+746::La Campaña Experimental::EÓLICA PUEYO, S.L.::Pueyo::Navarra::4,95::3::1650::M-TORRES::MT TWT 77/1500::SÍNCRONO
+795::San Martín de Unx::ACCIONA ENERGÍA::San Martín de Unx::Navarra::24,6::41::600::GAMESA::G-42 y G-44::JA
+827::Parque Eólico Experimental Las Balsas-Sierra de Alaiz::CENER::Monreal y Noain::Navarra::11,5::1, 1 Y 1; 1::4500, 2000 Y 2000; 3000::GAMESA, ACCIONA WP::G-128, G-87 y G-97; AW 116::FC y DFIG
+845::Peña Blanca Area Experimental::ACCIONA ENERGÍA::Puello, Tafalla y Leoz::Navarra::3::1::3000::ACCIONA WIND POWER::AW 100/3000::DFIG
+846::La Sorda::M TORRES DISEÑOS INDUSTRIALES, S.A.::Tafalla y Artajona::Navarra::6,6::4::1650::M-TORRES::TWT 1.65/77 y TWT 1.65/82::SÍNCRONO
+914::Montes de Cierzo I::EÓLICA MONTES CIERZO, S.L.::Tudela::Navarra::28,7::41::700::Alstom-Ecotècnia::ECO44::JA
+915::Montes de Cierzo II::EÓLICA MONTES CIERZO, S.L.::Tudela::Navarra::30,8::44::700::Alstom-Ecotècnia::ECO44::JA
+917::Txutxu::ACCIONA ENERGÍA::Ujue::Navarra::17,4::2 y 23::1800 y 600::ENERCON::E-66 / E-40::FC
+919::Los Cerros (Unzué)::EÓLICA UNZUÉ, S.L.::Unzué::Navarra::4,5::3::1500::M-TORRES::MT TWT 70/1500::SÍNCRONO
+998::El Perdón::ACCIONA ENERGÍA::Zariquiegui y Astráin::Navarra::20,3::37 y 3::500 y 600::GAMESA::G-42::JA
+1057::Área Experimental de Barásoain::ACCIONA Windpower::Barásoain::Navarra::15::2, 2 y 1::3000::ACCIONA WIND POWER::AW100/3000 IEC 1A (2); AW 100/3000 TH (1); AW 116/3000 CIIa (1)::
+1064::Área Experimental de Vedadillo::ACCIONA Windpower::Falces::Navarra::9::3::3000::ACCIONA WIND POWER::AW 100/3000::DFIG
