@@ -41,10 +41,11 @@ def Generarempresas():
     empresas = {}
     cifs = []
     for empresa in contenido:
-        # solo tomaré empresas de las que están todos sus datos
+        # solo tomaré empresas de las que estén todos sus datos
         if any(len(contenido) == 0 for contenido in empresa.split(':')):
             continue
         cif = GenerarCIF()
+        # Evita cifs repetidos
         while cif in cifs:
             cif = GenerarCIF()
         cifs += [ cif ]
@@ -60,15 +61,16 @@ def DatosCentrales(diccionario):
         if any(len(contenido) == 0 for contenido in empresa.split(':')):
             continue
         datos = empresa[:-1].encode('utf-8').split(':')
-        diccionario[datos[2].upper()][datos[1].upper()] = {}
-        diccionario[datos[2].upper()][datos[1].upper()]['localizacion'] = datos[0].upper()
-        diccionario[datos[2].upper()][datos[1].upper()]['municipio'] = datos[3].upper()
-        diccionario[datos[2].upper()][datos[1].upper()]['provincia'] = { 'nombre' : datos[4].upper(), 'codigo' : Provincias(unicode(datos[4].upper(),'utf8'))}
-        diccionario[datos[2].upper()][datos[1].upper()]['potencia'] = datos[5].upper()
-        diccionario[datos[2].upper()][datos[1].upper()]['cantidad'] = datos[6].upper()
-        diccionario[datos[2].upper()][datos[1].upper()]['potencia_ud'] = datos[7].upper()
-        diccionario[datos[2].upper()][datos[1].upper()]['marca'] = datos[8].upper()
-        diccionario[datos[2].upper()][datos[1].upper()]['modelo'] = datos[9].upper()
+        diccionario[datos[2].upper()]['centrales'] = {}
+        diccionario[datos[2].upper()]['centrales'][datos[1].upper()] = {}
+        diccionario[datos[2].upper()]['centrales'][datos[1].upper()]['localizacion'] = datos[0].upper()
+        diccionario[datos[2].upper()]['centrales'][datos[1].upper()]['municipio'] = unicode(datos[3],'utf8').upper()
+        diccionario[datos[2].upper()]['centrales'][datos[1].upper()]['provincia'] = { 'nombre' : unicode(datos[4],'utf8').upper(), 'codigo' : Provincias(unicode(datos[4].upper(),'utf8'))}
+        diccionario[datos[2].upper()]['centrales'][datos[1].upper()]['potencia'] = datos[5].upper()
+        diccionario[datos[2].upper()]['centrales'][datos[1].upper()]['cantidad'] = datos[6].upper()
+        diccionario[datos[2].upper()]['centrales'][datos[1].upper()]['potencia_ud'] = datos[7].upper()
+        diccionario[datos[2].upper()]['centrales'][datos[1].upper()]['marca'] = datos[8].upper()
+        diccionario[datos[2].upper()]['centrales'][datos[1].upper()]['modelo'] = datos[9].upper()
     return
 
 def Provincias(nombre):
@@ -93,25 +95,38 @@ def InsercionEmpresas(diccionario):
     with open('insercion-empresas.sql', 'w') as f:
         for empresa in diccionario.keys():
             f.write("INSERT INTO EMPRESAS VALUES('%s','%s')\n" % (empresa,diccionario[empresa]['cif']))
+    return
 
 def InsercionProvincias():
     listado = Provincias('insercion')
     with open('insercion-provincias.sql', 'w') as f:
         for provincia in listado.keys():
             f.write("INSERT INTO PROVINCIAS VALUES('%s','%s')\n" %(listado[provincia],provincia))
+    return
 
 def InsercionPueblos(diccionario):
-    pueblos = []
+    pueblos = {}
     for empresa in diccionario.keys():
-        for central in diccionario[empresa].keys():
-            pass
-    
+        for central in diccionario[empresa]['centrales'].keys():
+            pueblo = diccionario[empresa]['centrales'][central]['municipio']
+            if pueblo not in pueblos.keys():
+                codprovincia = diccionario[empresa]['centrales'][central]['provincia']['codigo']
+                posicion = str(len(pueblos)+1)
+                pueblos[pueblo] = { 'codigo' : codprovincia + posicion, 'codprov' : codprovincia, 'nombre' : pueblo.upper() } 
+    with open ('insercion-municipios.sql', 'w') as f:
+        for clave in pueblos.keys():
+            f.write("INSERT INTO MUNICIPIOS VALUES('%s', '%s', '%s')\n" % (pueblos[clave]['codigo'], pueblos[clave]['codprov'], clave.upper()))
+    return pueblos
+
 def main():
     diccionario_de_empresas = Generarempresas()
     DatosCentrales(diccionario_de_empresas)
-    # Generar fichero tabla: Empresas
+    # Genera fichero: tabla - Empresas
     InsercionEmpresas(diccionario_de_empresas)
+    # Genera fichero: tabla - Provincias
     InsercionProvincias()
+    # Genera fichero: tabla - Municipios
+    lista_de_pueblos = InsercionPueblos(diccionario_de_empresas)
 
 if __name__ == '__main__':
     main()
