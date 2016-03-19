@@ -67,7 +67,7 @@ def DatosCentrales(diccionario):
         if any(len(contenido) == 0 for contenido in empresa.split(':')):
             continue
         datos = empresa[:-1].split(':')
-        nombrecentral = unicode(datos[1]).upper().replace("'","''")
+        nombrecentral = unicode(datos[1]).upper()
         diccionario[datos[2].upper()]['centrales'] = {}
         diccionario[datos[2].upper()]['centrales'][nombrecentral] = {}
         diccionario[datos[2].upper()]['centrales'][nombrecentral]['localizacion'] = datos[0].upper()
@@ -102,7 +102,7 @@ def Provincias(nombre):
 def InsercionEmpresas(diccionario):
     with open('insercion-empresas.sql', 'w') as f:
         for empresa in diccionario.keys():
-            f.write("INSERT INTO EMPRESAS VALUES('%s','%s')\n" % (empresa,diccionario[empresa]['cif']))
+            f.write("INSERT INTO EMPRESAS VALUES('%s','%s')\n" % (empresa.replace('\'','\'\''),diccionario[empresa]['cif']))
     return
 
 def InsercionProvincias():
