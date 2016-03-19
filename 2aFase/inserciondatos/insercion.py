@@ -69,29 +69,49 @@ def DatosCentrales(diccionario):
         diccionario[datos[2].upper()][datos[1].upper()]['potencia_ud'] = datos[7].upper()
         diccionario[datos[2].upper()][datos[1].upper()]['marca'] = datos[8].upper()
         diccionario[datos[2].upper()][datos[1].upper()]['modelo'] = datos[9].upper()
-        print diccionario[datos[2].upper()][datos[1].upper()]
-        
     return
 
 def Provincias(nombre):
-    if nombre in [u'LAS PALMAS (GRAN CANARIA)', u'LAS PALMAS (FUERTEVENTURA)', u'GRAN CANARIA']:
-        nombre = 'LAS PALMAS'
-    if nombre in ['SC TENERIFE (TENERIFE)', u'SC TENERIFE (LA PALMA)', u'SC TENERIFE (LANZAROTE)', u'SC TENERIFE (LA GOMERA)', u'EL HIERRO']:
-        nombre = 'SANTA CRUZ DE TENERIFE'
-    lista =({ 'ALBACETE' : '02', 'ALICANTE':'03', u'ALMER\xedA':'04', u'\xc1LAVA':'01', 'ASTURIAS':'33', u'\xc1VILA':'05', 'BADAJOZ':'06',
-            'BARCELONA':'08', 'VIZCAYA':'48', 'BURGOS':'09', u'C\xe1CERES':'10', u'C\xe1DIZ':'11', 'CANTABRIA':'39', u'CASTELL\xf3N':'12',
-            'CIUDAD REAL':'13', u'C\xf3RDOBA':'14', u'LA CORU\xf1A':'15', 'CUENCA':'16', u'GUIP\xfaZKOA':'20', 'GIRONA':'17', 'GRANADA':'18',
-            'GUADALAJARA':'19', 'HUELVA':'21', 'HUESCA':'22', u'JA\xe9N':'23', u'LE\xf3N':'24', 'LLEIDA':'25', 'LUGO':'27', 'MADRID':'28',
-            u'M\xe1LAGA':'29', 'MURCIA':'30', 'NAVARRA':'31', 'OURENSE':'32', 'PALENCIA':'34', 'LAS PALMAS':'35',
-            'PONTEVEDRA':'36', 'LA RIOJA':'26', 'SALAMANCA':'37', 'SANTA CRUZ DE TENERIFE':'38', 'SEGOVIA':'40', 'SEVILLA':'41',
-            'SORIA':'42', 'TARRAGONA':'43', 'TERUEL':'44', 'TOLEDO':'45', 'VALENCIA':'46', 'VALLADOLID':'47', 'ZAMORA':'49',
-            'ZARAGOZA':'50', 'CEUTA':'51', 'MELILLA':'52'})
-    return lista[nombre]
+    with open ('./provincias.txt') as f:
+        contenido = f.readlines()
+    lista = {}
+    for provincia in contenido:
+        lista[unicode(provincia[:-1].split(':')[1],'utf8')] = provincia.split(':')[0]
+    if nombre != 'insercion':
+        if nombre in [u'LAS PALMAS (GRAN CANARIA)', u'LAS PALMAS (FUERTEVENTURA)', u'GRAN CANARIA']:
+            nombre = 'LAS PALMAS'
+        if nombre in ['SC TENERIFE (TENERIFE)', u'SC TENERIFE (LA PALMA)', u'SC TENERIFE (LANZAROTE)', u'SC TENERIFE (LA GOMERA)', u'EL HIERRO']:
+            nombre = 'SANTA CRUZ DE TENERIFE'
+        return lista[nombre.upper()]
+    else:
+        return lista
 
+### GENERACIÓN DE FICHEROS
+##########################
+
+def InsercionEmpresas(diccionario):
+    with open('insercion-empresas.sql', 'w') as f:
+        for empresa in diccionario.keys():
+            f.write("INSERT INTO EMPRESAS VALUES('%s','%s')\n" % (empresa,diccionario[empresa]['cif']))
+
+def InsercionProvincias():
+    listado = Provincias('insercion')
+    with open('insercion-provincias.sql', 'w') as f:
+        for provincia in listado.keys():
+            f.write("INSERT INTO PROVINCIAS VALUES('%s','%s')\n" %(listado[provincia],provincia))
+
+def InsercionPueblos(diccionario):
+    pueblos = []
+    for empresa in diccionario.keys():
+        for central in diccionario[empresa].keys():
+            pass
+    
 def main():
     diccionario_de_empresas = Generarempresas()
     DatosCentrales(diccionario_de_empresas)
-    print diccionario_de_empresas
+    # Generar fichero tabla: Empresas
+    InsercionEmpresas(diccionario_de_empresas)
+    InsercionProvincias()
 
 if __name__ == '__main__':
     main()
