@@ -35,16 +35,32 @@ def GenerarCIF():
 def Generarempresas():
     with open ('empresas.txt') as f:
         contenido = f.readlines()
-    empresas_dict = {}
+    empresas = {}
+    cifs = []
     for empresa in contenido:
+        # solo tomaré empresas de las que están todos sus datos
+        if any(len(contenido) == 0 for contenido in empresa.split(':')):
+            continue
         cif = GenerarCIF()
-        while cif in empresas_dict:
+        while cif in cifs:
             cif = GenerarCIF()
-        if len(empresa.split(':')[2]) > 0 and empresa.split(':')[2].upper() not in empresas_dict.itervalues():
-            empresas_dict[cif] = empresa.split(':')[2].upper()
+        cifs += [ cif ]
+        if empresa.split(':')[2].upper() not in empresas.keys():
+            empresas[empresa.split(':')[2].upper()] = {'cif' : cif} 
+    return empresas
+
+def DatosCentrales(diccionario):
+    with open ('empresas.txt') as f:
+        contenido = f.readlines()
+    for empresa in contenido:
+        # si a algua empresa le falta algún dato, la salta
+        if any(len(contenido) == 0 for contenido in empresa.split(':')):
+            continue
 
 def main():
-    Generarempresas()
+    diccionario_de_empresas = Generarempresas()
+    for clave,nombre in diccionario_de_empresas.iteritems():
+        print clave,nombre
 
 if __name__ == '__main__':
     main()
