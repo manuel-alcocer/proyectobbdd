@@ -56,11 +56,22 @@ def DatosCentrales(diccionario):
         # si a algua empresa le falta algún dato, la salta
         if any(len(contenido) == 0 for contenido in empresa.split(':')):
             continue
+        datos = empresa[:-1].split(':')
+        diccionario[datos[2].upper()][datos[1]] = {}
+        diccionario[datos[2].upper()][datos[1]]['localizacion'] = datos[0].upper()
+        diccionario[datos[2].upper()][datos[1]]['municipio'] = datos[3].upper()
+        diccionario[datos[2].upper()][datos[1]]['provincia'] = datos[4].upper()
+        diccionario[datos[2].upper()][datos[1]]['potencia'] = datos[5].upper()
+        diccionario[datos[2].upper()][datos[1]]['cantidad'] = datos[6].upper()
+        diccionario[datos[2].upper()][datos[1]]['potencia_ud'] = datos[7].upper()
+        diccionario[datos[2].upper()][datos[1]]['marca'] = datos[8].upper()
+        diccionario[datos[2].upper()][datos[1]]['modelo'] = datos[9].upper()
 
 def main():
     diccionario_de_empresas = Generarempresas()
-    for clave,nombre in diccionario_de_empresas.iteritems():
-        print clave,nombre
+    DatosCentrales(diccionario_de_empresas)
+    for clave,valor in diccionario_de_empresas.iteritems():
+        print clave,valor
 
 if __name__ == '__main__':
     main()
