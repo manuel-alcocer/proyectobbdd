@@ -66,18 +66,19 @@ def DatosCentrales(diccionario):
         # si a algua empresa le falta algún dato, la salta
         if any(len(contenido) == 0 for contenido in empresa.split(':')):
             continue
-        datos = empresa[:-1].encode('utf-8').split(':')
+        datos = empresa[:-1].split(':')
+        nombrecentral = unicode(datos[1]).upper()
         diccionario[datos[2].upper()]['centrales'] = {}
-        diccionario[datos[2].upper()]['centrales'][datos[1].upper()] = {}
-        diccionario[datos[2].upper()]['centrales'][datos[1].upper()]['localizacion'] = datos[0].upper()
-        diccionario[datos[2].upper()]['centrales'][datos[1].upper()]['municipio'] = unicode(datos[3],'utf8').upper()
-        diccionario[datos[2].upper()]['centrales'][datos[1].upper()]['provincia'] = { 'nombre' : unicode(datos[4],'utf8').upper(), 'codigo' : Provincias(unicode(datos[4].upper(),'utf8'))}
-        diccionario[datos[2].upper()]['centrales'][datos[1].upper()]['potencia'] = datos[5].upper()
-        diccionario[datos[2].upper()]['centrales'][datos[1].upper()]['cantidad'] = datos[6].upper()
-        diccionario[datos[2].upper()]['centrales'][datos[1].upper()]['potencia_ud'] = datos[7].upper()
-        diccionario[datos[2].upper()]['centrales'][datos[1].upper()]['marca'] = datos[8].upper()
-        diccionario[datos[2].upper()]['centrales'][datos[1].upper()]['modelo'] = datos[9].upper()
-        diccionario[datos[2].upper()]['centrales'][datos[1].upper()]['telefono'] = GenerarTelefono()
+        diccionario[datos[2].upper()]['centrales'][nombrecentral] = {}
+        diccionario[datos[2].upper()]['centrales'][nombrecentral]['localizacion'] = datos[0].upper()
+        diccionario[datos[2].upper()]['centrales'][nombrecentral]['municipio'] = unicode(datos[3],'utf8').upper()
+        diccionario[datos[2].upper()]['centrales'][nombrecentral]['provincia'] = { 'nombre' : unicode(datos[4],'utf8').upper(), 'codigo' : Provincias(unicode(datos[4].upper(),'utf8'))}
+        diccionario[datos[2].upper()]['centrales'][nombrecentral]['potencia'] = datos[5].upper()
+        diccionario[datos[2].upper()]['centrales'][nombrecentral]['cantidad'] = datos[6].upper()
+        diccionario[datos[2].upper()]['centrales'][nombrecentral]['potencia_ud'] = datos[7].upper()
+        diccionario[datos[2].upper()]['centrales'][nombrecentral]['marca'] = datos[8].upper()
+        diccionario[datos[2].upper()]['centrales'][nombrecentral]['modelo'] = datos[9].upper()
+        diccionario[datos[2].upper()]['centrales'][nombrecentral]['telefono'] = GenerarTelefono()
     return
 
 def Provincias(nombre):
