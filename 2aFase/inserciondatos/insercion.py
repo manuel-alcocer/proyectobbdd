@@ -135,7 +135,7 @@ def InsercionCentrales(diccionario, pueblos):
                 codigomunicipio = pueblos[diccionario[empresa]['centrales'][central]['municipio']]['codigo']
                 # Falta la dirección.. a ver que me invento
                 telefono = diccionario[empresa]['centrales'][central]['telefono']
-                f.write("INSERT INTO CENTRALES VALUES ('%s', '%s', '%s', '%s')\n" % (nombre,codigomunicipio,cif,telefono))
+                f.write("INSERT INTO CENTRALES VALUES ('%s', '%s', '%s', '%s')\n" % (nombre.replace('\'','\'\''),codigomunicipio,cif,telefono))
     return
 
 def main():
