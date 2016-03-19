@@ -2,6 +2,9 @@
 # -*- coding: utf-8 -*-
 
 from random import randint
+import sys
+reload(sys)
+sys.setdefaultencoding('utf8')
 
 def ComienzosCIF():
     # Comienzos del CIF
@@ -56,22 +59,30 @@ def DatosCentrales(diccionario):
         # si a algua empresa le falta algún dato, la salta
         if any(len(contenido) == 0 for contenido in empresa.split(':')):
             continue
-        datos = empresa[:-1].split(':')
-        diccionario[datos[2].upper()][datos[1]] = {}
-        diccionario[datos[2].upper()][datos[1]]['localizacion'] = datos[0].upper()
-        diccionario[datos[2].upper()][datos[1]]['municipio'] = datos[3].upper()
-        diccionario[datos[2].upper()][datos[1]]['provincia'] = datos[4].upper()
-        diccionario[datos[2].upper()][datos[1]]['potencia'] = datos[5].upper()
-        diccionario[datos[2].upper()][datos[1]]['cantidad'] = datos[6].upper()
-        diccionario[datos[2].upper()][datos[1]]['potencia_ud'] = datos[7].upper()
-        diccionario[datos[2].upper()][datos[1]]['marca'] = datos[8].upper()
-        diccionario[datos[2].upper()][datos[1]]['modelo'] = datos[9].upper()
+        datos = empresa[:-1].encode('utf-8').split(':')
+        diccionario[datos[2].upper()][datos[1].upper()] = {}
+        diccionario[datos[2].upper()][datos[1].upper()]['localizacion'] = datos[0].upper()
+        diccionario[datos[2].upper()][datos[1].upper()]['municipio'] = datos[3].upper()
+        diccionario[datos[2].upper()][datos[1].upper()]['provincia'] = {'nombre': datos[4].upper(), 'codigo' : Provincias(datos[4].upper())}
+        diccionario[datos[2].upper()][datos[1].upper()]['potencia'] = datos[5].upper()
+        diccionario[datos[2].upper()][datos[1].upper()]['cantidad'] = datos[6].upper()
+        diccionario[datos[2].upper()][datos[1].upper()]['potencia_ud'] = datos[7].upper()
+        diccionario[datos[2].upper()][datos[1].upper()]['marca'] = datos[8].upper()
+        diccionario[datos[2].upper()][datos[1].upper()]['modelo'] = datos[9].upper()
+    return
+
+def Provincias(nombre):
+    with open('./provincias.txt') as f:
+        contenido = f.readlines()
+    provincias = {}
+    for provincia in contenido:
+        provincias[provincia[:-1].split(':')[1].upper()] = provincia[:-1].split(':')[0]
+    return provincias[nombre]
 
 def main():
     diccionario_de_empresas = Generarempresas()
     DatosCentrales(diccionario_de_empresas)
-    for clave,valor in diccionario_de_empresas.iteritems():
-        print clave,valor
+    print diccionario_de_empresas
 
 if __name__ == '__main__':
     main()
