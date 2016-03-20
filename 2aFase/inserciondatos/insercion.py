@@ -1,7 +1,9 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 
-from random import randint
+from random import randint, uniform, normalvariate, weibullvariate
+from datetime import datetime,timedelta
+
 import sys
 reload(sys)
 sys.setdefaultencoding('utf8')
@@ -79,6 +81,7 @@ def DatosCentrales(diccionario):
         diccionario[datos[2].upper()]['centrales'][nombrecentral]['marca'] = datos[8].upper()
         diccionario[datos[2].upper()]['centrales'][nombrecentral]['modelo'] = datos[9].upper()
         diccionario[datos[2].upper()]['centrales'][nombrecentral]['telefono'] = GenerarTelefono()
+        diccionario[datos[2].upper()]['centrales'][nombrecentral]['velmedia'] = round(uniform(21,33),2)
     return
 
 def Provincias(nombre):
@@ -138,6 +141,76 @@ def InsercionCentrales(diccionario, pueblos):
                 f.write("INSERT INTO CENTRALES VALUES ('%s', '%s', '%s', '%s')\n" % (nombre.replace('\'','\'\''),codigomunicipio,cif,telefono))
     return
 
+def InsercionEolicas(diccionario):
+    with open ('./ficherosinsercion/insercion-eolicas.sql', 'w') as f:
+        for empresa in diccionario.keys():
+            for central in diccionario[empresa]['centrales']:
+                # La velocidad media en las zonas de aerogeneradores
+                # suele estar entre 6 y 9 m/s ( [21 - 33] Km/h )
+                velocidadmedia = diccionario[empresa]['centrales'][central]['velmedia'] 
+                f.write("INSERT INTO EOLICAS VALUES ('%s', '%s')\n" %(central.replace('\'','\'\''), velocidadmedia))
+    return
+
+## Zona de inserción en predicciones
+####
+def InsercionPredicciones(diccionario):
+    with open ('./ficherosinsercion/insercion-predicciones.sql', 'w') as f:
+        for empresa in diccionario.keys():
+            for central in diccionario[empresa]['centrales'].keys():
+                viento = {}
+                viento['velmedia'] = diccionario[empresa]['centrales'][central]['velmedia']
+                viento['direccion'] = round(uniform(0.01,360),2)
+                viento['estado'] = True
+                viento['velocidad'] = viento['velmedia']
+                fecha = datetime(2015,1,1,0,0,0)
+                fechafinal = datetime(2015,1,11,0,0,0)
+                while fecha < fechafinal:
+                    GenerarViento(viento)
+                    fecha = fecha + timedelta(hours=1)
+                    formatfecha = "TO_DATE('%s %s %s %s:%s', 'DD MM YYYY HH24:MI')" % (fecha.day,fecha.month,fecha.year,fecha.hour,fecha.minute)
+                    f.write("INSERT INTO PREDICCIONES_VIENTO VALUES ('%s', '%s', %.2f, '%s')\n" % (formatfecha,central.replace('\'','\'\''),Velocidad(viento),Direccion(viento)))
+    return
+
+def GenerarViento(viento):
+    maximo_fi = 360
+    minimo_fi = 0.01
+    delta_angulo = round(normalvariate(2,0.7)*10,2)
+    if viento['estado']:
+        if viento['direccion'] + delta_angulo >= maximo_fi:
+            viento['estado'] = False
+            viento['direccion'] -= delta_angulo
+        else:
+            viento['direccion'] += delta_angulo
+    else:
+        if viento['direccion'] - delta_angulo <= minimo_fi:
+            viento['estado'] = True
+            viento['direccion'] += delta_angulo
+        else:
+            viento['direccion'] -= delta_angulo
+    viento['velocidad'] = round(weibullvariate(viento['velmedia'], 2),2)
+    return
+
+def Velocidad(viento):
+    return viento['velocidad']*3600/1000
+
+def Direccion(viento):
+    direccion = str(viento['direccion'])
+    minutos = str(int(round(float(direccion.split('.')[1]) * 60/100,0)))
+    grados = int(direccion.split('.')[0])
+    if 45 <= grados <= 134:
+        ptocardinal = 'E'
+    elif 135 <= grados <= 224:
+        ptocardinal = 'S'
+    elif 225 <= grados <= 314:
+        ptocardinal = 'W'
+    else:
+        ptocardinal = 'N'
+    return "%d°%s''%s" %(grados,minutos,ptocardinal)
+
+#####################################
+### Fin inserción en predicciones ###
+#####################################
+
 def main():
     diccionario_de_empresas = Generarempresas()
     DatosCentrales(diccionario_de_empresas)
@@ -149,6 +222,10 @@ def main():
     lista_de_pueblos = InsercionPueblos(diccionario_de_empresas)
     # Genera fichero: tabla - Centrales
     InsercionCentrales(diccionario_de_empresas,lista_de_pueblos)
+    # Genera fichero: tabla - Eólicas
+    InsercionEolicas(diccionario_de_empresas)
+    # Genera fichero: tabla - Predicciones
+    InsercionPredicciones(diccionario_de_empresas)
 
 if __name__ == '__main__':
     main()
