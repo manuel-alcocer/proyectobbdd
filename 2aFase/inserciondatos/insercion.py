@@ -100,14 +100,14 @@ def Provincias(nombre):
 ##########################
 
 def InsercionEmpresas(diccionario):
-    with open('insercion-empresas.sql', 'w') as f:
+    with open('./ficherosinsercion/insercion-empresas.sql', 'w') as f:
         for empresa in diccionario.keys():
             f.write("INSERT INTO EMPRESAS VALUES('%s','%s')\n" % (empresa.replace('\'','\'\''),diccionario[empresa]['cif']))
     return
 
 def InsercionProvincias():
     listado = Provincias('insercion')
-    with open('insercion-provincias.sql', 'w') as f:
+    with open('./ficherosinsercion/insercion-provincias.sql', 'w') as f:
         for provincia in listado.keys():
             f.write("INSERT INTO PROVINCIAS VALUES('%s','%s')\n" %(listado[provincia],provincia))
     return
@@ -121,13 +121,13 @@ def InsercionPueblos(diccionario):
                 codprovincia = diccionario[empresa]['centrales'][central]['provincia']['codigo']
                 posicion = str(len(pueblos)+1)
                 pueblos[pueblo] = { 'codigo' : codprovincia + posicion, 'codprov' : codprovincia, 'nombre' : pueblo.upper() } 
-    with open ('insercion-municipios.sql', 'w') as f:
+    with open ('./ficherosinsercion/insercion-municipios.sql', 'w') as f:
         for clave in pueblos.keys():
             f.write("INSERT INTO MUNICIPIOS VALUES('%s', '%s', '%s')\n" % (pueblos[clave]['codigo'], pueblos[clave]['codprov'], clave.upper()))
     return pueblos
 
 def InsercionCentrales(diccionario, pueblos):
-    with open ('insercion-centrales.sql', 'w') as f:
+    with open ('./ficherosinsercion/insercion-centrales.sql', 'w') as f:
         for empresa in diccionario.keys():
             cif = diccionario[empresa]['cif']
             for central in diccionario[empresa]['centrales'].keys():

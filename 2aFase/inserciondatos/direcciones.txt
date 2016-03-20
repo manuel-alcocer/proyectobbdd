@@ -1,0 +1,32 @@
+({ 'Calles' : [  San Drogón,
+San José de Cupertino,
+ San Sebastián,
+San José de Arimatea,
+San Friard,
+Santa Teresa de Ávila,
+San Magno de Fussen,
+Santa Clara de Asís,
+San Simeón,
+ Santa Bárbara,
+ San Julián, el hospitalario,
+Santa Germana Cousin,
+Beata Coloma de Rietti,
+Santa Gertrudis de Nivelles,
+San Patricio,
+ San Columbano,
+San Drausino,
+ San Benito,
+San Teodoro sikeota,
+San Isidoro de Sevilla
+],
+'Avenidas': [
+Esperanza gomez,
+Victoria Lanz,
+Carmen Luvana,
+Priscila Pratz,
+Adriana Sage,
+Anastasia Mayo,
+Natalia Zeta,
+
+]})
+Cortes1287,65Jiménez623,70Cortes674,00Jiménez1176,99Cortes613,64Fernández643,82Fernández1096,51Fernández452,69Jiménez553,28Amaya834,96Flores412,45Amaya502,99Flores714,24Amaya331,97Moreno352,09Moreno674,00Moreno321,91Santiago342,03Santiago623,70Heredia301,79Flores301,79Heredia603,58Santiago291,73Heredia301,79Hernández482,87Hernández221,31Hernández261,55Silva342,03Gabarre150,90Silva231,37Gabarre301,79González150,90Vázquez191,13Amador291,73Gómez130,78Amador181,07Muñoz281,67Muñoz130,78Gabarre150,90Vázquez261,55Amador110,66Muñoz150,90Gómez251,49Silva110,66Barrull130,78González191,14Romero100,60Gómez120,72Romero191,13Vargas90,54Montoya120,72Vargas181,08Castro80,48Reyes100,60Montoya171,02Manzano80,48Borja90,54Salguero160,95Carrillo70,42Romero90,54Barrull150,90Contreras70,42Salguero90,54Escudero150,90Escudero70,42Vargas90,54García150,90García70,42Camacho90,54Manzano150,90Salguero70,42Escudero90,54Reyes
