@@ -76,13 +76,33 @@ def DatosCentrales(diccionario):
         diccionario[datos[2].upper()]['centrales'][nombrecentral]['municipio'] = unicode(datos[3],'utf8').upper()
         diccionario[datos[2].upper()]['centrales'][nombrecentral]['provincia'] = { 'nombre' : unicode(datos[4],'utf8').upper(), 'codigo' : Provincias(unicode(datos[4].upper(),'utf8'))}
         diccionario[datos[2].upper()]['centrales'][nombrecentral]['potencia'] = datos[5].upper()
-        diccionario[datos[2].upper()]['centrales'][nombrecentral]['cantidad'] = datos[6].upper()
+        diccionario[datos[2].upper()]['centrales'][nombrecentral]['cantidad'] = SumarAeros(datos[6])
         diccionario[datos[2].upper()]['centrales'][nombrecentral]['potencia_ud'] = datos[7].upper()
         diccionario[datos[2].upper()]['centrales'][nombrecentral]['marca'] = datos[8].upper()
         diccionario[datos[2].upper()]['centrales'][nombrecentral]['modelo'] = datos[9].upper()
         diccionario[datos[2].upper()]['centrales'][nombrecentral]['telefono'] = GenerarTelefono()
         diccionario[datos[2].upper()]['centrales'][nombrecentral]['velmedia'] = round(uniform(21,33),2)
     return
+
+def SumarAeros(cadena):
+    lista1 = []
+    lista2 = []
+    if 'y' in cadena.lower():
+        lista1 = [ dato.strip() for dato in cadena.lower().split('y') ]
+        for numero in lista1:
+            if ',' in numero:
+                lista2 += [ int(num1.strip()) for num1 in numero.split(',') ]
+            elif ';' in numero:
+                lista2 += [ int(num1.strip()) for num1 in numero.split(';') ]
+            else:
+                lista2 += [ int(numero) ]
+    elif ',' in cadena:
+        lista2 += [ int(num1.strip()) for num1 in cadena.split(',') ]
+    elif ';' in cadena:
+        lista2 += [ int(num1.strip()) for num1 in cadena.split(';') ]
+    else:
+        lista2 = [ int(cadena) ]
+    return sum(lista2)
 
 def Provincias(nombre):
     with open ('./provincias.txt') as f:
@@ -211,6 +231,47 @@ def Direccion(viento):
 ### Fin inserción en predicciones ###
 #####################################
 
+## Generar lista de modelos en centrales
+def ListaAerogen(diccionario):
+    marcas = {}
+    for empresa in diccionario.keys():
+        for central in diccionario[empresa]['centrales'].keys():
+            marca = unicode(diccionario[empresa]['centrales'][central]['marca'],'utf8')
+            if marca not in marcas.keys():
+                marcas[marca] = {}
+            modelo = unicode(diccionario[empresa]['centrales'][central]['modelo'],'utf8')
+            if modelo not in marcas[marca].keys():
+                marcas[marca][modelo] = {}
+    return marcas
+################################
+
+def InsercionModelos(diccionario):
+    aerodict = ConstruirDiccionarioAeros()
+    # print aerodict
+    tablamodelos = {}
+    with open ('./ficherosinsercion/insercion-modelos-aerogens.sql', 'w') as f:
+        for marca in aerodict.keys():
+            for modelo in aerodict[marca].keys():
+                f.write("INSERT INTO MODELOS_AEROGENS VALUES ('%s', '%s', '%.2f', '%d', '%d')\n" %(modelo,marca,aerodict[marca][modelo]['longitud'],aerodict[marca][modelo]['produccion'],aerodict[marca][modelo]['velmax']))
+    return aerodict
+
+def ConstruirDiccionarioAeros():
+    with open('./aeros.txt') as f:
+        contenido = f.readlines()
+    contenido = [ linea[:-1] for linea in contenido ]
+    diccionario_aeros = {}
+    for linea in contenido:
+        datos = [ llinea.strip() for llinea in linea.split(':') ]
+        marca = datos[0]
+        modelo = datos[1]
+        longitud = round(float(datos[2])/2-1,2)
+        produccion = int(datos[3])
+        velmaxima = int(datos[4])
+        if marca not in diccionario_aeros.keys():
+            diccionario_aeros[marca] = {}
+        diccionario_aeros[marca][modelo] = {'longitud' : longitud, 'produccion' : produccion, 'velmax' : velmaxima }
+    return diccionario_aeros
+
 def main():
     diccionario_de_empresas = Generarempresas()
     DatosCentrales(diccionario_de_empresas)
@@ -225,7 +286,8 @@ def main():
     # Genera fichero: tabla - Eólicas
     InsercionEolicas(diccionario_de_empresas)
     # Genera fichero: tabla - Predicciones
-    InsercionPredicciones(diccionario_de_empresas)
+    #InsercionPredicciones(diccionario_de_empresas)
+    diccionario_modelos = InsercionModelos(diccionario_de_empresas)
 
 if __name__ == '__main__':
     main()

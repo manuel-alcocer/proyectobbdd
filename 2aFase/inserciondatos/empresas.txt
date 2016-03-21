@@ -9,19 +9,19 @@
 72:Llanos del Espino:ACCIONA ENERGÍA:Almargen y Teba:Málaga:38:19:2000:GAMESA:G-87:DFIG
 80:Tharsis:ALDESA ENERGÍAS RENOVABLES:Alosno:Huelva:4,25:5:850:GAMESA:G-58:DFIG
 103:Altamira:GAMESA ENERGÍA:Ardales:Málaga:49,3:25:2000:GAMESA:G-90:DFIG
-104:Puerto de Málaga:Iberanda:Ardales:Málaga:12:6 y 1:2000 y 850:GAMESA:G-87 Y G-52:DFIG
+104:Puerto de Málaga:Iberanda:Ardales:Málaga:12:6 y 1:2000 y 850:GAMESA:G-87:DFIG
 105:Cerro de la Higuera:Sistemas Energéticos de la Higuera:Ardales y Teba:Málaga:44:22:2000:GAMESA:G-87:DFIG
-106:Puerto de Málaga Ampliación:ARESA:Ardales, Carratraca:Málaga:12,85:6 y 1:2000 y 850:GAMESA:G-87 Y G-52:DFIG
+106:Puerto de Málaga Ampliación:ARESA:Ardales, Carratraca:Málaga:12,85:6 y 1:2000 y 850:GAMESA:G-87:DFIG
 107:Parque Eólico La Cámara:GAMESA ENERGÍA:Ardales y Teba:Málaga:18:4:4500:GAMESA:G-128 Torre de 120m:DFIG
 131:Monte Gordo:EOLICA DEL GUADIANA, S.L.:Ayamonte y Villablanca:Huelva:48:24:2000:VESTAS:V90:DFIG
 144:Buenavista:DESARROLLOS EÓLICOS DE BUENAVISTA, S.A.:Barbate:Cádiz:7,8:26:300:DESA:A300:JA
 157:Los Morrones:ACCIONA ENERGÍA:Baza y Zújar:Granada:30:15:2000:GAMESA:G-87:DFIG
-203:El Álamo:Eólica Guadalteba, S.L.U.:Campillos:Málaga:36:10 y 8:2000:GAMESA:G-90 y G-87:DFIG
+203:El Álamo:Eólica Guadalteba, S.L.U.:Campillos:Málaga:36:10 y 8:2000:GAMESA:G-90:DFIG
 204:La Cuesta:Eólica Guadalteba, S.L.U.:Campillos:Málaga:27,2:14:2000:GAMESA:G-90:DFIG
 205:Los Barrancos:ENEL GREEN POWER ESPAÑA, S.L.:Campillos:Málaga:20:10:2000:GAMESA:G-87:DFIG
 206:Menaute:ENEL GREEN POWER ESPAÑA:Campillos:Málaga:37,4:19:2000:ENERCON:E-82:FC
 207:Cerro Gavira:ACCIONA ENERGÍA:Campillos y Sierra de Yeguas:Málaga:41,65:21:2000:GAMESA:G-87:DFIG
-208:Cortijo La Linera:Sistemas Energéticos de la Linera:Campillos y Teba:Málaga:28:13 y 1:2000:GAMESA:G-90 y G-87:DFIG
+208:Cortijo La Linera:Sistemas Energéticos de la Linera:Campillos y Teba:Málaga:28:13 y 1:2000:GAMESA:G-90:DFIG
 216:La Escalereta:Eólica Guadalteba, S.L.U.:Cañete la Real:Málaga:5,8:3:2000:GAMESA:G-80:DFIG
 217:La Nava:Eólica Guadalteba, S.L.U.:Cañete la Real:Málaga:27,2:14:2000:GAMESA:G-80:DFIG
 232:Sierra de Aguas:ARESA:Casarabonela y Alora:Málaga:13,6:16:850:GAMESA:G-52:DFIG
@@ -30,9 +30,9 @@
 235:Los Llanos:EXPLOTACIONES EÓLICAS SIERRA DE UTRERA:Casares:Málaga:19,8:30:660:GAMESA:G-47:DFIG 1º G
 236:Los Llanos Ampliación (El Juncal):EXPLOTACIONES EÓLICAS SIERRA DE UTRERA:Casares:Málaga:13,6:16:850:GAMESA:G-52:DFIG
 272:La Victoria:EON Renovables:Chiclana de la Frontera:Cádiz:23,21:12:2000:VESTAS:V90:DFIG
-292:Dólar III:IBERDROLA ENERGÍAS RENOVABLES DE ANDALUCÍA:Dólar y Ferreira:Granada:49,5:21 y 4:2000:GAMESA:G-87 Y G-90:DFIG
-298:Palomarejo:BECOSA EÓLICO PALOMAREJO, S.A.U.:Écija:Sevilla:30:15:2000:GAMESA:G-90 (TORRE DE 78 M):DFIG
-300:El Saucito (Fase B):Iberdrola Renovables:El Almendro:Huelva:30,25:13 y 5:2000 y 850:GAMESA:G-90 y G-58:DFIG
+292:Dólar III:IBERDROLA ENERGÍAS RENOVABLES DE ANDALUCÍA:Dólar y Ferreira:Granada:49,5:21 y 4:2000:GAMESA:G-90:DFIG
+298:Palomarejo:BECOSA EÓLICO PALOMAREJO, S.A.U.:Écija:Sevilla:30:15:2000:GAMESA:G-90:DFIG
+300:El Saucito (Fase B):Iberdrola Renovables:El Almendro:Huelva:30,25:13 y 5:2000 y 850:GAMESA:G-90:DFIG
 301:La Retuerta (Fase B):Sistemas Energéticos La Retuerta:El Almendro:Huelva:38:19:2000:GAMESA:G-90:DFIG
 302:Tallisca:Sistemas Energéticos La Tallisca:El Almendro:Huelva:40:20:2000:GAMESA:G-90:DFIG
 303:Valdefuentes:Sistemas Energéticos Valdefuentes:El Almendro:Huelva:28:14:2000:GAMESA:G-90:DFIG
@@ -67,7 +67,7 @@
 551:Rancho Viejo:Eólica La Janda, S.L.U.:Medina y Sidonia:Cádiz:14,4:8:1800:VESTAS:V90:DFIG
 552:Las Vegas:AL ANDALUS WIND POWER:Medina y Sidonia:Cádiz:22:10:2300:SIEMENS:SWT-2,3:DFIG
 553:Zorreras:P&T TECNOLOGÍA IBER, S.L.U.:Medina y Sidonia:Cádiz:32:19:2000:GAMESA:G-87:DFIG
-601:El Conjuro:S.E. Montes del Conjuro:Motril, Gualchos, Vélez Benaudalla y Lújar:Granada:17:14 y 6:850:GAMESA:G-52 / G-58:DFIG
+601:El Conjuro:S.E. Montes del Conjuro:Motril, Gualchos, Vélez Benaudalla y Lújar:Granada:17:14 y 6:850:GAMESA:G-58:DFIG
 602:El Conjuro:WINDET EÓLICA ANDALUZA:Motril y Gualchos:Granada:13,6:16:850:GAMESA:G-58:DFIG
 630:Las Perdices:INGENIERÍA VARGAS, S.L.:Nacimiento:Almería:0,85:1:850:GAMESA:G-52:DFIG
 631:Nacimiento:SISTEMAS ENERGÉTICOS NACIMIENTO:Nacimiento:Almería:23,8:12:2000:GAMESA:G-87:DFIG
@@ -79,7 +79,7 @@
 674:Padul:ENEL GREEN POWER ESPAÑA:Padul:Granada:18:11:2000:VESTAS:V90:DFIG
 675:Valcaire:SINERGIA ANDALUZA, S.L.:Padul:Granada:16:8:2000:VESTAS:V90:DFIG
 735:El Centenar:Iberdrola Renovables:Puebla de Guzmán:Huelva:40:20:2000:GAMESA:G-90:DFIG
-736:Las Cabezas (Fase B):Sistemas Energéticos Las Cabezas:Puebla de Guzmán:Huelva:17,4:7 y 4:2000 y 850:GAMESA:G-90 y G-58:DFIG
+736:Las Cabezas (Fase B):Sistemas Energéticos Las Cabezas:Puebla de Guzmán:Huelva:17,4:7 y 4:2000 y 850:GAMESA:G-90:DFIG
 737:Majal Alto:Iberdrola Renovables:Puebla de Guzmán y El Almendro:Huelva:50:25:2000:GAMESA:G-90:DFIG
 742:Cortijo de Guerra I:Parque eólico Puerto Real, S.L.:Puerto Real:Cádiz:40,8:17:3000:VESTAS:V90:DFIG
 743:Cortijo de Guerra I Ampliación:Parque eólico Puerto Real, S.L.:Puerto Real:Cádiz:1,2:1:1200:VESTAS:V90:
@@ -89,9 +89,9 @@
 788:Los Isletes:AL ANDALUS WIND POWER:San José del Valle y Jeréz de la Frontera:Cádiz:25,3:11:2300:SIEMENS:SWT-2,3:DFIG
 797:Los Lirios:AGE GENERACIÓN EÓLICA, S.A.:San Silvestre de Gúzman:Huelva:48:24:2000:GAMESA:G-90:DFIG
 816:La Cerradilla II:SISTEMAS ENERGÉTICOS LA CERRADILLA, S.A.U.:Serón:Almería:22:11:2000:GAMESA:G-90:DFIG
-817:Serón I:EyRA:Serón:Almería:49,5:21 y 4:2000:GAMESA:G-90 y G-87:DFIG
+817:Serón I:EyRA:Serón:Almería:49,5:21 y 4:2000:GAMESA:G-90:DFIG
 818:Serón II:AL ANDALUS WIND POWER:Serón:Almería:10:5:2000:GAMESA:G-90:DFIG
-819:El Carrascal I:SISTEMAS ENERGÉTICOS EL CARRASCAL, S.A.U.:Serón y Tíjola:Almería:49,5:20, 3 y 2:2000:GAMESA:G-90, G-80, G-87:DFIG
+819:El Carrascal I:SISTEMAS ENERGÉTICOS EL CARRASCAL, S.A.U.:Serón y Tíjola:Almería:49,5:20, 3 y 2:2000:GAMESA:G-90:DFIG
 820:El Carrascal II:SISTEMAS ENERGÉTICOS EL CHAPARRAL, S.A.U.:Serón y Tíjola:Almería:28:14:2000:GAMESA:G-90:DFIG
 821:La Cerradilla:SISTEMAS ENERGÉTICOS LA CERRADILLA, S.A.U.:Serón y Tíjola:Almería:49,5:25:2000:GAMESA:G-90:DFIG
 830:El Puntal:Sociedad Eólica El Puntal, S.L.:Sierra de Yeguas:Málaga:26:13:2000:GAMESA:G-87:DFIG
@@ -102,7 +102,7 @@
 857:El Bancal:PARQUE EÓLICO BANCAL, S.L.:Tarifa:Cádiz:21:10:2000:VESTAS:V90:DFIG
 858:El Cabrito / La Locustura (Laese):PROASEGO:Tarifa:Cádiz:1,65:1:1650:VESTAS:V66:JA
 859:El Gallego:ACCIONA ENERGÍA:Tarifa:Cádiz:24:30:800:MADE:AE 59:SÍNCRONO
-860:El Pandero:ACCIONA ENERGÍA:Tarifa:Cádiz:20:7 y 3:2000:GAMESA:G-80 / G-87:DFIG
+860:El Pandero:ACCIONA ENERGÍA:Tarifa:Cádiz:20:7 y 3:2000:GAMESA:G-87:DFIG
 861:El Ruedo:ACCIONA ENERGÍA:Tarifa:Cádiz:16:20:800:MADE:AE 56:SÍNCRONO
 862:Hinojal I:Parque eólico Hinojal, S.L.:Tarifa:Cádiz:13,8:6 y 1:2000 y 1800:VESTAS:V90:DFIG
 863:Hinojal II:Parque eólico Hinojal, S.L.:Tarifa:Cádiz:7,4:3 y 1:1800 y 2000:VESTAS:V90:DFIG
@@ -113,11 +113,11 @@
 868:La Risa:Desarrollos Eólicos Almarchal, S.A.U.:Tarifa:Cádiz:12:6:2000:VESTAS:V80:DFIG
 869:La Tahuna:PROASEGO:Tarifa:Cádiz:20:10:2000:ENERCON:E-70:FC
 870:La Torre I:ACCIONA ENERGÍA:Tarifa:Cádiz:16:8:2000:GAMESA:G-87:DFIG
-871:Levantera:AGE GENERACIÓN EÓLICA, S.A.:Tarifa:Cádiz:0,65:5 y 1:100 y 150:AWP / MADE:AW 56/100 / AE 20:JA
+871:Levantera:AGE GENERACIÓN EÓLICA, S.A.:Tarifa:Cádiz:0,65:5 y 1:100 y 150:MADE:AE 20:JA
 872:Loma de Almendarache:ACCIONA ENERGÍA:Tarifa:Cádiz:12:6:2000:GAMESA:G-87:DFIG
-873:Los Lances:SOCIEDAD EÓLICA LOS LANCES, S.A.:Tarifa:Cádiz:10,68:8 y 9:660 y 600:MADE y Alstom-Ecotècnia:AE 46 y ECO44/600:JA
+873:Los Lances:SOCIEDAD EÓLICA LOS LANCES, S.A.:Tarifa:Cádiz:10,68:8 y 9:660 y 600:MADE:AE 46:JA
 874:Los Siglos:Parque Eólico Los Siglos, S.L.:Tarifa:Cádiz:18:10:2000:VESTAS:V90:DFIG
-875:Monteahumada I:MADE TECNOLOGÍAS RENOVABLES, S.A.:Tarifa:Cádiz:2,42:1, 1 y 1:1300, 800 y 330:MADE:AE 61, AE 52 y AE 30:JA y SÍNCRONO
+875:Monteahumada I:MADE TECNOLOGÍAS RENOVABLES, S.A.:Tarifa:Cádiz:2,42:1, 1 y 1:1300, 800 y 330:MADE:AE 61:JA y SÍNCRONO
 876:Pasada de Tejeda:AEROGENERADORES DEL SUR, S.A.:Tarifa:Cádiz:10,02:6:1670:Alstom-Ecotècnia:ECO74:DFIG
 877:Pedregoso A:EÓLICA EL PEDREGOSO:Tarifa:Cádiz:16,2:9:1800:VESTAS:V90:DFIG
 878:Pedregoso B:EÓLICA EL PEDREGOSO:Tarifa:Cádiz:16,2:9:1800:VESTAS:V90:DFIG
@@ -147,7 +147,7 @@
 971:Sierra de Arcas:LUZ DE VIENTO, S.L.U.:Villanueva de Algaidas:Málaga:20:10:2000:VESTAS:V100:DFIG
 1000:Jaufil:Parque Eólico Jaufíl, S.L.:Zújar:Granada:4:2:2000:ENERCON:E-82:FC
 1058:Las Angosturas:ENEL GREEN POWER ESPAÑA:Campillos y Tella:Málaga:36:18:2000:GAMESA:G-87:DFIG
-1059:Los Madroñales:ENEL GREEN POWER ESPAÑA:Almargen y El Saucejo:Málaga:34:17:2000:GAMESA:G-87 Torre 78:
+1059:Los Madroñales:ENEL GREEN POWER ESPAÑA:Almargen y El Saucejo:Málaga:34:17:2000:GAMESA:G-87:
 1065:Parque Eólico Experimental Cerros Pelaos:Unión Eólica Andaluza, S.L.:Padul:Granada:3:2:1500:EOZEN:1,5/78:
 1066:Parque Eólico Experimental San José:Unión Eólica Andaluza, S.L.:Huéneja:Granada:1,5:1:1500:EOZEN:EOZEN 1,5 MW/82:
 40:San Cristóbal de Aguilón:Aguilón 20, S.A.:Aguilón:Zaragoza:50:25:2000:GAMESA:G-87:DFIG
@@ -165,13 +165,13 @@
 181:Molino de Carragüeyes:Molino de Caragüeyes, S.L.:Borja:Zaragoza:0,75:1:750:VESTAS:NM 48:JA
 182:Parque Eólico I+D El Boyal I:GAMESA ENERGÍA:Borja:Zaragoza:4,5:1:4500:GAMESA:G-128 Torre de 120m:DFIG
 183:Parque Eólico I+D El Boyal II:GAMESA ENERGÍA:Borja:Zaragoza:4,5:1:4500:GAMESA:G-128 Torre de 120m:DFIG
-190:San Juan de Bargas:SAN JUAN DE BARGAS EÓLICAS, S.L.:Bureta, Magallón y Alberite de San Juan:Zaragoza:44,8:6 y 50:800:MADE:AE 52 y AE 56:SÍNCRONO
+190:San Juan de Bargas:SAN JUAN DE BARGAS EÓLICAS, S.L.:Bureta, Magallón y Alberite de San Juan:Zaragoza:44,8:6 y 50:800:MADE:AE 56:SÍNCRONO
 196:Cerro de Atalaya I+D:LAS NAVARRICAS DE BORDÓN:Cadrete:Zaragoza:1,65:1:1670:Alstom-Ecotècnia:ECO80:DFIG
 197:Plana de la Balsa:EXPLOTACIONES EÓLICA PLANA DE LA BALSA, S.A.:Cadrete y María de Huerva:Zaragoza:24:32:750:VESTAS:NM 48:JA
 215:Sierra Costera II:Explotaciones Eólicas Sierra Costera, S.A.:Cañada Velilla, Cuevas de Almudén, Mexquita de Jarque y Galve:Teruel:40,8:48:850:GAMESA:G-58:DFIG
 289:El Puerto (Unificado):EXPLOTACIONES EÓLICAS EL PUERTO:Cuevas de Almudén:Teruel:25,08:38:660:MADE:AE 46:JA
 299:Arza I+D:Syder:Ejea de los Caballeros:Zaragoza:0,225:1:225:VESTAS:V 29:JA
-318:Escucha (Unificado):EXPLOTACIONES EÓLICAS DE ESCUCHA:Escucha:Teruel:19,14:29:660:MADE:AE-46:JA
+318:Escucha (Unificado):EXPLOTACIONES EÓLICAS DE ESCUCHA:Escucha:Teruel:19,14:29:660:MADE:AE 46:JA
 319:San Just:Explotaciones Eólicas de Escucha:Escucha:Teruel:9,24:14:660:MADE:AE 46:JA
 320:Valdeconejos:S.E. Abadia:Escucha y Utrillas:Teruel:32,3:38:850:GAMESA:G-58:DFIG
 339:Fuendetodos I:IBERDROLA RENOVABLES:Fuendetodos:Zaragoza:46:23:2000:GAMESA:G-80:DFIG
@@ -180,10 +180,10 @@
 366:Ciesma de Grisel + Ampliación Grisel:Parque Eólico Grisel, S.L.:Grisel:Zaragoza:13,5:18:750:VESTAS:NM 48:JA
 367:Grisel II:Parque Eólico Grisel, S.L.:Grisel:Zaragoza:3:4:750:VESTAS:NM 48:JA
 369:Río Gallego:PARQUE EÓLICO DEL RIO GALLEGO, S.L.U.:Gurrea de Gállego:Huesca:38,7:43:900:VESTAS:NM 52:JA
-370:La Sotonera:PARQUE EÓLICO LA SOTONERA, S.L.:Gurrea de Gallego y Alcalá de Gurrea:Huesca:18,9:6 y 6:1500 y 1650:VESTAS:NM 72 Y NM 82:JA
+370:La Sotonera:PARQUE EÓLICO LA SOTONERA, S.L.:Gurrea de Gallego y Alcalá de Gurrea:Huesca:18,9:6 y 6:1500 y 1650:VESTAS:NM 82:JA
 371:Las Gorgas:PARQUE EÓLICO RÍO GALLEGO, S.L.:Gurrea de Gallego y Alcalá de Gurrea:Zaragoza:2,7:3:900:VESTAS:NM 52:JA
 406:I+D Jaulín:GAMESA ENERGÍA:Jaulín:Zaragoza:4,5:1:4500:GAMESA:G-128 Torre de 120m:DFIG
-407:Cabezo Negro I+D:Sistemas Energéticos Cabezo Negro:Jaulín:Zaragoza:4,5:1:4500:GAMESA:G10X:FC
+407:Cabezo Negro I+D:Sistemas Energéticos Cabezo Negro:Jaulín:Zaragoza:4,5:1:4500:GAMESA:G-10X:FC
 441:Aragón:PARQUE EÓLICO ARAGÓN:La Muela:Zaragoza:5,28:16:330:MADE:AE 30:JA
 442:El Pilar:CORPORACIÓN EÓLICA DE ZARAGOZA:La Muela:Zaragoza:15:25:600:GAMESA:G-44:JA
 443:La Carracha:PARQUE EÓLICO LA CARRACHA, S.L.:La Muela:Zaragoza:49,5:66:750:VESTAS:NM 48:JA
@@ -197,7 +197,7 @@
 451:La Plana III:SISTEMAS ENERGÉTICOS LA MUELA:La Muela:Zaragoza:21:35:600:GAMESA:G-42:JA
 452:Plana de Jarreta:PLANA DE JARRETA, S.L.:La Muela:Zaragoza:49,5:66:750:VESTAS:NM 48:JA
 453:Plana de Zaragoza:EXPLOTACIONES EÓLICAS PLANAS DE ZARAGOZA:La Muela:Zaragoza:24:32:750:VESTAS:NM 48:JA
-454:Valdecuadros (I+D):NEG MICON, SAU:La Muela:Zaragoza:2,1:1 y 2:600 y 750:VESTAS:NTK 600/43 y NM 750/48:JA
+454:Valdecuadros (I+D):NEG MICON, SAU:La Muela:Zaragoza:2,1:1 y 2:600 y 750:VESTAS:NM 750/48:JA
 517:Magallón 26:PROY. EÓLICOS ARAGONESES:Magallón:Zaragoza:10,8:12:900:VESTAS:NM 52:JA
 518:Santo Cristo de Magallón:GEÓLICA MAGALLÓN II, S.L.:Magallón:Zaragoza:40:20:2000:VESTAS:V90:DFIG
 524:Mallén:EON Renovables:Mallén:Zaragoza:30:15:2000:VESTAS:V90:DFIG
@@ -234,12 +234,12 @@
 993:Acampo Arias:ACAMPO ARIAS, S.L.:Zaragoza:Zaragoza:12:6:2000:VESTAS:V90:DFIG
 994:Acampo Armijo:RWE Innogy Aersa, S.A.U.:Zaragoza:Zaragoza:18:24:750:VESTAS:NM 48:JA
 995:Acampo Hospital (EXPO):ENEL GREEN POWER ESPAÑA:Zaragoza:Zaragoza:5,4:3:1800:VESTAS:V90:
-996:El Espartal:Iberaragón:Zaragoza:Zaragoza:6:3:2000:GAMESA:G-87 Torre 78 m:DFIG
+996:El Espartal:Iberaragón:Zaragoza:Zaragoza:6:3:2000:GAMESA:G-87:DFIG
 997:Los Labrados:EXPLOT. EÓLICAS LOS LABRADOS:Zaragoza, Cadrete y María de Huerva:Zaragoza:24:32:750:VESTAS:NM 48:JA
 1003:I+D+i Walga:Fundación para el Desarrollo de las nuevas Tecnologías::Huesca:0,635:::
-68:Sierra de los Lagos:PARQUES EÓLICOS DEL CANTÁBRICO, S.A.:Allande:Asturias:38,94:56 y 3:660 y 850:GAMESA:G-47 y G-52:DFIG 1º G
+68:Sierra de los Lagos:PARQUES EÓLICOS DEL CANTÁBRICO, S.A.:Allande:Asturias:38,94:56 y 3:660 y 850:GAMESA:G-52:DFIG 1º G
 69:Carondio y Muriellos:Generaciones Especiales I:Allande y Villayón:Asturias:50:25:2000:GAMESA:G-80:DFIG
-161:Belmonte:PARQUE EÓLICO BELMONTE, S.A.:Belmonte de Miranda:Asturias:34,85:41:850:GAMESA:G-52 / G-58:DFIG
+161:Belmonte:PARQUE EÓLICO BELMONTE, S.A.:Belmonte de Miranda:Asturias:34,85:41:850:GAMESA:G-58:DFIG
 165:Penouta:Electra Norte, SAU:Boal:Asturias:5,95:7:850:GAMESA:G-52:DFIG
 166:El Candal:PRODUCCIONES ENERGÉTICAS ASTURIANAS, S.L.:Boal y Castropol:Asturias:38:19:2000:GAMESA:G-80:DFIG
 305:Allo d´Abara:ACCIONA ENERGÍA:El Franco y Coaña:Asturias:6:3:2000:GAMESA:G-90:DFIG
@@ -261,18 +261,18 @@
 30:Cueva Blanca:EÓLICAS DE AGAETE, S.L.:Agaete:Las Palmas (Gran Canaria):1,32:4:330:MADE:AE 32:JA
 31:Aer. Fábrica Acsa:PECSA Plantas Eolicas Canarias, S.A.:Agüimes:Las Palmas (Gran Canaria):0,225:1:225:VESTAS:V27:JA
 32:Aer. Pozos Piletas:PECSA Plantas Eolicas Canarias, S.A.:Agüimes:Las Palmas (Gran Canaria):0,225:1:225:VESTAS:V27:JA
-33:Carretera Arinaga Repotenciación:Parque Eólico Ctra. de Arinaga, S.A.:Agüimes:Las Palmas (Gran Canaria):6,92:7, 1 Y 1:660, 330 Y 2300:MADE y ENERCON:AE 46 (7) y AE 32 (1); Y E70:JA y FC
+33:Carretera Arinaga Repotenciación:Parque Eólico Ctra. de Arinaga, S.A.:Agüimes:Las Palmas (Gran Canaria):6,92:7, 1 Y 1:660, 330 Y 2300:MADE:AE 46:JA y FC
 34:La Florida:SOSLAIRES CANARIAS, S.A.:Agüimes:Las Palmas (Gran Canaria):2,5:4:660:GAMESA:G-47:JA
 35:Lomo Cabezo:SOCAIRE, S.A.:Agüimes:Las Palmas (Gran Canaria):1,8:3:600:ENERCON::FC
 36:Montaña San Francisco I:AEROGENERADORES CANARIOS, S.A.:Agüimes:Las Palmas (Gran Canaria):1,125:5:225:VESTAS:V27:JA
-108:Finca de Mogán (Arico):Parque Eólico Finca de Mogán, S.A.:Arico:SC Tenerife (Tenerife):16,5:53:330:MADE:AE 30 y 32-AE 46:JA
+108:Finca de Mogán (Arico):Parque Eólico Finca de Mogán, S.A.:Arico:SC Tenerife (Tenerife):16,5:53:330:MADE:AE 46:JA
 109:Llanos de la Esquina:DESARROLLOS EÓLICOS DE BUENAVISTA, S.A.:Arico:SC Tenerife (Tenerife):5,95:7:850:GAMESA:G-52:DFIG
 186:Punta Teno:Parque Eólico Punta Teno, S.A.:Buenavista del Norte:SC Tenerife (Tenerife):1,8:6:330:MADE:AE 32:JA
 285:Corralejo:Drace:Corralejo:Las Palmas (Fuerteventura):1,7:2:850:GAMESA:G-52:DFIG
-338:Fuencaliente Repotenciación:EÓLICAS DE FUENCALIENTE, S.A.:Fuencaliente:SC Tenerife (La Palma):2,25:3:900:ENERCON:E44:FC
+338:Fuencaliente Repotenciación:EÓLICAS DE FUENCALIENTE, S.A.:Fuencaliente:SC Tenerife (La Palma):2,25:3:900:ENERCON:E-44:FC
 354:Montaña Pelada:AGRAGUA, S.A.:Galdar:Las Palmas (Gran Canaria):4,62:7:660:MADE:AE 46:JA
-355:Juan Adalid (Garafía Repotenciación):Enel Green Power España, S.L.:Garafía:SC Tenerife (La Palma):1,6:2:800:ENERCON:E48:FC
-359:Finca de San Antonio:ENERGÍAS ALTERNATIVAS DEL SUR, S.L.:Gran Canaria:Las Palmas (Gran Canaria):1,5:5:330:MADE:AE-32:JA
+355:Juan Adalid (Garafía Repotenciación):Enel Green Power España, S.L.:Garafía:SC Tenerife (La Palma):1,6:2:800:ENERCON:E-48:FC
+359:Finca de San Antonio:ENERGÍAS ALTERNATIVAS DEL SUR, S.L.:Gran Canaria:Las Palmas (Gran Canaria):1,5:5:330:MADE:AE 32:JA
 360:Granadilla I:ENEL GREEN POWER ESPAÑA:Granadilla de Abona:SC Tenerife (Tenerife):0,3:1:300:MADE:AE26:JA
 361:Granadilla II:ENEL GREEN POWER ESPAÑA:Granadilla de Abona:SC Tenerife (Tenerife):0,15:1:150:MADE:AE20:JA
 362:Granadilla III:Eólicas de Tenerife, AIE:Granadilla de Abona:SC Tenerife (Tenerife):4,8:8:600:MADE:AE 46:JA
@@ -281,11 +281,11 @@
 399:Arinaga Depuradora:GOBIERNO DE CANARIAS:Ingenio:Las Palmas (Gran Canaria):0,225:1:225:::JA
 400:Artes Gráficas del Atlántico:Artes Gráficas del Atlántico, S.A.:Ingenio:Las Palmas (Gran Canaria):0,9:4:225:VESTAS:V27:JA
 401:Ingenio (Arinaga GC-1):PECSA Plantas Eolicas Canarias, S.A.:Ingenio:Las Palmas (Gran Canaria):0,36:4:90:MADE:AE 23:JA
-455:Aeropuerto La Palma:AENA:La Palma:Las Palmas (Gran Canaria):1,32:1:1320:MADE:AE61:JA
+455:Aeropuerto La Palma:AENA:La Palma:Las Palmas (Gran Canaria):1,32:1:1320:MADE:AE 61:JA
 545:Manchas Blancas:Consejería de Industria y Comercio:Mazo:SC Tenerife (La Palma):1,8:6:225:VESTAS:V27:JA
 676:Cañada La Barca:PECSA Plantas Eolicas Canarias, S.A.:Pájara:Las Palmas (Fuerteventura):1,125:5:225:VESTAS:V27:JA
-677:Cañada La Barca (del Río):Eólicas de Fuerteventura, S.A.:Pájara:Las Palmas (Fuerteventura):10,26:27 y 18:180 y 300:MADE:AE 23 (27) Y AE 30 (18):JA
-780:Barranco de Tirajana:EÓLICAS DE TIRAJANA:San Bartolomé:Las Palmas (Gran Canaria):1,26:7:180:MADE:AE 23 (6) Y AE 32 (1):JA
+677:Cañada La Barca (del Río):Eólicas de Fuerteventura, S.A.:Pájara:Las Palmas (Fuerteventura):10,26:45:180 y 300:MADE:AE 23:JA
+780:Barranco de Tirajana:EÓLICAS DE TIRAJANA:San Bartolomé:Las Palmas (Gran Canaria):1,26:7:180:MADE:AE 23:JA
 781:La Vereda:La Vereda, S.A.:San Bartolomé:Las Palmas (Gran Canaria):0,225:1:225:VESTAS:V27:JA
 782:Montaña Mina:PECSA Plantas Eolicas Canarias, S.A.:San Bartolomé:SC Tenerife (Lanzarote):1,125:5:225:VESTAS:V27:JA
 783:La Florida:Juliano Bonny:San Bartolomé de Tirajana:Las Palmas (Gran Canaria):0,85:1:850:GAMESA:G-52:DFIG
@@ -296,10 +296,10 @@
 803:Bahía de Formas II:Eólica del Sureste:Santa Lucía de Tirajana:Las Palmas (Gran Canaria):2:4:500:ENERCON:E-40:FC
 804:Bahía de Formas III:Eólica Aircán, S.L.:Santa Lucía de Tirajana:Las Palmas (Gran Canaria):5:10:600:ENERCON:E-40:FC
 805:Bahía de Formas IV:Eólica del Sureste:Santa Lucía de Tirajana:Las Palmas (Gran Canaria):5:10:600:ENERCON:E-40:FC
-806:Centro Investigación de la Energía (ITC-ENERCON):I.Tec. De Canarias, S.A.:Santa Lucía de Tirajana:Las Palmas (Gran Canaria):0,915::500:ENERCON:E40:FC
+806:Centro Investigación de la Energía (ITC-ENERCON):I.Tec. De Canarias, S.A.:Santa Lucía de Tirajana:Las Palmas (Gran Canaria):0,915::500:ENERCON:E-40:FC
 807:Punta:BOMAR, S.A.:Santa Lucía de Tirajana:Las Palmas (Gran Canaria):5,5:11:500:ENERCON:E-40:FC
 808:Punta Gaviota:Parque Eólico La Gaviota, S.A.:Santa Lucía de Tirajana:Las Palmas (Gran Canaria):6,93:11:630:Alstom-Ecotècnia:ECO44:JA
-809:Santa Lucía:Parque Eólico Santa Lucía, S.A.:Santa Lucía de Tirajana:Las Palmas (Gran Canaria):4,8:16:330:MADE:AE 30 y 32-AE 46:JA
+809:Santa Lucía:Parque Eólico Santa Lucía, S.A.:Santa Lucía de Tirajana:Las Palmas (Gran Canaria):4,8:16:330:MADE:AE 46:JA
 810:Tenefe:Realización de Servicios Naturales de Canarias, S.L.:Santa Lucía de Tirajana:Las Palmas (Gran Canaria):1,125:5:225:VESTAS:V27:JA
 901:Los Valles (uno) Repotenciado:Eólicas de Lanzarote, S.L.:Teguise:Las Palmas (Gran Canaria):7,65:9:850:GAMESA:G-52:DFIG
 936:Epina:ENEL GREEN POWER ESPAÑA:Vallehermoso:SC Tenerife (La Gomera):0,36:2:180:MADE:AE 23:JA
@@ -309,7 +309,7 @@
 1006:Lomito Ramírez:Muescanarias, S.L.:Ingenio:Las Palmas (Gran Canaria):0,33::330:ENERCON::FC
 1052:Montaña de San Juan:Ayuntamiento de Valverde::SC Tenerife (Tenerife):0,1:::::
 1053:P.E. Centro de Control Canarias:AENA::Las Palmas (Gran Canaria):0,66:::::
-1054:Parque Enercon:ITER::SC Tenerife:5,5:11:500::E40:
+1054:Parque Enercon:ITER::SC Tenerife:5,5:11:500::E-40:
 1055:Parque eólico Concasur:CONTRATAS CANARIAS DEL SUR S.L.::Las Palmas (Gran Canaria):0,6:1:600:SIEMENS:MK-IV:Jaula de Ardilla
 1067:Arinaga Off-shore:GAMESA ENERGÍA:Arinaga:Gran Canaria:5:1:5000:GAMESA:G-11X:DFIG
 752:Cañoneras:EÓLICA 2000, S.L.:Ramales de la Victoria:Cantabria:17,85:21:850:GAMESA:G-52:DFIG
@@ -427,7 +427,7 @@
 764:Fuente de la Arena:ACCIONA ENERGÍA:Alpera:Albacete:30:15:2000:GAMESA:G-87:DFIG
 765:Hoya Gonzalo:EVOLUCIÓN 2000:Hoya Gonzalo:Albacete:49,5:33:1500:GE:GE 1,5 sle:DFIG
 766:La Cabaña:EÓLICA CAMPOLLANO, S.A.:El Bonillo y El Ballestero:Albacete:41,65:49:850:GAMESA:G-52:DFIG
-767:La Losilla:GAS NATURAL FENOSA RENOVABLES:Chinchilla de Montearagón:Albacete:11,9:14:850:GAMESA:G-52 / G-58:DFIG
+767:La Losilla:GAS NATURAL FENOSA RENOVABLES:Chinchilla de Montearagón:Albacete:11,9:14:850:GAMESA:G-58:DFIG
 768:Portachuelo:EÓLICA CAMPOLLANO, S.A.:El Bonillo y Lezuza:Albacete:45,05:53:850:GAMESA:G-52:DFIG
 769:El Gramal:EÓLICA CAMPOLLANO, S.A.:El Bonillo:Albacete:37,4:44:850:GAMESA:G-58:DFIG
 793:Cruz I:IBERDROLA ENERGÍAS RENOVABLES DE CLM:San Martín de Boniches:Cuenca:39,95:47:850:GAMESA:G-52:DFIG
@@ -484,7 +484,7 @@
 133:Corral Nuevo:DYTA:Ayoluengo:Burgos:5,28:8:660:GAMESA:G-47:DFIG 1º G
 152:El Pical:ACCIONA ENERGÍA:Barruelo de Santillán:Palencia:19,8:30:660:GAMESA:G-47:DFIG 1º G
 158:Becerril:EÓLICA DE LAS PEÑAS:Becerril de Campos:Palencia:6:3:2000:VESTAS:V90:DFIG
-173:Bordecorex Norte:IBERDROLA RENOVABLES:Bordecorex:Soria:44,35:9 y 31:2000 y 850:GAMESA:G-80 / G-58:DFIG
+173:Bordecorex Norte:IBERDROLA RENOVABLES:Bordecorex:Soria:44,35:9 y 31:2000 y 850:GAMESA:G-80:DFIG
 184:El Tablado:SISTEMAS ENERGÉTICOS EL MONCAYO, S.L.:Borobia y Beratón:Soria:19,8:30:660:GAMESA:G-47:DFIG 1º G
 185:El Manzanal:E.E. DEL BIERZO:Brazuelo:León:33,75:45:750:VESTAS:NM 52:JA
 222:Fuente Vaín:Eólica del Alfoz, S.L.:Carcedo de Burgos:Burgos:32:16:2000:VESTAS:V90:DFIG
@@ -496,7 +496,7 @@
 240:Fuente Salada:IBERDROLA RENOVABLES:Castellanos de Castro y Sasamón:Burgos:46,4:29:1670:Alstom-Ecotècnia:ECO80:DFIG
 244:Castilfrío:CETASA:Castilfrio:Soria:24,75:33:750:MADE:AE 52:SÍNCRONO
 245:Valbonilla Fase I:IBERDROLA RENOVABLES:Castrojériz:Burgos:4,25:5:850:GAMESA:G-58:DFIG
-246:Valbonilla Fase II:IBERDROLA RENOVABLES:Castrojériz:Burgos:6,85:3 y 1:2000 y 850:GAMESA:G-80 / G-58:DFIG
+246:Valbonilla Fase II:IBERDROLA RENOVABLES:Castrojériz:Burgos:6,85:3 y 1:2000 y 850:GAMESA:G-80:DFIG
 247:Alto de la Degollada:GAMESA ENERGÍA:Castrojériz:Burgos:50:25:2000:GAMESA:G-90:DFIG
 248:El Carril:ENERGÍA GLOBAL CASTELLANA:castrojériz y Pedrosa del Príncipe:Burgos:18:14:2000:GAMESA:G-90:DFIG
 249:El Carril II:IBERCYL:castrojériz y Pedrosa del Príncipe:Burgos:10:5:2000:GAMESA:G-90:DFIG
@@ -504,13 +504,13 @@
 251:San Lorenzo C:VAPAT:Castromonte, Peñaflor de Hornija y Torrelobatón:Valladolid:28,13:15:2000:GAMESA:G-90:DFIG
 252:San Pedro:E.E. DEL BIERZO:Castropodame y Torre:León:7,5:10:750:VESTAS:NM 52:JA
 253:El Redondal Fase 1:OLIVENTO, S.L.:Castropodame y Turienzo Castañero:León:14,45:17:850:GAMESA:G-52:DFIG
-254:El Redondal Fase 2:OLIVENTO, S.L.:Castropodame y Turienzo Castañero:León:16,15:5 y 14:850:GAMESA:G-52 / G-58:DFIG
+254:El Redondal Fase 2:OLIVENTO, S.L.:Castropodame y Turienzo Castañero:León:16,15:5 y 14:850:GAMESA:G-58:DFIG
 257:Valdeperondo:IBERDROLA RENOVABLES:Cea y Sahagún:León:46:23:2000:GAMESA:G-90:DFIG
 261:POBLACIÓN DE CERRATO-FASE I (EXPERIMENTAL):EOLINCYL, S.L.:Cerrato:Palencia:0,15:1:150:ELECTRIA WIND:Garví 150/28:
 277:Cogollos II (Fase A):Productor Regional de Energía Renovable, S.A.:Cogollos:Burgos:44:22:2000:GAMESA:G-87:DFIG
 278:Cogollos II (Fase B):Productor Regional de Energía Renovable, S.A.:Cogollos:Burgos:6:3:2000:GAMESA:G-87:DFIG
-279:Los Llanos (Fase A):Productor Regional de Energías Renovables III, S.A.:Cogollos, Hontoria de la Cantera y Revillarruz:Burgos:13,5:7:2000:GAMESA:G-87 (Torre de 78 m):DFIG
-280:Los Llanos (Fase b):Productor Regional de Energías Renovables III, S.A.:Cogollos, Hontoria de la Cantera y Revillarruz:Burgos:24,5:12:2000:GAMESA:G-87 (Torre de 78 m):DFIG
+279:Los Llanos (Fase A):Productor Regional de Energías Renovables III, S.A.:Cogollos, Hontoria de la Cantera y Revillarruz:Burgos:13,5:7:2000:GAMESA:G-87:DFIG
+280:Los Llanos (Fase b):Productor Regional de Energías Renovables III, S.A.:Cogollos, Hontoria de la Cantera y Revillarruz:Burgos:24,5:12:2000:GAMESA:G-87:DFIG
 287:Dueñas:IBERDROLA RENOVABLES:Costrarroleña:Palencia:3,4:4:850:GAMESA:G-52:DFIG
 288:El Toranzo:HIDROMEDIA:Cueva de Agreda y Borobia:Soria:18:30:600:GAMESA:G-47:DFIG 1º G
 321:La Sía:Boreas Eólica 2, S.A.:Espinosa de los Monteros:Burgos:29,7:27:1100:MADE:AE 61:JA
@@ -538,7 +538,7 @@
 385:El Cuadrón:ACCIONA ENERGÍA:Hornillos de Cerrato y Torquemada:Palencia:22:11:2000:GAMESA:G-90:DFIG
 386:Celada I:ACCIONA ENERGÍA:Hornillos de Cerrato, Torquemada y Herrera de Valdecañas:Palencia:34:17:2000:GAMESA:G-90:DFIG
 387:Páramo los Angostillos:ACCIONA ENERGÍA:Hornillos del Cerrato:Palencia:26:13:2000:GAMESA:G-90:DFIG
-392:La Lastra:P.E. La Boga, S.L.:Huérmeces:Burgos:11,69:7:1600:Alstom-Ecotècnia:ECO74-70m:DFIG
+392:La Lastra:P.E. La Boga, S.L.:Huérmeces:Burgos:11,69:7:1600:Alstom-Ecotècnia:ECO74:DFIG
 393:Sombrío:ENERGÍA GLOBAL CASTELLANA:Huérmeces y Merindad de Río:Burgos:28:14:2000:GAMESA:G-87:DFIG
 394:La Caldera:La Caldera Energía Burgos:Huérmeces y Villadiego:Burgos:22,5:15:1500:GE:GE 1,5 sle:DFIG
 395:Urbel del Castillo II:Biovent Energía Eólica, S.A.:Huérmeneces, Montorio y Urbel del Castillo:Burgos:50:25:2000:GAMESA:G-87:DFIG
@@ -564,10 +564,10 @@
 502:Lubián (Fase I):Ibereólica Lubián, S.A.U.:Lubián:Zamora:36:18:2000:GAMESA:G-80:DFIG
 503:Lubián Ampliación:Ibereólica Lubián, S.A.U.:Lubián:Zamora:14:7:2000:GAMESA:G-80:DFIG
 504:Padornelo Ampliación:Ibereólica Hedroso-Aciberos, S.A.U.:Lubián:Zamora:18:9:2000:GAMESA:G-87:DFIG
-505:La Gamoneda:ACCIONA ENERGÍA:Lubián y Hermisende:Zamora:19,8:30 y 35:660 y 850:GAMESA:G-42 y G-58:JA
+505:La Gamoneda:ACCIONA ENERGÍA:Lubián y Hermisende:Zamora:19,8:30 y 35:660 y 850:GAMESA:G-58:JA
 506:La Gamoneda Ampliación:ACCIONA ENERGÍA:Lubián y Hermisende:Zamora:29,75:35:850:GAMESA:G-58:DFIG
 507:San Ciprián:ACCIONA ENERGÍA:Lubián y Hermisende:Zamora:17,85:21:850:GAMESA:G-58:DFIG
-508:Aguallal:ACCIONA ENERGÍA:Lubián y Pías:Zamora:11,88:18, 27 y 1:660, 850 y 2000:GAMESA:G-47, G-58 y G-80:DFIG
+508:Aguallal:ACCIONA ENERGÍA:Lubián y Pías:Zamora:11,88:18, 27 y 1:660, 850 y 2000:GAMESA:G-80:DFIG
 509:Aguallal Ampliación:ACCIONA ENERGÍA:Lubián y Pías:Zamora:2:1:2000:GAMESA:G-80:DFIG
 510:Aguallal Ampliación:ACCIONA ENERGÍA:Lubián y Pías:Zamora:22,95:27:850:GAMESA:G-58:DFIG
 511:La Mallada:Investigación y Desarrollo de Energías Renovables (IDER):Lucillo:León:44,8:28:1670:Alstom-Ecotècnia:ECO74:DFIG
@@ -577,7 +577,7 @@
 520:Dos Picos:MADE TECNOLOGÍAS RENOVABLES, S.A.:Magaz de Pisuegra:Palencia:1,6:2:800:MADE:AE 52:SÍNCRONO
 521:Valdehorno:EÓLICA MIRASIERRA, S.L.:Magaz de Pisuegra:Palencia:8:4:2000:GAMESA:G-87:DFIG
 522:Magaz:Parque Eólico Magaz, S.L.:Magaz de Pisuegra y Palencia:Palencia:30:15:2000:VESTAS:V90:DFIG
-525:Era del Pico:Investigación y Desarrollo de Energías Renovables (IDER):Mallonseca, Castropodame y T.Bierzo:León:11,9:10 y 4:850:GAMESA:G-58 / G-52:DFIG
+525:Era del Pico:Investigación y Desarrollo de Energías Renovables (IDER):Mallonseca, Castropodame y T.Bierzo:León:11,9:10 y 4:850:GAMESA:G-58:DFIG
 554:Caramonte:Eólica de Medinaceli, S.L.:Medinaceli:Soria:49,94:22:2270:NORDEX:N90:DFIG
 555:Carrascalejo y Monte Alto:Eólica de Medinaceli, S.L.:Medinaceli:Soria:15:10:1500:ACCIONA WIND POWER:AW 77/1500:DFIG
 556:Sierra Ministra:PEESA:Medinaceli:Soria:42:20:2100:SUZLON:S88:JA
@@ -594,10 +594,10 @@
 570:La Cotera:IBERDROLA RENOVABLES CASTILLA Y LEÓN:Merindad de Valdeporres y Valle de Valdebezana:Burgos:18:9:2000:GAMESA:G-87:DFIG
 571:La Torada:ACCIONA ENERGÍA:Merindad de Valdivieso:Burgos:9,24:14:660:GAMESA:G-58:DFIG
 572:La Torada Ampliación:ACCIONA ENERGÍA:Merindad de Valdivieso:Burgos:2,55:3:850:GAMESA:G-58:DFIG
-573:Peña Alta:ACCIONA ENERGÍA:Merindad de Valdivieso:Burgos:13,2:34 y 7:660 y 850:GAMESA:G-47 y G-52:DFIG 1º G
+573:Peña Alta:ACCIONA ENERGÍA:Merindad de Valdivieso:Burgos:13,2:34 y 7:660 y 850:GAMESA:G-52:DFIG 1º G
 574:La Peñuca:PARQUE EÓLICO LA PEÑUCA, S.L.:Merindad Valdeporres y Merindad Sotoscueva:Burgos:33:22:1650:VESTAS:NM 72:JA
 575:La Magdalena:IBERDROLA RENOVABLES:Merindad de Valdeporres y Valle Valdebezana:Burgos:23,8:28:850:GAMESA:G-52:DFIG
-580:Monasterio de Rodilla:EÓLICA LA BRÚJULA, S.A.:Monasterio de Rodilla:Burgos:11,4:4 y 4:850 y 2000:GAMESA:G-52 / G-80:DFIG
+580:Monasterio de Rodilla:EÓLICA LA BRÚJULA, S.A.:Monasterio de Rodilla:Burgos:11,4:4 y 4:850 y 2000:GAMESA:G-80:DFIG
 581:Veleta:EÓLICA LA BRÚJULA, S.A.:Monasterio de Rodilla, Fresno de Rodilla y Santa María del Invierno:Burgos:14,45:17:850:GAMESA:G-58:DFIG
 582:Bureba:ENERGÍA GLOBAL CASTELLANA:Monasterio de Rodilla, Galbarros, Briviesca, Santa Olalla de Bureba, Reinoso y Quintanavides:Burgos:12:12:2000:GAMESA:G-87:DFIG
 583:La Brújula:EÓLICA LA BRÚJULA, S.A.:Monasterio de Rodilla y Valle de las Navas:Burgos:29,75:35:850:GAMESA:G-58:DFIG
@@ -612,12 +612,12 @@
 596:Monte de Villajimena:EÓLICA MIRASIERRA, S.L.:Monzón de Campos:Palencia:6:3:2000:GAMESA:G-87:DFIG
 600:Morón de Almazán:ENERGÍA GLOBAL CASTELLANA:Morón de Almazán y Adradas:Soria:50:25:2000:GAMESA:G-87:DFIG
 605:Valdelanave:Bionor:Muelas del Pan:Zamora:10:5:2000:GAMESA:G-90:DFIG
-632:Valpardo:ACCIONA ENERGÍA:Navalperal del Pinares:Ávila:21,25:5 y 20:850:GAMESA:G-58 / G-52:DFIG
-633:Valdihuelo:ENEL GREEN POWER ESPAÑA, S.L.:Navalperal del Pinares y Ávila:Ávila:16,15:9 y 10:850:GAMESA:G-52 y G-58:DFIG
+632:Valpardo:ACCIONA ENERGÍA:Navalperal del Pinares:Ávila:21,25:5 y 20:850:GAMESA:G-58:DFIG
+633:Valdihuelo:ENEL GREEN POWER ESPAÑA, S.L.:Navalperal del Pinares y Ávila:Ávila:16,15:9 y 10:850:GAMESA:G-58:DFIG
 642:Ojos Albos:Parque eólico Altos de Voltoya, S.A.:Ojos Albos:Ávila:14,52:22:660:GAMESA:G-47:DFIG 1º G
 648:El Hierro:GEZA:Olmillos de Castro y Santa Eufemia del Barco:Zamora:22,4:14:1670:Alstom-Ecotècnia:ECO80:DFIG
 653:El Toranzo Ampliación:HIDROMEDIA:Ólvega y Borobia:Soria:7,26:11:660:GAMESA:G-47:DFIG 1º G
-654:Sierra del Madero I:P.E.S. MADERO:Ólvega y Noviercas:Soria:14,85:45:330:MADE:AE-32:JA
+654:Sierra del Madero I:P.E.S. MADERO:Ólvega y Noviercas:Soria:14,85:45:330:MADE:AE 32:JA
 655:Sierra del Madero II:P.E.S. MADERO:Ólvega y Noviercas:Soria:13,86:21:660:MADE:AE 46:JA
 658:Magaña:CETASA:Oncala:Soria:24,75:33:750:VESTAS:NM 52:JA
 659:Oncala:CETASA:Oncala:Soria:24,75:33:750:VESTAS:NM 48:JA
@@ -638,14 +638,14 @@
 723:Pozalmuro I+D:EÓLICA POZALMURO:Pozalmuro:Soria:1,5:1:1500:VESTAS:NM 64:DFIG
 738:Dehesa de Tablares:Recursos eólicos de valdivia:Puebla de Valdivia:Palencia:0,85:1:850:GAMESA:G-58:DFIG
 750:Valdelacasa III:GAS NATURAL FENOSA RENOVABLES:Quintana del Castillo y Villagatón-Branuelas:León:10,8:6:1800:VESTAS:V90:DFIG
-751:Llanos de San Martín:EÓLICA LA BRÚJULA, S.A.:Quintanavides y Castil de Peones:Burgos:17,85:5 y 16:850:GAMESA:G-52 / G-58:DFIG
+751:Llanos de San Martín:EÓLICA LA BRÚJULA, S.A.:Quintanavides y Castil de Peones:Burgos:17,85:5 y 16:850:GAMESA:G-58:DFIG
 754:Nerea:GEZA:Requejo y Pedralba de la Pradería:Zamora:39,75:53:750:Alstom-Ecotècnia:ECO48:JA
 755:Sierro:IBERDROLA RENOVABLES:Retortillo de Soria:Soria:19,55:23:850:GAMESA:G-52:DFIG
 756:Valdesamario:Energías Especiales del Alto Ulla, S.A.:Riello, Valdesamario y Villagatón:León:24:12:2000:GAMESA:G-87:DFIG
 757:Sierra Sesnández:ENERGÍAS RENOVABLES SIERRA SESNÁNDEZ, S.L.:Riofrío de Aliste y Ferreruela:Zamora:20:10:2000:GAMESA:G-97:DFIG
 773:La Cueza:IBERDROLA RENOVABLES:Sahagún:León:8:4:2000:GAMESA:G-90:DFIG
 774:Valdecarrión:IBERDROLA RENOVABLES:Sahagún:León:34:17:2000:GAMESA:G-90:DFIG
-789:El Lanchal:ENEL GREEN POWER ESPAÑA, S.L.:San Juan de la Nava:Ávila:21,25:10 y 15:850:GAMESA:G-52 y G-58 (Torre de 55 m):DFIG
+789:El Lanchal:ENEL GREEN POWER ESPAÑA, S.L.:San Juan de la Nava:Ávila:21,25:10 y 15:850:GAMESA:G-58:DFIG
 790:Pucheruelo:ENEL GREEN POWER ESPAÑA:San Juan de la Nava:Ávila:22,95:27:850:GAMESA:G-58:DFIG
 791:El Rincón:EÓLICA SIERRA DE ÁVILA, S.L.:San Juan del Olmo y Balbarda:Ávila:8:4:2000:VESTAS:V90:DFIG
 792:Cabeza Mesá:EÓLICA SIERRA DE ÁVILA, S.L.:San Juan del Olmo y Vadillo de la Sierra:Ávila:29,6:15:1800:VESTAS:V90:DFIG
@@ -671,14 +671,14 @@
 913:Luna:Danta de energías, S.A.:Trévago, Fuentestrún, Valdegeña, Matalebreras y Villar del Campo:Soria:49,5:33:1500:VESTAS:NM 72:JA
 922:Colladillo:EÓLICA SIERRA DE ÁVILA, S.L.:Valdecasa, Narrillos del Rebollar y Balbarda:Ávila:30,6:17:1800:VESTAS:V90:DFIG
 923:Valdeporres:IBERDROLA RENOVABLES:Valdeporres y Valdebezana:Burgos:31,45:37:850:GAMESA:G-52:DFIG
-925:El Perul:P.E. La Boga, S.L.:Valladiego y Urbel del Castillo:Burgos:49,6:31:1600:Alstom-Ecotècnia:ECO74-70m:DFIG
-927:El Canto:ACCIONA ENERGÍA:Valle de Manzanedo:Burgos:15,18:23 y 6:660 y 850:GAMESA:G-47 y G-58:DFIG 1º G
+925:El Perul:P.E. La Boga, S.L.:Valladiego y Urbel del Castillo:Burgos:49,6:31:1600:Alstom-Ecotècnia:ECO74:DFIG
+927:El Canto:ACCIONA ENERGÍA:Valle de Manzanedo:Burgos:15,18:23 y 6:660 y 850:GAMESA:G-58:DFIG 1º G
 928:El Canto Ampliación:ACCIONA ENERGÍA:Valle de Manzanedo:Burgos:5,1:6:850:GAMESA:G-58:DFIG
 929:Páramo de Vega:IBERCYL:Valle de Santibáñez y Huérmeces:Burgos:18:9:2000:GAMESA:G-87:DFIG
 930:Las Viñas (Fase B):IBERDROLA RENOVABLES:Valle de Santibáñez, Alfoz de Quintanadueñas y Merindad de Río Ubierna:Burgos:15,9:8:2000:GAMESA:G-87:DFIG
 931:Las Viñas (Fase A):IBERDROLA RENOVABLES:Valle de Santibáñez, Alfoz de Quintanadueñas y Merindad de Río Ubierna:Burgos:22,1:11:2000:GAMESA:G-87:DFIG
 932:Las Pardas:PRORENER:Valle de Sedano:Burgos:49,5:33:1500:ACCIONA WIND POWER:AW 77/1500:DFIG
-933:El Cerro:S.E. VALLE DE SEDANO, S.A.:Valle de Sedano y los Altos de Dobro:Burgos:19,8:30 y 12:660 y 850:GAMESA:G-47 y G-58:DFIG 1º G
+933:El Cerro:S.E. VALLE DE SEDANO, S.A.:Valle de Sedano y los Altos de Dobro:Burgos:19,8:30 y 12:660 y 850:GAMESA:G-58:DFIG 1º G
 934:El Cerro Ampliación:ACCIONA ENERGÍA:Valle de Sedano y los Altos de Dobro:Burgos:10,2:12:850:GAMESA:G-58:DFIG
 935:Cantiruela:PRORENER:Valle de Sedano:Burgos:15:10:1500:ACCIONA WIND POWER:AW 77/1500:DFIG
 960:Villacastín:Parque eólico Altos de Voltoya, S.A.:Villacastín y Santa María el Cubillo:Segovia:14,52:22:660:GAMESA:G-47:DFIG 1º G
@@ -691,7 +691,7 @@
 982:Villoruebo:EÓLICA ARLANZÓN, S.A.:Villoruevo:Burgos:16,15:19:850:GAMESA:G-52:DFIG
 1056:Ágreda:Parque Eólico Sierra del Madero:Ágreda:Soria:18:12:1500:ACCIONA WIND POWER:AW 77/1500:
 1063:Sierra del Cortado Ampliación:Parque Eólico Sierra del Madero:Tajahuerce, Almenar y Pinilla del Campo:Soria:13,5:9:1500:ACCIONA WIND POWER:AW-77:
-1068:Peña Miján:SUMINISTROS EÓLICOS DEL NORTE:Aguilar del Campoo:Palencia:6:3:2000:GAMESA:G-90 Torre de 78:DFIG
+1068:Peña Miján:SUMINISTROS EÓLICOS DEL NORTE:Aguilar del Campoo:Palencia:6:3:2000:GAMESA:G-90:DFIG
 1069:Las Traperas:M TORRES DISEÑOS INDUSTRIALES, S.A.:Medina del Campo:Valladolid:9,9:6:1650:M-TORRES:TWT 1,65/77:
 1070:Peña el Santo:Suministros eólicos, S.L.:Aguilar de Campo:Palencia:2:1:2000:VESTAS:V90
 73:Coll del Panissot:Parc Eólic Coll de Panissot, S.L.U.:Almatret:Lleida:9:3:3000:Alstom-Ecotècnia:ECO110:DFIG
@@ -719,7 +719,7 @@
 439:Sant Antoni:TARRACO EÓLICA LES GARRIGUES, S.A.:La Granadella:Lleida:48,2:20:2500:NORDEX:N100:JA
 680:Les Forques:GERR GRUPO ENERGÉTICO XXI, S.A.:Passanant, Vallbona de Les Monges y Espuga de Francoli:Tarragona:30:15:2000:GAMESA:G-90:DFIG
 681:Les Forques II:GERR GRUPO ENERGÉTICO XXI, S.A.:Passanat:Tarragona:12:6:2000:GAMESA:G-90:DFIG
-732:Trucafort:SOCIETAT EÓLICA L'ENDERROCADA:Pradell de la Teixeta, L´Argentera, La Torre de Fontaubella y Colldejou:Tarragona:29,85:66 y 25:225 y 600:Alstom-Ecotècnia:ECO28 / ECO44:JA
+732:Trucafort:SOCIETAT EÓLICA L'ENDERROCADA:Pradell de la Teixeta, L´Argentera, La Torre de Fontaubella y Colldejou:Tarragona:29,85:66 y 25:225 y 600:Alstom-Ecotècnia:ECO44:JA
 747:Pujalt:Parque Eólico Pujalt, s.l.:Pujalt y Calonge de Segarra:Tarragona:42:21:2000:VESTAS:V90:DFIG
 748:Turó del Magre:Parque Eólico Turó del Magre, SL:Pujalt, Veciana, Argencola (Barcelona ) y Sant Guim de Freixenet (Lleida):Barcelona:28:10 y 5:1800 y 2000:VESTAS:V90:DFIG
 749:Alta Anoia:CIVIS CORPORACIÓN:Pujalt, Veciana, Prats de Rei y Calonge de Segarra:Tarragona:28:10 y 5:1800 Y 2000:VESTAS:V90:DFIG
@@ -731,7 +731,7 @@
 911:Pebesa (Baix Ebre):PARC EOLIC BAIX EBRE, S.A.:Tortosa:Tarragona:4,05:27:150:Alstom-Ecotècnia:ECO20:JA
 912:Tortosa (Coll d´Alba):ACCIONA ENERGÍA:Tortosa:Tarragona:29,9:23:1300:MADE:AE 61:JA
 926:Serra del Tallat:ACCIONA ENERGÍA:Vallbona de Les Monges y Passanat:Lleida:49,5:33:1500:ACCIONA WIND POWER:AW 77/1500:DFIG
-938:El Motarro:EÓLICA DEL MONTALT:Vandellòs i L´Hospitalet de L´Intant:Tarragona:2,64:2:1320:NORDEX:Nordex N60:DFIG
+938:El Motarro:EÓLICA DEL MONTALT:Vandellòs i L´Hospitalet de L´Intant:Tarragona:2,64:2:1320:NORDEX:N60:DFIG
 939:Veciana:PARC EÒLIC VECIANA - CABARO, S.L.:Veciana:Barcelona:29,27:18:1670:Alstom-Ecotècnia:ECO80:DFIG
 953:Vilalba:Bon Vent de Vilalba, S.L.U.:Vilalba dels Arcs:Tarragona:48:10 y 11:3000 y 1800:VESTAS:V90:DFIG
 954:Vilalba dels Arcs:EOLIC PARTNERS TARRAGONA:Vilalba dels Arcs:Tarragona:24:10:2500:GE:GE 2,5 xl:DFIG
@@ -743,7 +743,7 @@
 3:Montouto 2000:Montouto 2000 (HGP):A Cañiza, Arbo y As Neves:Pontevedra:39,75:53:750:VESTAS:Multipower 52:DFIG
 5:Monte do Ceo:SALTOS DEL OITAVÉN, S.L.:A lama:Pontevedra:2,55:3:850:GAMESA:G-58:DFIG
 6:Serra do Cando:OLIVENTO, S.L.:A Lama, Cotobade y Forcarei:Pontevedra:24,42:37:660:GAMESA:G-47:DFIG
-7:Serra do Cando 1ª Ampliación:OLIVENTO, S.L.:A Lama, Cotobade y Forcarei:Pontevedra:4,81:6 y 1:660 y 850:GAMESA:G-47 y G-52:DFIG
+7:Serra do Cando 1ª Ampliación:OLIVENTO, S.L.:A Lama, Cotobade y Forcarei:Pontevedra:4,81:6 y 1:660 y 850:GAMESA:G-52:DFIG
 10:Monte Seixo Ampliación:OLIVENTO, S.L.:A Lama, Forcarei y Cotobade:Pontevedra:10,56:16:660:GAMESA:G-47:DFIG 1º G
 11:Monte Seixo:OLIVENTO, S.L.:A Lama, Forcarei, Cotobade y Cercedo:Pontevedra:24,42:37:660:GAMESA:G-47:DFIG 1º G
 12:Fiouco:NORVENTO MONTOUTO, S.L.:Abadín:Lugo:24:15:1600:Alstom-Ecotècnia:ECO74:DFIG
@@ -752,7 +752,7 @@
 15:Montouto:NORVENTO MONTOUTO, S.L.:Abadín:Lugo:20,46:31:660:MADE:AE 46:JA
 16:Refachón:ACCIONA ENERGÍA:Abadín:Lugo:21:28:750:VESTAS:NM 44:JA
 17:Terral:ACCIONA ENERGÍA:Abadín:Lugo:27:36:750:VESTAS:NM 44:JA
-18:Alto do Seixal (Farrapa 2ª Fase):SISTEMAS ENERGÉTICOS ALTO DO SEIXAL, S.A.U.:Abadín, Mondoñedo y A Pastoriza:Lugo:30:9 y 6:2000:GAMESA:G-87 / G-80:DFIG
+18:Alto do Seixal (Farrapa 2ª Fase):SISTEMAS ENERGÉTICOS ALTO DO SEIXAL, S.A.U.:Abadín, Mondoñedo y A Pastoriza:Lugo:30:9 y 6:2000:GAMESA:G-87:DFIG
 19:Farrapa:GAMESA ENERGÍA:Abadín, Mondoñedo, Pastoriza:Lugo:20:10:2000:GAMESA:G-80:DFIG
 20:La Celaya:DESARROLLOS EÓLICOS DE LUGO, S.A.:Abadín y Vilalba:Lugo:28,8:32:900:VESTAS:NM 52:JA
 21:Monseivane:DESARROLLOS EÓLICOS DE LUGO, S.A.:Abadín y Vilalba:Lugo:41,4:46:900:VESTAS:NM 52:JA
@@ -770,11 +770,11 @@
 123:Requeixo:SOMERSA:As Somozas:La Coruña:10,5:7:1670:Alstom-Ecotècnia:ECO74:DFIG
 124:Somozas:Energías Ambientales Somozas, S.A.:As Somozas:La Coruña:48:80:600:Alstom-Ecotècnia:ECO44:JA
 140:Serra do Larouco:IBERDROLA RENOVABLES:Baltar, Xinzo de Limia y Cualedro:Ourense:41,65:49:850:GAMESA:G-58:DFIG
-141:Nogueira:IBERDEGA:Bande y Verea:Ourense:2,55:2:2000 y 850:GAMESA:G-80 / G-52:DFIG
-142:Vieiro:IBERDEGA:Bande y Verea:Ourense:19,6:16 y 3:850 y 2000:GAMESA:G-52, G-80 y G-87:DFIG
+141:Nogueira:IBERDEGA:Bande y Verea:Ourense:2,55:2:2000 y 850:GAMESA:G-80:DFIG
+142:Vieiro:IBERDEGA:Bande y Verea:Ourense:19,6:16 y 3:850 y 2000:GAMESA:G-87:DFIG
 167:Coto de Codesas:GAS NATURAL FENOSA RENOVABLES:Boimorto, Melida, Sobrado y Toques:La Coruña:17:20:850:VESTAS:V52:JA
 191:Silvarredonda:GAS NATURAL FENOSA RENOVABLES:Cabana de Bergantiños:La Coruña:16,9:13:1300:SIEMENS:IZAR 55/1300:JA
-198:Cabo Vilano I WEC's:P. EÓLICO CABO VILANO:Camariñas:La Coruña:0,3:2 y 1:200 y 100:VESTAS:V25 y V20:JA
+198:Cabo Vilano I WEC's:P. EÓLICO CABO VILANO:Camariñas:La Coruña:0,3:2 y 1:200 y 100:VESTAS:V25:JA
 199:Cabo Vilano II A.I.E.:GAS NATURAL FENOSA RENOVABLES:Camariñas:La Coruña:3,6:20:150:MADE:AE 23:JA
 200:Do Vilán:ENEL GREEN POWER ESPAÑA:Camariñas:La Coruña:16,9:13:1300:SIEMENS:IZAR 55/1300:JA
 201:Viravento:ENEL GREEN POWER ESPAÑA:Camariñas:La Coruña:1,2:1:1200:SIEMENS:Izar Bonus 1,3:JA
@@ -788,7 +788,7 @@
 264:Prototipo experimental NED100 con generador comercial (Cervo 1):Norvento Energía Distribuida, S.L.:Cervo:Lugo:0,1:1:100:NORVENTO:NED-100:
 265:Buio:ACCIONA ENERGÍA:Cervo, O Valadouro, Viveiro y Xove:Lugo:40,3:31:1300:SIEMENS:IZAR 55/1300:JA
 266:Gamoide:ACCIONA ENERGÍA:Cervo,O Valadouro y Foz:Lugo:32,5:25:1300:SIEMENS:IZAR 55/1300:JA
-267:Serra do Burgo Ampliación:IBERDROLA RENOVABLES:Chandreixa de Queixa:Ourense:11,9:9 y 4:850:GAMESA:G-58 y G-52:DFIG
+267:Serra do Burgo Ampliación:IBERDROLA RENOVABLES:Chandreixa de Queixa:Ourense:11,9:9 y 4:850:GAMESA:G-52:DFIG
 268:Serra do Burgo:IBERDROLA RENOVABLES:Chandrexa de Queixa y Castro Caldelas:Ourense:16,15:19:850:GAMESA:G-58:DFIG
 269:Pena da Cruz:IBERDROLA RENOVABLES:Chandrexa de Queixa y Castro Caldelas:Ourense:12,75:15:850:GAMESA:G-52:DFIG
 270:Pena da Cruz Ampliación:IBERDROLA RENOVABLES:Chandrexa de Queixa, Castro Caldelas y Montederramo:Ourense:10,2:12:850:GAMESA:G-52:DFIG
@@ -835,7 +835,7 @@
 622:Pena Luisa:ACCIONA ENERGÍA:Muras y Ourol:Lugo:21,78:33:660:MADE:AE 46:JA
 623:Pedra Chantada:ACCIONA ENERGÍA:Muras, Ourol y O Valadouro:Lugo:21,78:33:660:MADE:AE 46:JA
 624:Carba:ACCIONA ENERGÍA:Muras y Villalba:Lugo:19,8:30:660:MADE:AE 46:JA
-625:Goia Peñote:IBERDROLA RENOVABLES:Muras, Xermade y Vilalba:Lugo:40:40 y 3:850 y 2000:GAMESA:G-52 / G-80:DFIG
+625:Goia Peñote:IBERDROLA RENOVABLES:Muras, Xermade y Vilalba:Lugo:40:40 y 3:850 y 2000:GAMESA:G-80:DFIG
 626:Pedregal Tremuzo I:SIST. ENERG. MOUROS-OUTES:Muros:La Coruña:30,6:16:850:GAMESA:G-52:DFIG
 627:Pedregal Tremuzo II:SIST. ENERG. MOUROS-OUTES:Muros:La Coruña:14:16:850:GAMESA:G-52:DFIG
 628:Paxareiras II AI (Paxareiras-Montevós):EURUS:Muros y Carnota:La Coruña:19,2:32:600:SIEMENS:IZAR BONUS MK-IV:JA
@@ -844,25 +844,25 @@
 635:Corzán Ampliación:ENERGÍAS ESPECIALES DEL NOROESTE:Negreira:La Coruña:7,2:8:900:VESTAS:Multipower 52:JA
 637:Sil Ampliación (1ª Fase):IBERDROLA ENERGÍAS RENOVABLES DE GALICIA, S.A.U.:Nogueira de Ramuín:Ourense:28:14:2000:GAMESA:G-52:DFIG
 638:Sil Ampliación (2ª Fase):IBERDROLA ENERGÍAS RENOVABLES DE GALICIA, S.A.U.:Nogueira de Ramuín:Ourense:12:6:2000:GAMESA:G-80:DFIG
-639:Sil:IBERDROLA RENOVABLES:Nogueira de Remuín, Xunqueira de Espadañedo, Parada de Sil, Esgos y Montederramo:Ourense:49,24:54 y 16:660 y 850:GAMESA:G-47 y G-52:DFIG 1º G y DFIG
+639:Sil:IBERDROLA RENOVABLES:Nogueira de Remuín, Xunqueira de Espadañedo, Parada de Sil, Esgos y Montederramo:Ourense:49,24:54 y 16:660 y 850:GAMESA:G-52:DFIG 1º G y DFIG
 640:Serra do Páramo:VIRANDEL:O Paramo y Parandela:Lugo:20:10:2000:VESTAS:V90:DFIG
 641:Vicedo:Parque Eolico de Vicedo, S.L.:O Vicedo:Lugo:24,6:41:600:SIEMENS:IZAR BONUS MK-IV:JA
 661:Monte rande:Promotora Eólica de Galicia, S.L.:Ortigueira:La Coruña:9,35:11:850:GAMESA:G-52:DFIG
-666:Couteiro:Eólicos de Mariña, S.L.:Ourol:Lugo:7,8:3 y 1:2300 y 900:ENERCON:E-70 y E-44:FC
+666:Couteiro:Eólicos de Mariña, S.L.:Ourol:Lugo:7,8:3 y 1:2300 y 900:ENERCON:E-70:FC
 667:Mareiro:ACCIONA ENERGÍA:Ourol:Lugo:15:20:750:VESTAS:NM 44:JA
 668:Ourol:HIDROELÉCTRICA DE OUROL, S.L.:Ourol:Lugo:18,7:22:850:GAMESA:G-52:DFIG
 669:Parque eólico O Chao:Hidroeléctrica del Arnoya, S.L.:Ourol y Muras:Lugo:8:4:2000:ENERCON::
-670:Vilachá:Sociedad Eólica de Ourol, S.L.:Ourol y Muras:Lugo:7,8:3 y 1:2300 y 900:ENERCON:E-70 y E-44:FC
+670:Vilachá:Sociedad Eólica de Ourol, S.L.:Ourol y Muras:Lugo:7,8:3 y 1:2300 y 900:ENERCON:E-70:FC
 671:Leste:ACCIONA ENERGÍA:Ourol y O Valadouro:Lugo:14,25:19:750:VESTAS:NM 44:JA
 673:Padrón:FERSA (Fomento de Energías Renovables):Padrón:La Coruña:1,7:2:850:GAMESA:G-52:DFIG
 710:Parque Eólico Pobra do Caramiñal:Proyectos y Desarrollos Renovables, S.A.:Pobra do Caramiñal:La Coruña:3:1:3000:ENERCON:E-82:FC
 711:Corme:DESARROLLOS EÓLICOS CORME, S.A.:Ponteceso:La Coruña:18,3:61:300:DESA:A300:JA
 712:Monte da Barda:CANEPA GREEN ENERGY:Ponteceso:La Coruña:3:2:1670:Alstom-Ecotècnia:ECO74:DFIG
-713:Pousadoiro - Fonseca (Fase 1):Sistemas Energéticos A pontenova-riotorto, S.A.U.:Pontenova, A Pastoriza y Riotorto:Lugo:23,5:11 y 1:2000 y 1500:GAMESA:G-87 y G-80:DFIG
-716:Graiade:Eólica de Graiade:Porto do Son:La Coruña:19,5:10 y 1:1800 y 1500:VESTAS:V80 y V90:DFIG
+713:Pousadoiro - Fonseca (Fase 1):Sistemas Energéticos A pontenova-riotorto, S.A.U.:Pontenova, A Pastoriza y Riotorto:Lugo:23,5:11 y 1:2000 y 1500:GAMESA:G-80:DFIG
+716:Graiade:Eólica de Graiade:Porto do Son:La Coruña:19,5:10 y 1:1800 y 1500:VESTAS:V90:DFIG
 717:Parque Eólico Porto do Son:Hidroeléctrica del Freixas, S.L.:Porto do Son:La Coruña:3:1:3000:ENERCON:E-82:FC
 718:Barbanza I:P.E. BARBANZA, S.A.:Porto do Son y Pobra do Caramiñal:La Coruña:19,8:60:330:MADE:AE 30:JA
-719:Barbanza II:P.E. BARBANZA, S.A.:Porto do Son y Pobra do Caramiñal:La Coruña:9,24:26:330:MADE:AE-32:JA
+719:Barbanza II:P.E. BARBANZA, S.A.:Porto do Son y Pobra do Caramiñal:La Coruña:9,24:26:330:MADE:AE 32:JA
 760:Monte Cabezas:GALICIA VENTO, S.L.:Rodeiro:Pontevedra:38,4:23:1670:Alstom-Ecotècnia:ECO74:DFIG
 801:Fontesilva:EÓLICA FONTESILVA, S.L.U.:Santa Comba y Coristanco:La Coruña:21,6:12:1800:VESTAS:V90:DFIG
 831:Couto de San Sebastian:Energías renovables Montes de San Sebastián, S.L.:Silleda y A Estrada:Pontevedra:18:9:2000:VESTAS:V80:DFIG
@@ -880,14 +880,14 @@
 987:Viveiro:SISTE. ENERG. VIVEIRO:Xove y Viveiro:Lugo:36,55:43:850:GAMESA:G-52:DFIG
 988:Rioboo:ACCIONA ENERGÍA:Xove y Viveiro:Lugo:20,8:16:1300:SIEMENS:IZAR 55/1300:JA
 999:Zas:DESARROLLOS EÓLICOS DE GALICIA, S.A.:Zas y Santa Comba:La Coruña:24:80:300:DESA:A300:JA
-1060:PES Cerceda:FERGO GALICIA VENTO, S.L.:Cerceda:La Coruña:2,55:2:1670:Alstom-Ecotècnia:E-74:
+1060:PES Cerceda:FERGO GALICIA VENTO, S.L.:Cerceda:La Coruña:2,55:2:1670:Alstom-Ecotècnia:ECO74:
 1061:Prototipo experimental NED100 con generador de diseño propio (Cervo 2):Norvento Energía Distribuida, S.L.:Cervo:Lugo:0,1:1:100:NORVENTO:NED-100:
 58:Yerga I:Eólicas de La Rioja:Alfaro y Autol:La Rioja:24,42:37:660:GAMESA:G-47:DFIG 1º G
-59:Yerga II:Eólicas de La Rioja:Alfaro y Autol:La Rioja:30,6:14 y 22:850:GAMESA:G-52 / G-58:DFIG
+59:Yerga II:Eólicas de La Rioja:Alfaro y Autol:La Rioja:30,6:14 y 22:850:GAMESA:G-58:DFIG
 110:Gatún I:MOLINOS DE CIDACOS, S.A.:Arnedillo, Robres del Castillo y Ocón:La Rioja:49,5:33:1500:GE:GE 1,5 sle:DFIG
 111:Gatún II (1F):MOLINOS DE CIDACOS, S.A.:Arnedillo, Robres del Castillo y Ocón:La Rioja:16,5:11:1500:GE:GE 1,5 sle:DFIG
-262:Alcarama I:SISTEMAS ENERGÉTICOS ALHAMA-LINARES:Cervera del Río Alhama:La Rioja:6,8:6 y 2:850:GAMESA:G-52 / G-58:DFIG
-263:Alcarama II:SISTEMAS ENERGÉTICOS ALHAMA-LINARES:Cervera del Río Alhama:La Rioja:45,05:33 y 20:850:GAMESA:G-52 / G-58:DFIG
+262:Alcarama I:SISTEMAS ENERGÉTICOS ALHAMA-LINARES:Cervera del Río Alhama:La Rioja:6,8:6 y 2:850:GAMESA:G-58:DFIG
+263:Alcarama II:SISTEMAS ENERGÉTICOS ALHAMA-LINARES:Cervera del Río Alhama:La Rioja:45,05:33 y 20:850:GAMESA:G-58:DFIG
 388:Munilla La-Santa:MOLINOS DE CIDACOS, S.A.:Hornillos, Munilla y Zarzosa:La Rioja:36:18:2000:GAMESA:G-83:DFIG
 397:Igea:MOLINOS DE LA RIOJA:Igea:La Rioja:28:14:2000:GAMESA:G-83:DFIG
 608:Larriba:MOLINOS DE CIDACOS S.A.:Munilla, Hornillos de Cameros y Ajamil:La Rioja:32:16:2000:GAMESA:G-83:DFIG
@@ -931,7 +931,7 @@
 324:TRANSPORTE:ACCIONA ENERGÍA:Falces:Navarra:49,5:33:1500:ACCIONA WIND POWER:AW 77/1500:DFIG
 351:La Bandera:EÓLICA LA BANDERA, S.L.:Fustiñana, Cabanillas y Bardenas Reales:Navarra:30,1:43:750:Alstom-Ecotècnia:ECO48:JA
 352:La Bandera Ampliación:EÓLICA LA BANDERA, S.L.:Fustiñana, Cabanillas y Bardenas Reales:Navarra:1,25:1:1250:Alstom-Ecotècnia:ECO62:DFIG
-396:Ibargoiti:ACCIONA ENERGÍA:Ibargoiti, Leoz y Ezprogui:Navarra:28,08:38 y 2:660 y 1500:GAMESA / ACCIONA WIND POWER:G-47 y AW 77/1500:DFIG 1º G
+396:Ibargoiti:ACCIONA ENERGÍA:Ibargoiti, Leoz y Ezprogui:Navarra:28,08:38 y 2:660 y 1500:GAMESA:G-47:DFIG 1º G
 478:Leoz:ACCIONA ENERGÍA:Leoz:Navarra:24,66:1 y 40:660 y 600:GAMESA / VESTAS:G-47 / V600:DFIG
 479:Peña Blanca I:ACCIONA ENERGÍA:Leoz:Navarra:14,52:22:660:GAMESA:G-47:DFIG 1º G
 480:Uzkita:DESARROLLOS DE ENERGÍAS RENOVABLES DE NAVARRA:Leoz:Navarra:24,65:29:850:GAMESA:G-52:DFIG
@@ -940,21 +940,21 @@
 486:Lomba Experimental:M Torres Desarrollos Energéticos S.L.:Lodosa:Navarra:4,95:3:1650:M-TORRES:MT TWT 77/1500:SÍNCRONO
 514:Aibar:ACCIONA ENERGÍA:Aibar:Navarra:36,84:49 y 3:660 y 1500:GAMESA / AWP:G-47 / AW 1500:DFIG 1º G y DFIG
 515:Izco:ACCIONA ENERGÍA:Lumbier, Aibar y Ezprogui:Navarra:33:50:660:GAMESA:G-47:DFIG 1º G
-643:La Caya (Experimental):M Torres Desarrollos Energéticos S.L.:Olite:Navarra:4,95:2 y 1:1650:M-TORRES:TWT 1,65-77 y TWT 1,65-82:SÍNCRONO
+643:La Caya (Experimental):M Torres Desarrollos Energéticos S.L.:Olite:Navarra:4,95:2 y 1:1650:M-TORRES:TWT 1,65-77:SÍNCRONO
 644:La Fraila:MTORRES DESARROLLOS ENERGÉTICOS, S.L.:Olite:Navarra:4,5:3:1500:M-TORRES:MT TWT 77/1500:SÍNCRONO
-651:Echagüe:ACCIONA ENERGÍA:Olóriz, Unzué y Monreal:Navarra:23,95:35 y 1:660 y 850:GAMESA:G-47 y G-52:DFIG 1º G y DFIG
+651:Echagüe:ACCIONA ENERGÍA:Olóriz, Unzué y Monreal:Navarra:23,95:35 y 1:660 y 850:GAMESA:G-52:DFIG 1º G y DFIG
 652:Alaiz y ampliación:ACCIONA ENERGÍA:Olóriz y Unzué:Navarra:33,09:49 y 1:660 y 750:GAMESA / GE:G-47 / GE 50:DFIG 1º G y DFIG
 699:Caluengo:DESARROLLOS DE ENERGÍAS RENOVABLES DE NAVARRA:Peralta y Funes:Navarra:49,5:33:1500:GE:GE 1,5 sle:DFIG
 700:Sierra Selva I:ACCIONA ENERGÍA:Petilla de Aragón:Navarra:14,85:22,5:660:GAMESA:G-47:DFIG 1º G
 739:Villanueva:EÓLICA DE VILLANUEVA S.L.:Puente la Reina y Arraiza:Navarra:19,8:30:660:GAMESA:G-47:DFIG 1º G
 746:La Campaña Experimental:EÓLICA PUEYO, S.L.:Pueyo:Navarra:4,95:3:1650:M-TORRES:MT TWT 77/1500:SÍNCRONO
-795:San Martín de Unx:ACCIONA ENERGÍA:San Martín de Unx:Navarra:24,6:41:600:GAMESA:G-42 y G-44:JA
-827:Parque Eólico Experimental Las Balsas-Sierra de Alaiz:CENER:Monreal y Noain:Navarra:11,5:1, 1 Y 1; 1:4500, 2000 Y 2000; 3000:GAMESA, ACCIONA WP:G-128, G-87 y G-97; AW 116:FC y DFIG
+795:San Martín de Unx:ACCIONA ENERGÍA:San Martín de Unx:Navarra:24,6:41:600:GAMESA:G-44:JA
+827:Parque Eólico Experimental Las Balsas-Sierra de Alaiz:CENER:Monreal y Noain:Navarra:11,5:1, 1 Y 1; 1:4500, 2000 Y 2000; 3000:GAMESA:G-128:FC y DFIG
 845:Peña Blanca Area Experimental:ACCIONA ENERGÍA:Puello, Tafalla y Leoz:Navarra:3:1:3000:ACCIONA WIND POWER:AW 100/3000:DFIG
-846:La Sorda:M TORRES DISEÑOS INDUSTRIALES, S.A.:Tafalla y Artajona:Navarra:6,6:4:1650:M-TORRES:TWT 1.65/77 y TWT 1.65/82:SÍNCRONO
+846:La Sorda:M TORRES DISEÑOS INDUSTRIALES, S.A.:Tafalla y Artajona:Navarra:6,6:4:1650:M-TORRES:TWT 1.65/77:SÍNCRONO
 914:Montes de Cierzo I:EÓLICA MONTES CIERZO, S.L.:Tudela:Navarra:28,7:41:700:Alstom-Ecotècnia:ECO44:JA
 915:Montes de Cierzo II:EÓLICA MONTES CIERZO, S.L.:Tudela:Navarra:30,8:44:700:Alstom-Ecotècnia:ECO44:JA
-917:Txutxu:ACCIONA ENERGÍA:Ujue:Navarra:17,4:2 y 23:1800 y 600:ENERCON:E-66 / E-40:FC
+917:Txutxu:ACCIONA ENERGÍA:Ujue:Navarra:17,4:2 y 23:1800 y 600:ENERCON:E-66:FC
 919:Los Cerros (Unzué):EÓLICA UNZUÉ, S.L.:Unzué:Navarra:4,5:3:1500:M-TORRES:MT TWT 70/1500:SÍNCRONO
 998:El Perdón:ACCIONA ENERGÍA:Zariquiegui y Astráin:Navarra:20,3:37 y 3:500 y 600:GAMESA:G-42:JA
 1057:Área Experimental de Barásoain:ACCIONA Windpower:Barásoain:Navarra:15:2, 2 y 1:3000:ACCIONA WIND POWER:AW100/3000 IEC 1A (2); AW 100/3000 TH (1); AW 116/3000 CIIa (1):
@@ -977,8 +977,8 @@
 138:Rincón del Cabello:Corporación Acciona Eólica:Ayora:Valencia:40:20:2000:GAMESA:G-87:DFIG
 146:Mazorral y Rajola:PROYECTOS EÓLICOS VALENCIANOS:Barracas y El Toro:Castellón:28,05:33:850:GAMESA:G-52:DFIG
 147:Alto Casillas I:ENEL GREEN POWER ESPAÑA:Barracas y Viver:Castellón:30:15:2000:GAMESA:G-87:DFIG
-148:Alto Palancia I:PROYECTOS EÓLICOS VALENCIANOS:Barracas y Viver:Castellón:26:6 y 7:2000:GAMESA:G-80 / G-87:DFIG
-149:Alto Palancia II:PROYECTOS EÓLICOS VALENCIANOS:Barracas y Viver:Castellón:46:8 y 15:2000:GAMESA:G-80 / G-87:DFIG
+148:Alto Palancia I:PROYECTOS EÓLICOS VALENCIANOS:Barracas y Viver:Castellón:26:6 y 7:2000:GAMESA:G-87:DFIG
+149:Alto Palancia II:PROYECTOS EÓLICOS VALENCIANOS:Barracas y Viver:Castellón:46:8 y 15:2000:GAMESA:G-87:DFIG
 150:Alto Palancia III:Corporación Acciona Eólica:Barracas y Viver:Castellón:32:16:2000:GAMESA:G-87:DFIG
 187:La Cabrera Ampliación:ACILOE:Buñol:Valencia:3,4:4:850:GAMESA:G-52:DFIG
 188:La Cabrera I:ACILOE:Buñol:Valencia:2,64:4:660:GAMESA:G-47:DFIG 1º G
