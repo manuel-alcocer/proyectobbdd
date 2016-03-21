@@ -72,7 +72,7 @@ def DatosCentrales(diccionario):
         nombrecentral = unicode(datos[1]).upper()
         diccionario[datos[2].upper()]['centrales'] = {}
         diccionario[datos[2].upper()]['centrales'][nombrecentral] = {}
-        diccionario[datos[2].upper()]['centrales'][nombrecentral]['localizacion'] = datos[0].upper()
+        diccionario[datos[2].upper()]['centrales'][nombrecentral]['localizacion'] = int(datos[0])
         diccionario[datos[2].upper()]['centrales'][nombrecentral]['municipio'] = unicode(datos[3],'utf8').upper()
         diccionario[datos[2].upper()]['centrales'][nombrecentral]['provincia'] = { 'nombre' : unicode(datos[4],'utf8').upper(), 'codigo' : Provincias(unicode(datos[4].upper(),'utf8'))}
         diccionario[datos[2].upper()]['centrales'][nombrecentral]['potencia'] = datos[5].upper()
@@ -119,9 +119,77 @@ def Provincias(nombre):
     else:
         return lista
 
-### GENERACIÓN DE FICHEROS
-##########################
+def ConstruirDiccionarioAeros():
+    with open('./aeros.txt') as f:
+        contenido = f.readlines()
+    contenido = [ linea[:-1] for linea in contenido ]
+    diccionario_aeros = {}
+    for linea in contenido:
+        datos = [ llinea.strip() for llinea in linea.split(':') ]
+        marca = datos[0]
+        modelo = datos[1]
+        longitud = round(float(datos[2])/2-1,2)
+        produccion = int(datos[3])
+        velmaxima = int(datos[4])
+        if marca not in diccionario_aeros.keys():
+            diccionario_aeros[marca] = {}
+        diccionario_aeros[marca][modelo] = {'longitud' : longitud, 'produccion' : produccion, 'velmax' : velmaxima }
+    return diccionario_aeros
 
+def GenerarViento(viento):
+    maximo_fi = 360
+    minimo_fi = 0.01
+    delta_angulo = round(normalvariate(2,0.7)*10,2)
+    if viento['estado']:
+        if viento['direccion'] + delta_angulo >= maximo_fi:
+            viento['estado'] = False
+            viento['direccion'] -= delta_angulo
+        else:
+            viento['direccion'] += delta_angulo
+    else:
+        if viento['direccion'] - delta_angulo <= minimo_fi:
+            viento['estado'] = True
+            viento['direccion'] += delta_angulo
+        else:
+            viento['direccion'] -= delta_angulo
+    viento['velocidad'] = round(weibullvariate(viento['velmedia'], 2),2)
+    return
+
+def Velocidad(viento):
+    return viento['velocidad']*3600/1000
+
+def Direccion(viento):
+    direccion = str(viento['direccion'])
+    minutos = str(int(round(float(direccion.split('.')[1]) * 60/100,0)))
+    grados = int(direccion.split('.')[0])
+    if 45 <= grados <= 134:
+        ptocardinal = 'E'
+    elif 135 <= grados <= 224:
+        ptocardinal = 'S'
+    elif 225 <= grados <= 314:
+        ptocardinal = 'W'
+    else:
+        ptocardinal = 'N'
+    return "%d°%s''%s" %(grados,minutos,ptocardinal)
+
+###########################################
+## Generar lista de modelos en centrales ##
+###########################################
+def ListaAerogen(diccionario):
+    marcas = {}
+    for empresa in diccionario.keys():
+        for central in diccionario[empresa]['centrales'].keys():
+            marca = unicode(diccionario[empresa]['centrales'][central]['marca'],'utf8')
+            if marca not in marcas.keys():
+                marcas[marca] = {}
+            modelo = unicode(diccionario[empresa]['centrales'][central]['modelo'],'utf8')
+            if modelo not in marcas[marca].keys():
+                marcas[marca][modelo] = {}
+    return marcas
+
+##############################
+### GENERACIÓN DE FICHEROS ###
+##############################
 def InsercionEmpresas(diccionario):
     with open('./ficherosinsercion/insercion-empresas.sql', 'w') as f:
         for empresa in diccionario.keys():
@@ -171,8 +239,6 @@ def InsercionEolicas(diccionario):
                 f.write("INSERT INTO EOLICAS VALUES ('%s', '%s')\n" %(central.replace('\'','\'\''), velocidadmedia))
     return
 
-## Zona de inserción en predicciones
-####
 def InsercionPredicciones(diccionario):
     with open ('./ficherosinsercion/insercion-predicciones.sql', 'w') as f:
         for empresa in diccionario.keys():
@@ -191,60 +257,6 @@ def InsercionPredicciones(diccionario):
                     f.write("INSERT INTO PREDICCIONES_VIENTO VALUES ('%s', '%s', %.2f, '%s')\n" % (formatfecha,central.replace('\'','\'\''),Velocidad(viento),Direccion(viento)))
     return
 
-def GenerarViento(viento):
-    maximo_fi = 360
-    minimo_fi = 0.01
-    delta_angulo = round(normalvariate(2,0.7)*10,2)
-    if viento['estado']:
-        if viento['direccion'] + delta_angulo >= maximo_fi:
-            viento['estado'] = False
-            viento['direccion'] -= delta_angulo
-        else:
-            viento['direccion'] += delta_angulo
-    else:
-        if viento['direccion'] - delta_angulo <= minimo_fi:
-            viento['estado'] = True
-            viento['direccion'] += delta_angulo
-        else:
-            viento['direccion'] -= delta_angulo
-    viento['velocidad'] = round(weibullvariate(viento['velmedia'], 2),2)
-    return
-
-def Velocidad(viento):
-    return viento['velocidad']*3600/1000
-
-def Direccion(viento):
-    direccion = str(viento['direccion'])
-    minutos = str(int(round(float(direccion.split('.')[1]) * 60/100,0)))
-    grados = int(direccion.split('.')[0])
-    if 45 <= grados <= 134:
-        ptocardinal = 'E'
-    elif 135 <= grados <= 224:
-        ptocardinal = 'S'
-    elif 225 <= grados <= 314:
-        ptocardinal = 'W'
-    else:
-        ptocardinal = 'N'
-    return "%d°%s''%s" %(grados,minutos,ptocardinal)
-
-#####################################
-### Fin inserción en predicciones ###
-#####################################
-
-## Generar lista de modelos en centrales
-def ListaAerogen(diccionario):
-    marcas = {}
-    for empresa in diccionario.keys():
-        for central in diccionario[empresa]['centrales'].keys():
-            marca = unicode(diccionario[empresa]['centrales'][central]['marca'],'utf8')
-            if marca not in marcas.keys():
-                marcas[marca] = {}
-            modelo = unicode(diccionario[empresa]['centrales'][central]['modelo'],'utf8')
-            if modelo not in marcas[marca].keys():
-                marcas[marca][modelo] = {}
-    return marcas
-################################
-
 def InsercionModelos(diccionario):
     aerodict = ConstruirDiccionarioAeros()
     # print aerodict
@@ -255,22 +267,28 @@ def InsercionModelos(diccionario):
                 f.write("INSERT INTO MODELOS_AEROGENS VALUES ('%s', '%s', '%.2f', '%d', '%d')\n" %(modelo,marca,aerodict[marca][modelo]['longitud'],aerodict[marca][modelo]['produccion'],aerodict[marca][modelo]['velmax']))
     return aerodict
 
-def ConstruirDiccionarioAeros():
-    with open('./aeros.txt') as f:
-        contenido = f.readlines()
-    contenido = [ linea[:-1] for linea in contenido ]
-    diccionario_aeros = {}
-    for linea in contenido:
-        datos = [ llinea.strip() for llinea in linea.split(':') ]
-        marca = datos[0]
-        modelo = datos[1]
-        longitud = round(float(datos[2])/2-1,2)
-        produccion = int(datos[3])
-        velmaxima = int(datos[4])
-        if marca not in diccionario_aeros.keys():
-            diccionario_aeros[marca] = {}
-        diccionario_aeros[marca][modelo] = {'longitud' : longitud, 'produccion' : produccion, 'velmax' : velmaxima }
-    return diccionario_aeros
+def InsercionAerogeneradores(empresas,modelos):
+    zonasmarinas = ([745,272,144,811,883,890,881,1058,1062,887,888,882,461,740,
+        264,987,999,985,266,986,120,628,544,719,949,951,530,661,259,230,924,114,527,191,
+        202,201,200])
+    aerocentrales = {}
+    with open ('./ficherosinsercion/insercion-aerogeneradores.sql', 'w') as f:
+        for empresa in empresas.keys():
+            for central in empresas[empresa]['centrales'].keys():
+                if empresas[empresa]['centrales'][central]['localizacion'] in zonasmarinas:
+                    inicio = 'M'
+                else:
+                    inicio = 'T'
+                loclong = len(str(empresas[empresa]['centrales'][central]['localizacion']))
+                nombrecentral = central
+                nombrecentral = nombrecentral.replace('\'','\'\'')
+                marca = modelos[empresas[empresa]['centrales'][central]['marca']]
+                modelo = empresas[empresa]['centrales'][central]['modelo']
+                for numaero in xrange(0,empresas[empresa]['centrales'][central]['cantidad']):
+                    codigo = '%s%s%s' %(inicio,empresas[empresa]['centrales'][central]['localizacion'],str(numaero).zfill(7-loclong))
+                    f.write("INSERT INTO AEROGENERADORES VALUES ('%s', '%s', '%s')\n" %(codigo,nombrecentral,modelo))
+                    aerocentrales[codigo] = {'central' : nombrecentral, 'modelo' : modelo}
+    return aerocentrales
 
 def main():
     diccionario_de_empresas = Generarempresas()
@@ -286,11 +304,11 @@ def main():
     # Genera fichero: tabla - Eólicas
     InsercionEolicas(diccionario_de_empresas)
     # Genera fichero: tabla - Predicciones
-    #InsercionPredicciones(diccionario_de_empresas)
+    # InsercionPredicciones(diccionario_de_empresas)
+    # Genera fichero: tabla - Modelos_aerogens
     diccionario_modelos = InsercionModelos(diccionario_de_empresas)
+    # Genera fichero: tabla - aerogeneradores
+    diccionario_aerogeneradores = InsercionAerogeneradores(diccionario_de_empresas, diccionario_modelos)
 
 if __name__ == '__main__':
     main()
-    localizaciones_marinas = ([745,272,144,811,883,890,881,1058,1062,887,888,882,461,740,
-        264,987,999,985,266,986,120,628,544,719,949,951,530,661,259,230,924,114,527,191,
-        202,201,200])
