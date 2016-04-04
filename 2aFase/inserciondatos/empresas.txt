@@ -1,7 +1,7 @@
 22:Los Jarales:UNIWINDET, S.L.:Abla:Almería:16,5:8:2100:SUZLON:S88:JA
 23:Tacica de Plata:Sistemas Energéticos Tacica de Plata:Abla y Las Tres Villas:Almería:26:13:2000:GAMESA:G-87:DFIG
 24:Las Lomillas:UNIWINDET, S.L.:Abrucena:Almería:12:6:2100:SUZLON:S88:JA
-25:El Colmenar II:AL ANDALUS WIND POWER:Abrucena y Fiñana:Almería:28:10:3000:VESTAS:V90.3:DFIG
+25:El Colmenar II:AL ANDALUS WIND POWER:Abrucena y Fiñana:Almería:28:10:3000:VESTAS:V90:DFIG
 46:Loma de Ayala:UNIWINDET, S.L.:Alboloduy:Almería:19,5:10:2100:SUZLON:S88:JA
 47:Loma del Capón:Sinia Renovables, S.C.R.R.S.:Albuñuelas:Granada:30,6:17:1800:VESTAS:V100:DFIG
 50:Loma de Lázaro:ACCIONA ENERGÍA:Alcalá de los Gazules:Cádiz:16:8:2000:ENERCON:E-82:FC

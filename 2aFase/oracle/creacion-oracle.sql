@@ -1,25 +1,34 @@
 -- Tabla 1:2
 CREATE TABLE empresas (
     cif    VARCHAR2(9),
-    nombre VARCHAR2(50),
+    nombre VARCHAR2(60),
     -- Claves
     CONSTRAINT pk_empresas      PRIMARY KEY (cif),
     CONSTRAINT uni_nom_emp_uniq UNIQUE (nombre),
     -- Restricciones CHECK
     CONSTRAINT nom_emp_nonulo CHECK (nombre IS NOT NULL),
-    CONSTRAINT cif_valido     CHECK (REGEXP_LIKE(cif, '[KQS]\d{7}[A-Z]|[ABEH]\d{8}|(?![^KQSABEH])[A-Z]\d{7}[A-Z]'))
+    CONSTRAINT cif_valido     CHECK (REGEXP_LIKE(cif, '[KQS]\d{7}[A-Z]|[ABEH]\d{8}|[CDFGIJL-PRT-Z]\d{7}[A-Z0-9]'))
 );
 
 -- Tabla 2:2
 CREATE TABLE provincias (
     codigo VARCHAR2(2),
-    nombre VARCHAR2(20),
+    nombre VARCHAR2(40),
     -- Claves
     CONSTRAINT pk_provincias   PRIMARY KEY (codigo),
     CONSTRAINT uni_nombre_prov UNIQUE (nombre),
     -- Restricciones CHECK
     CONSTRAINT cod_prov_dos_cifras CHECK (REGEXP_LIKE(codigo, '0[1-9]|[1-4]\d|5[0-2]')),
     CONSTRAINT nombre_provincia    CHECK (nombre IS NOT NULL)
+);
+
+-- Tabla Intermedia
+CREATE TABLE municipios (  
+    codigo        VARCHAR2(3),
+    cod_provincia VARCHAR2(2),
+    nombre        VARCHAR2(60),
+    CONSTRAINT pk_municipios PRIMARY KEY (codigo),
+    CONSTRAINT fk_cod_prov_munic FOREIGN KEY (cod_provincia) REFERENCES provincias (codigo)
 );
 
 -- Tabla 3:5
