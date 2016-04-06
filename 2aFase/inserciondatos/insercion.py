@@ -48,7 +48,6 @@ def Generarempresas(limite):
         contenido = f.readlines()
     empresas = {}
     cifs = []
-#    for empresa in contenido:
     indice = 0
     numempresas = 0
     while indice < len(contenido) and numempresas < limite:
@@ -70,7 +69,6 @@ def Generarempresas(limite):
 def DatosCentrales(diccionario, limite):
     with open ('empresas.txt') as f:
         contenido = f.readlines()
-#    for empresa in contenido:
     indice = 0
     numempresas = 0
     while indice < len(contenido) and numempresas < limite:
@@ -262,46 +260,48 @@ def InsercionPredicciones(empresas, dias, predsdia, aerogeneradores, modelos):
     # dias <-- Número de días a predecir
     # predsdia <-- Predicciones por dia, siempre < 24
     contador = 1
+    diccio_desconex = {}
     with open ('./ficherosinsercion/insercion-predicciones.sql', 'w') as f:
         with open ('./ficherosinsercion/insercion-producciones.sql', 'w') as fproducciones:
-            with open ('./ficherosinsercion/insercion-desconexiones.sql', 'w') as fdesconexiones:
-                for empresa in empresas.keys():
-                    # estado previo: True = dia anterior conectado, False = desconectado
-                    for central in empresas[empresa]['centrales'].keys():
-                        estado_previo = True
-                        hora10 = False
-                        cambiodia = False
-                        viento = {}
-                        viento['velmedia'] = empresas[empresa]['centrales'][central]['velmedia']
-                        viento['direccion'] = round(uniform(0.01,360),2)
-                        viento['estado'] = True
-                        viento['velocidad'] = viento['velmedia']
-                        fecha = datetime(2015,1,1,0,0,0)
-                        fechafinal = fecha + timedelta(days=dias)
-                        while fecha < fechafinal:
-                            GenerarViento(viento)
-                            formatfecha = "TO_DATE('%s %s %s %s:%s', 'DD MM YYYY HH24:MI')" % (fecha.day,fecha.month,fecha.year,fecha.hour,fecha.minute)
-                            f.write("INSERT INTO PREDICCIONES_VIENTO VALUES (%s, '%s', %.2f, '%s');\n" % (formatfecha,central.replace('\'','\'\''),Velocidad(viento),Direccion(viento)))
-                            estado_previo = Insercion_Producciones(empresas[empresa]['centrales'][central],modelos,fecha, viento['velocidad'], estado_previo, fproducciones, fdesconexiones)
-                            fecha = fecha + timedelta(hours=1)
+            for empresa in empresas.keys():
+                # estado previo: True = dia anterior conectado, False = desconectado
+                for central in empresas[empresa]['centrales'].keys():
+                    estado_previo = True
+                    hora10 = False
+                    cambiodia = False
+                    viento = {}
+                    viento['velmedia'] = empresas[empresa]['centrales'][central]['velmedia']
+                    viento['direccion'] = round(uniform(0.01,360),2)
+                    viento['estado'] = True
+                    viento['velocidad'] = viento['velmedia']
+                    fecha = datetime(2015,1,1,0,0,0)
+                    fechafinal = fecha + timedelta(days=dias)
+                    while fecha < fechafinal:
+                        GenerarViento(viento)
+                        formatfecha = "TO_DATE('%s %s %s %s:%s', 'DD MM YYYY HH24:MI')" % (fecha.day,fecha.month,fecha.year,fecha.hour,fecha.minute)
+                        f.write("INSERT INTO PREDICCIONES_VIENTO VALUES (%s, '%s', %.2f, '%s');\n" % (formatfecha,central.replace('\'','\'\''),Velocidad(viento),Direccion(viento)))
+                        estado_previo = Insercion_Producciones(diccio_desconex,empresas[empresa]['centrales'][central],modelos,fecha, viento['velocidad'], estado_previo, fproducciones)
+                        fecha = fecha + timedelta(hours=1)
+    Insercion_Desconexiones(diccio_desconex)
     return
 
 def FuncionProduccion(potencia,velocidad):
-    #print velocidad
-    #print potencia
-    #raw_input('jjjjj')
+    m = potencia / 9.0
     if 4 <= velocidad <= 13:
+        velocidad = velocidad - 4
         potmax = potencia
-        velocidad -= 4
-        potencia = velocidad * potmax / (13-4)
+        potencia = velocidad * m
         potencia = potencia * 100 / potmax
+        if potencia > 100:
+            print potmax, velocidad, potencia
+            raw_input('hhhhhhh')
         return potencia
     elif velocidad > 13:
-        return potencia
+        return 100
     else:
         return 0
 
-def Insercion_Producciones(central,modelos,fecha,viento,estado, fprods, fdesc):
+def Insercion_Producciones(diccio_desconex,central,modelos,fecha,viento,estado, fprods):
     # Teniendo en cuenta la gráfica de los aerogeneradores gamesa,
     # aproximo a una recta el tramo entre [ 4 m/s - 13 m/s ]
     # de pendiente: m = potencia_máx / (13-4);
@@ -313,55 +313,61 @@ def Insercion_Producciones(central,modelos,fecha,viento,estado, fprods, fdesc):
     modelo = central['modelo']
     potencia = central['potencia_ud']
     velmaxima = modelos[marca][modelo]['velmax']
-#    print central['listadoaeros']
-#    raw_input('ggggggg')
+    # Si la velocidad máxima en mayor que la actual del viento, y su estado es encendido:
+    # inserta la produccion actual
     if velmaxima > viento and estado:
         for aerogenrador in central['listadoaeros']:
-#            print aerogenrador
-#            print velmaxima
-#            print viento
-#            print fecha
             # Insertar valor produccion
             potgen = FuncionProduccion(potencia,viento)
             formatfecha = "TO_DATE('%s %s %s %s:%s', 'DD MM YYYY HH24:MI')" % (fecha.day,fecha.month,fecha.year,fecha.hour,fecha.minute)
-            fprods.write("INSERT INTO PREDICCIONES_VIENTO VALUES (%s, '%s', %.1f);\n" % (formatfecha,aerogenrador,potgen))
+            fprods.write("INSERT INTO PRODUCCIONES_AEROGENERADORES VALUES (%s, '%s', %.1f);\n" % (formatfecha,aerogenrador,potgen))
         return True
+    # Si esta apagado y está dentro de la hora permitada y el viento es menor qe la velocidad máxima que soporta:
+    # Lo saca de la desconexión
     elif not estado and (horamin <= fecha.time() < horamax) and velmaxima > viento:
         for aerogenrador in central['listadoaeros']:
-            if estado == False:
-                formatfecha = "TO_DATE(%s %s %s %s:%s', 'DD MM YYYY HH24:MI');\n" % (fecha.day,fecha.month,fecha.year,fecha.hour,fecha.minute)
-                fprods.write("-- CONEXION\n")
-                fdesc.write("%s');\n" % (formatfecha))
+            #if estado == False:
+            if diccio_desconex[aerogenrador]['estado'] == False:
+                formatfecha = "TO_DATE('%s %s %s %s:%s', 'DD MM YYYY HH24:MI')" % (fecha.day,fecha.month,fecha.year,fecha.hour,fecha.minute)
+                fprods.write("-- CONEXION: %s : %s \n" % (aerogenrador,formatfecha))
+                #fdesc.write("%s');\n" % (formatfecha))
+                diccio_desconex[aerogenrador]['fechas'].append(formatfecha)
                 # insertar en desconexiones fechahorafin
-#            print aerogenrador
-#            print velmaxima
-#            print viento
-#            print fecha
             # insertar valor producción
             potgen = FuncionProduccion(potencia,viento)
             formatfecha = "TO_DATE('%s %s %s %s:%s', 'DD MM YYYY HH24:MI')" % (fecha.day,fecha.month,fecha.year,fecha.hour,fecha.minute)
-            fprods.write("INSERT INTO PREDICCIONES_VIENTO VALUES (%s, '%s', %.1f);\n" % (formatfecha,aerogenrador,potgen))
+            fprods.write("INSERT INTO PRODUCCIONES_AEROGENERADORES VALUES (%s, '%s', %.1f);\n" % (formatfecha,aerogenrador,potgen))
         return True
-    else:
+    # Si el viento es mayor qye la velocidad máxima soportada:
+    # y esta encendido: Lo apaga
+    elif velmaxima < viento and estado:
         for aerogenrador in central['listadoaeros']:
+            if not diccio_desconex.has_key(aerogenrador):
+                diccio_desconex[aerogenrador] = { 'estado' : False, 'fechas' : [] }
             if estado == True:
                 # insertar en desconexiones fechahorainicio
                 formatfecha = "TO_DATE('%s %s %s %s:%s', 'DD MM YYYY HH24:MI')" % (fecha.day,fecha.month,fecha.year,fecha.hour,fecha.minute)
-                fprods.write("-- DESCONEXION\n")
-                fdesc.write("INSERT INTO PREDICCIONES_VIENTO VALUES ('%s', %s, " % (aerogenrador,formatfecha))
- #           print 'desconex'
- #           print velmaxima
- #           print viento
- #           print estado
- #           print fecha
+                fprods.write("-- DESCONEXION : %s : %s \n" % (aerogenrador,formatfecha))
+                #fdesc.write("INSERT INTO DESCONEXIONES VALUES ('%s', %s, " % (aerogenrador,formatfecha))
+                diccio_desconex[aerogenrador]['fechas'].append(formatfecha)
         return False
 
-def Insercion_Desconexiones(central,fecha,viento, aerogeneradores, modelos, fichero):
-    # Teniendo en cuenta la gráfica de los aerogeneradores gamesa,
-    # aproximo a una recta el tramo entre [ 4 m/s - 13 m/s ]
-    # de pendiente: m = potencia_máx / (13-4);
-    # para tramos entre ( 13 - 25 ] = potencia_máx
-    # para tramos [ 0 - 4 ) = 0 W
+def Insercion_Desconexiones(diccio_desconex):
+    with open ('./ficherosinsercion/insercion-desconexiones.sql', 'w') as fdesconexiones:
+        for aerogenrador in diccio_desconex.keys():
+            counter = 0
+            while counter < len(diccio_desconex[aerogenrador]['fechas']):
+                fechadesc,fechaconex,completo = False,False,False
+                fechadesc = diccio_desconex[aerogenrador]['fechas'][counter]
+                counter += 1
+                if counter < len(diccio_desconex[aerogenrador]['fechas']):
+                    fechaconex = diccio_desconex[aerogenrador]['fechas'][counter]
+                    counter += 1
+                    completo = True
+                if completo:
+                    #escribir en el fichero
+                    salida = "INSERT INTO DESCONEXIONES VALUES ('%s', %s, %s);\n" %(aerogenrador,fechadesc,fechaconex)
+                    fdesconexiones.write(salida)
     return
 
 def PotenciaGeneradaAero(potenciamax,velocidad):
@@ -394,12 +400,11 @@ def Direccion(viento):
 
 def InsercionModelos(diccionario):
     aerodict = ConstruirDiccionarioAeros()
-    # print aerodict
     tablamodelos = {}
     with open ('./ficherosinsercion/insercion-modelos-aerogens.sql', 'w') as f:
         for marca in aerodict.keys():
             for modelo in aerodict[marca].keys():
-                f.write("INSERT INTO MODELOS_AEROGENS VALUES ('%s', '%s', '%.2f', '%d', '%d');\n" %(modelo,marca,aerodict[marca][modelo]['longitud'],aerodict[marca][modelo]['produccion'],aerodict[marca][modelo]['velmax']))
+                f.write("INSERT INTO MODELOS_AEROGENERADORES VALUES ('%s', '%s', '%.2f', '%d', '%d');\n" %(modelo,marca,aerodict[marca][modelo]['longitud'],aerodict[marca][modelo]['produccion'],aerodict[marca][modelo]['velmax']))
     return aerodict
 
 def InsercionAerogeneradores(empresas,modelos):
@@ -423,7 +428,6 @@ def InsercionAerogeneradores(empresas,modelos):
                 for numaero in xrange(0,empresas[empresa]['centrales'][central]['cantidad']):
                     codigo = '%s%s%s' %(inicio,empresas[empresa]['centrales'][central]['localizacion'],str(numaero).zfill(7-loclong))
                     f.write("INSERT INTO AEROGENERADORES VALUES ('%s', '%s', '%s');\n" %(codigo,nombrecentral,modelo))
-                    #aerocentrales[codigo] = {'central' : nombrecentral, 'modelo' : modelo}
                     aerocentrales[nombrecentral]['listado'].append(codigo)
                     empresas[empresa]['centrales'][central]['listadoaeros'] += [codigo]
     return aerocentrales

@@ -34,17 +34,17 @@ CREATE TABLE municipios (
 -- Tabla 3:5
 CREATE TABLE centrales (
     nombre        VARCHAR2(50),
-    cod_provincia VARCHAR2(2),
+    cod_municipio VARCHAR2(3),
     cif_empresa   VARCHAR2(9),
     direccion     VARCHAR2(50),
     telefono      VARCHAR2(9),
     -- Claves
     CONSTRAINT pk_centrales     PRIMARY KEY (nombre),
-    CONSTRAINT fk_cod_provincia FOREIGN KEY (cod_provincia) REFERENCES provincias (codigo),
+    CONSTRAINT fk_cod_municipio FOREIGN KEY (cod_municipio) REFERENCES municipios (codigo),
     CONSTRAINT fk_cif_empresa   FOREIGN KEY (cif_empresa) REFERENCES empresas (cif),
     -- Restricciones CHECK
     CONSTRAINT telefono_valido    CHECK (REGEXP_LIKE(telefono, '[89]\d{8}')),
-    CONSTRAINT fk_cod_prov_nonulo CHECK (cod_provincia IS NOT NULL),
+    CONSTRAINT fk_cod_muni_nonulo CHECK (cod_municipio IS NOT NULL),
     CONSTRAINT fk_cif_emp_nonulo  CHECK (cif_empresa IS NOT NULL)
 );
 
@@ -64,9 +64,9 @@ CREATE TABLE predicciones_viento (
     fechahora      DATE,
     nombre_central VARCHAR2(50),
     velocidad      NUMBER(5,2),
-    direccion      VARCHAR2(7),
+    direccion      VARCHAR2(9),
     -- Claves
-    CONSTRAINT pk_predicciones_viento PRIMARY KEY (fechahora),
+    CONSTRAINT pk_predicciones_viento PRIMARY KEY (fechahora, nombre_central),
     CONSTRAINT fk_nombre_central_pred FOREIGN KEY (nombre_central) REFERENCES eolicas (nombre_central),
     -- Restricciones CHECK
     CONSTRAINT dir_viento_valido CHECK (
@@ -84,7 +84,7 @@ CREATE TABLE predicciones_viento (
                 AND
                 (
                     REGEXP_LIKE(
-                        direccion, '\d{1,2}º\d{1,2}''[NSWE]')
+                        direccion, '\d{1,3}º\d{1,2}''[NSWE]')
                 )
             ),
     CONSTRAINT prediccion_navidad CHECK ( 

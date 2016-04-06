@@ -1,0 +1,10 @@
+drop table desconexiones cascade constraints;
+drop table producciones_aerogeneradores cascade constraints;
+drop table aerogeneradores cascade constraints;
+drop table modelos_aerogeneradores cascade constraints;
+drop table predicciones_viento cascade constraints;
+drop table eolicas cascade constraints;
+drop table centrales cascade constraints;
+drop table municipios cascade constraints;
+drop table provincias cascade constraints;
+drop table empresas cascade constraints;

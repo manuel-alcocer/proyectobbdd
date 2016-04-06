@@ -13,7 +13,7 @@ CREATE TABLE empresas (
 -- Tabla 2:2
 CREATE TABLE provincias (
     codigo VARCHAR(2),
-    nombre VARCHAR(20),
+    nombre VARCHAR(40),
     -- Claves
     CONSTRAINT pk_provincias   PRIMARY KEY (codigo),
     CONSTRAINT uni_nombre_prov UNIQUE (nombre),
@@ -22,20 +22,29 @@ CREATE TABLE provincias (
     CONSTRAINT nombre_provincia    CHECK (nombre IS NOT NULL)
 );
 
+-- Tabla Intermedia
+CREATE TABLE municipios (  
+    codigo        VARCHAR(3),
+    cod_provincia VARCHAR(2),
+    nombre        VARCHAR(60),
+    CONSTRAINT pk_municipios PRIMARY KEY (codigo),
+    CONSTRAINT fk_cod_prov_munic FOREIGN KEY (cod_provincia) REFERENCES provincias (codigo)
+);
+
 -- Tabla 3:5
 CREATE TABLE centrales (
     nombre        VARCHAR(50),
-    cod_provincia VARCHAR(2),
+    cod_municipio VARCHAR(3),
     cif_empresa   VARCHAR(9),
     direccion     VARCHAR(50),
     telefono      VARCHAR(9),
     -- Claves
     CONSTRAINT pk_centrales     PRIMARY KEY (nombre),
-    CONSTRAINT fk_cod_provincia FOREIGN KEY (cod_provincia) REFERENCES provincias (codigo),
+    CONSTRAINT fk_cod_municipio FOREIGN KEY (cod_municipio) REFERENCES municipios (codigo),
     CONSTRAINT fk_cif_empresa   FOREIGN KEY (cif_empresa) REFERENCES empresas (cif),
     -- Restricciones CHECK
     CONSTRAINT telefono_valido    CHECK (telefono ~ '[89]\d{8}'),
-    CONSTRAINT fk_cod_prov_nonulo CHECK (cod_provincia IS NOT NULL),
+    CONSTRAINT fk_cod_muni_nonulo CHECK (cod_municipio IS NOT NULL),
     CONSTRAINT fk_cif_emp_nonulo  CHECK (cif_empresa IS NOT NULL)
 );
 
@@ -55,9 +64,9 @@ CREATE TABLE predicciones_viento (
     fechahora      TIMESTAMP,
     nombre_central VARCHAR(50),
     velocidad      NUMERIC(5,2),
-    direccion      VARCHAR(7),
+    direccion      VARCHAR(9),
     -- Claves
-    CONSTRAINT pk_predicciones_viento PRIMARY KEY (fechahora),
+    CONSTRAINT pk_predicciones_viento PRIMARY KEY (fechahora,nombre_central),
     CONSTRAINT fk_nombre_central_pred FOREIGN KEY (nombre_central) REFERENCES eolicas (nombre_central),
     -- Restricciones CHECK
     CONSTRAINT dir_viento_valido CHECK (
