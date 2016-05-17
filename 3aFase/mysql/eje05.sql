@@ -7,7 +7,7 @@
 select distinct nombre_central from AEROGENERADORES
 where codigo in (
      select cod_aerogenerador from DESCONEXIONES
-     where date_format(fechahora_inicio, '%d%m%Y') = '03012015'
+     where date_format(fechahora_inicio, '%d%m%Y') = '01012015'
      and cod_aerogenerador in (
      select cod_aerogenerador from DESCONEXIONES
-     where date_format(fechahora_inicio, '%d%m%Y') = '03022015'));
+     where date_format(fechahora_inicio, '%d%m%Y') = '1101015'));

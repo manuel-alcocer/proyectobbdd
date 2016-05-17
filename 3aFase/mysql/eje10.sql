@@ -47,7 +47,7 @@ where nombre = 'LES CALOBRES';
 -- Vista con las empresas, centrales, aerogeneradores, modelo, prod_max_horaria
 create or replace view DatosEmpresas (empresa,central,prod_total) as
 select e.nombre, c.nombre,count(a.codigo)*m.prod_max_horaria
-from EMPRESAS e, CENTRALES c, AEROGENERADORES a,MODELOS_AEROGENERADORES m
+from EMPRESAS e, CENTRALES c, AEROGENERADORES a, MODELOS_AEROGENERADORES m
 where e.cif = c.cif_empresa
 and c.nombre = a.nombre_central
 and a.nombre_modelo = m.nombre

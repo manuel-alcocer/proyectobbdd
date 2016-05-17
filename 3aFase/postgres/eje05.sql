@@ -7,7 +7,7 @@
 select distinct nombre_central from aerogeneradores
 where codigo in (
      select cod_aerogenerador from desconexiones
-     where to_char(fechahora_inicio, 'DDMMYYYY') = '03012015'
+     where to_char(fechahora_inicio, 'DDMMYYYY') = '01012015'
      INTERSECT
      select cod_aerogenerador from desconexiones
-     where to_char(fechahora_inicio, 'DDMMYYYY') = '03022015');
+     where to_char(fechahora_inicio, 'DDMMYYYY') = '11012015');
