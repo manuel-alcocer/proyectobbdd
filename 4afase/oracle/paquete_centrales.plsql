@@ -1,18 +1,19 @@
-create or replace package P_Centrales as
+create or replace package PCentrales as
 
     /****** Funciones y procedimientos Ejercicio 1 ******/
     procedure ExisteAerogenerador (p_codigo_aero varchar2);
 
-    function ConvertirFecha (p_fecha varchar2) return date;
+    function ConvertirFecha (p_fecha varchar2) return varchar2;
 
     function ProduccionEnergia (p_codigo_aero aerogeneradores.codigo%TYPE,
                                 p_fecha varchar2)
         return number;
             /****** Fin Ejercicio 1 ******/
 
-end P_Centrales;
+end PCentrales;
+/
 
-create or replace package body P_Centrales as
+create or replace package body PCentrales as
 
     /****** Funciones y procedimientos Ejercicio 1 ******/
     procedure ExisteAerogenerador (p_codigo_aero varchar2)
@@ -24,16 +25,16 @@ create or replace package body P_Centrales as
         where codigo = p_codigo_aero;
 
         if v_cantidad = 0 then
-            raise_application_error(-20001, 'No existe aerogenerador con es código');
+            raise_application_error(-20001, 'No existe aerogenerador con ese código');
         end if;
 
     end ExisteAerogenerador;
 
     function ConvertirFecha (p_fecha varchar2)
-    return date
+    return varchar2
     is
-        v_fecha date;
-        v_formato varchar2(20);
+        v_fecha varchar2(8);
+        v_formato varchar2(10);
     begin
         case
             when regexp_like (p_fecha, '\d{1,2}/\d{1,2}/\d{2}') then
@@ -48,7 +49,7 @@ create or replace package body P_Centrales as
                 RAISE_APPLICATION_ERROR (-20002, 'Formato de fecha incorrecto');
         end case;
 
-        v_fecha := to_date(p_fecha, v_formato);
+        v_fecha := to_char(to_date(p_fecha, v_formato), 'DDMMYYYY');
 
         return v_fecha;
     end;
@@ -59,20 +60,19 @@ create or replace package body P_Centrales as
     is
         v_produccion_dia    number;
         v_num_prods         number;
-        v_fecha             date;
+        v_fecha             varchar2(8);
     begin
         ExisteAerogenerador(p_codigo_aero);
 
         v_fecha := ConvertirFecha(p_fecha);
 
-        select nvl(sum(produccion),0), nvl(count(produccion),0)
-        into v_produccion_dia, v_num_prods
+        select sum(produccion) into v_produccion_dia
         from producciones_aerogeneradores
         where cod_aerogenerador = p_codigo_aero
         and to_char(fechahora, 'DDMMYYYY') = v_fecha;
 
         /* Si v_num_prods == 0 => aerogenerador desconectado ese dia */
-        /* v_num_prods == 23 => todo el día conectado */
+        /* v_num_prods == 23 => todo el día conectado*/
         if v_num_prods = 0 then
             raise_application_error(-20003, 'Aerogenerador desconectado ese día');
         end if;
@@ -82,4 +82,5 @@ create or replace package body P_Centrales as
     end ProduccionEnergia;
         /****** Fin Ejercicio 1 ******/
 
-end P_Centrales;
+end PCentrales;
+/
