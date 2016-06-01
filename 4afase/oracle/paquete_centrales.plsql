@@ -63,7 +63,7 @@ create or replace package body P_Centrales as
     begin
         ExisteAerogenerador(p_codigo_aero);
 
-        v_fecha = ConvertirFecha(p_fecha);
+        v_fecha := ConvertirFecha(p_fecha);
 
         select nvl(sum(produccion),0), nvl(count(produccion),0)
         into v_produccion_dia, v_num_prods
