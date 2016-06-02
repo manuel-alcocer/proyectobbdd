@@ -66,9 +66,9 @@ create or replace package body PCentrales1 as
         where a.codigo = p.cod_aerogenerador(+)
         and a.codigo = d.cod_aerogenerador(+)
         and (
-            to_char(p.fechahora,'YYYYMMDD') > p_fecha
+            to_char(p.fechahora,'YYYYMMDD') >= p_fecha
             or
-            to_char(d.fechahora_inicio, 'YYYYMMDD') > p_fecha
+            to_char(d.fechahora_inicio, 'YYYYMMDD') >= p_fecha
             )
         and p.cod_aerogenerador = p_codigo_aero;
 
