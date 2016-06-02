@@ -1,6 +1,5 @@
-create or replace package PCentrales as
+create or replace package PCentrales1 as
 
-    /****** Funciones y procedimientos Ejercicio 1 ******/
     procedure ExisteAerogenerador (p_codigo_aero aerogeneradores.codigo%TYPE);
 
     function ConvertirFecha (p_fecha varchar2)
@@ -12,20 +11,12 @@ create or replace package PCentrales as
     function ProduccionEnergia (p_codigo_aero aerogeneradores.codigo%TYPE,
                                 p_fecha varchar2)
         return number;
-            /****** Fin Ejercicio 1 ******/
 
-    /****** Funciones y procedimientos Ejercicio 3 ******/
-/*
-    function CalcularMaximo(p_cod_aerogenerador aerogeneradores.codigo%TYPE)
-        return number;
-*/
-            /****** Fin Ejercicio 3 ******/
-end PCentrales;
+end PCentrales1;
 /
 
-create or replace package body PCentrales as
+create or replace package body PCentrales1 as
 
-    /****** Funciones y procedimientos Ejercicio 1 ******/
     procedure ExisteAerogenerador (p_codigo_aero aerogeneradores.codigo%TYPE)
     is
         v_cantidad number;
@@ -117,24 +108,12 @@ create or replace package body PCentrales as
         return v_produccion_dia;
 
     end ProduccionEnergia;
-            /****** Fin Ejercicio 1 ******/
-
-        /****** Funciones y procedimientos Ejercicio 3 ******/
-/*
-    function CalcularMaximo(p_cod_aerogenerador aerogeneradores.codigo%TYPE)
-        return number
-    is
-    begin
-    end CalcularMaximo;
-*/
-            /****** Fin Ejercicio 3 ******/
-
-end PCentrales;
+end PCentrales1;
 /
 
-/* mis selects de pruebas */
+    /* selects de pruebas  Ejercicio 1 */
 
-select PCentrales.ProduccionEnergia('T6380001','1-1-2015') from dual;
+select PCentrales1.ProduccionEnergia('T6380001','1-1-2015') from dual;
 
 select count(p.cod_aerogenerador)
 from aerogeneradores a, producciones_aerogeneradores p, desconexiones d
@@ -146,3 +125,63 @@ and (
     to_char(d.fechahora_inicio, 'YYYYMMDD') > '20160101'
 )
 and p.cod_aerogenerador = 'T6380001';
+
+    /* Fin selects de pruebas */
+
+
+
+create or replace package PCentrales2 as
+
+    procedure InformeProduccionAero(p_codigo aerogeneradores.codigo%type);
+
+    procedure InformeProduccionCentral(p_nombrecentral centrales.nombre%type);
+
+    procedure InformeProduccionEmpresa (p_nombre_empresa empresas.nombre%type);
+
+    procedure GenerarInforme (  p_tipo_informe number,
+                                p_fecha varchar2,
+                                p_parametro varchar2);
+end PCentrales2;
+/
+
+create or replace package body PCentrales2 as
+
+    procedure InformeProduccionAero(p_codigo aerogeneradores.codigo%type)
+    is
+    begin
+        NULL;
+    end InformeProduccionAero;
+
+    procedure InformeProduccionCentral (p_nombrecentral centrales.nombre%type)
+    is
+    begin
+        NULL;
+    end InformeProduccionCentral;
+
+    procedure InformeProduccionEmpresa (p_nombre_empresa empresas.nombre%type)
+    is
+    begin
+        NULL;
+    end InformeProduccionEmpresa;
+
+    procedure GenerarInforme (  p_tipo_informe number,
+                                p_fecha varchar2,
+                                p_parametro varchar2)
+    is
+    begin
+        case
+            when p_tipo_informe = 1 then
+                InformeProduccionAero(p_parametro);
+            when p_tipo_informe = 2 then
+                InformeProduccionCentral(p_parametro);
+            when p_tipo_informe = 3 then
+                InformeProduccionEmpresa (p_parametro);
+            else
+                raise_application_error(-20005, 'Tipo de informe: ' || to_char(p_tipo_informe) || ' incorrecto');
+        end case;
+    end GenerarInforme;
+
+end PCentrales2;
+/
+
+exec PCentrales2.GenerarInforme(5,'wee','weee');
