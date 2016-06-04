@@ -122,7 +122,7 @@ create or replace package body PCentrales1 as
         from aerogeneradores a, producciones_aerogeneradores p, modelos_aerogeneradores m
         where a.codigo = p_codigo_aero
         and a.nombre_modelo = m.nombre
-        and to_char(p.fechahora, 'YYYYMMDD') = v_fecha;
+        and to_char(p.fechahora, 'YYYYMMDD') = p_fecha;
 
         return v_produccion_dia;
     end CalcularProduccion;
@@ -147,7 +147,7 @@ create or replace package body PCentrales1 as
             raise_application_error(-20004, 'Aerogenerador desconectado ese día');
         end if;
 
-        v_produccion_dia := CalcularProduccion(p_codigo_aero, p_fecha);
+        v_produccion_dia := CalcularProduccion(p_codigo_aero, v_fecha);
 
         return v_produccion_dia;
 
