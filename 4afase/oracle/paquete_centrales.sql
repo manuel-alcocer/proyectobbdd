@@ -9,8 +9,9 @@ create or replace package PCentrales1 as
     procedure AerogeneradorEnProduccion (p_codigo_aero aerogeneradores.codigo%TYPE,
                                          p_fecha varchar2);
 
-    procedure AerogeneradorDesconectado (p_codigo_aero aerogeneradores.codigo%TYPE,
-                                         p_fecha varchar2);
+    function AerogeneradorDesconectado (p_codigo_aero aerogeneradores.codigo%TYPE,
+                                         p_fecha varchar2)
+        return number;
 
     /* Función principal */
     function ProduccionEnergia (p_codigo_aero aerogeneradores.codigo%TYPE,
@@ -84,8 +85,9 @@ create or replace package body PCentrales1 as
 
     end AerogeneradorEnProduccion;
 
-    procedure AerogeneradorDesconectado (p_codigo_aero aerogeneradores.codigo%TYPE,
+    function AerogeneradorDesconectado (p_codigo_aero aerogeneradores.codigo%TYPE,
                                          p_fecha varchar2)
+    return number
     is
         v_desc          number;
         v_fecha_desc    number;
@@ -98,9 +100,7 @@ create or replace package body PCentrales1 as
         and to_number(to_char(fechahora_inicio,'YYYYMMDDHH24MI')) <= v_fecha_desc
         and to_number(to_char(fechahora_fin,'YYYYMMDD')) > to_number(p_fecha);
 
-        if v_desc > 0 then
-            raise_application_error(-20004, 'Aerogenerador desconectado ese día');
-        end if;
+        return v_desc;
 
     end AerogeneradorDesconectado;
 
@@ -109,7 +109,7 @@ create or replace package body PCentrales1 as
         return number
     is
         v_produccion_dia    number;
-        v_num_prods         number;
+        v_desconectado      number;
         v_fecha             varchar2(8);
     begin
         ExisteAerogenerador(p_codigo_aero);
@@ -118,7 +118,11 @@ create or replace package body PCentrales1 as
 
         AerogeneradorEnProduccion(p_codigo_aero, v_fecha);
 
-        AerogeneradorDesconectado(p_codigo_aero, v_fecha);
+        v_desconectado := AerogeneradorDesconectado(p_codigo_aero, v_fecha);
+
+        if v_desconectado > 0 then
+            raise_application_error(-20004, 'Aerogenerador desconectado ese día');
+        end if;
 
         select nvl(sum(p.produccion / 100 * m.prod_max_horaria),0)
         into v_produccion_dia
