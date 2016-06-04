@@ -1,4 +1,3 @@
-select * from centrales;
 create or replace package PCentrales1 as
 
     procedure ExisteAerogenerador (p_codigo_aero aerogeneradores.codigo%TYPE);
