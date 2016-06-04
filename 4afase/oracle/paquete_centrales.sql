@@ -163,18 +163,20 @@ create or replace package PCentrales2 as
 
     registroAerogenerador TipoAerogenerador;
 
+    procedure CrearCabeceraAerogenerador(p_codigo aerogeneradores.codigo%TYPE);
+
     procedure InformeProduccionAero(
-                                        p_codigo aerogeneradores.codigo%type,
+                                        p_codigo aerogeneradores.codigo%TYPE,
                                         p_fecha varchar2
                                    );
 
     procedure InformeProduccionCentral(
-                                        p_nombrecentral centrales.nombre%type,
+                                        p_nombrecentral centrales.nombre%TYPE,
                                         p_fecha varchar2
                                       );
 
     procedure InformeProduccionEmpresa(
-                                        p_nombre_empresa empresas.nombre%type,
+                                        p_nombre_empresa empresas.nombre%TYPE,
                                         p_fecha varchar2
                                       );
 
@@ -189,33 +191,48 @@ end PCentrales2;
 
 create or replace package body PCentrales2 as
 
-    procedure InformeProduccionAero(p_codigo aerogeneradores.codigo%type, p_fecha varchar2)
+    procedure CrearCabeceraAerogenerador(p_codigo aerogeneradores.codigo%TYPE)
     is
-        v_fecha number;
     begin
-        PCentrales1.ExisteAerogenerador(p_codigo);
-        PCentrales1.AerogeneradorEnProduccion(p_codigo, p_fecha);
         select a.codigo, m.marca, m.nombre, m.prod_max_horaria
         into registroAerogenerador
         from aerogeneradores a, modelos_aerogeneradores m
         where a.nombre_modelo = m.nombre
         and a.codigo = p_codigo;
+    end CrearCabeceraAerogenerador;
+
+    procedure InformeProduccionAero(
+                                    p_codigo aerogeneradores.codigo%type,
+                                    p_fecha varchar2
+                                   )
+    is
+    begin
+        PCentrales1.ExisteAerogenerador(p_codigo);
+        PCentrales1.AerogeneradorEnProduccion(p_codigo, p_fecha);
+        CrearCabeceraAerogenerador(p_codigo);
 
     end InformeProduccionAero;
 
-    procedure InformeProduccionCentral (p_nombrecentral centrales.nombre%type, p_fecha varchar2)
+    procedure InformeProduccionCentral (
+                                        p_nombrecentral centrales.nombre%type,
+                                        p_fecha varchar2
+                                       )
     is
     begin
         NULL;
     end InformeProduccionCentral;
 
-    procedure InformeProduccionEmpresa (p_nombre_empresa empresas.nombre%type, p_fecha varchar2)
+    procedure InformeProduccionEmpresa (
+                                        p_nombre_empresa empresas.nombre%type,
+                                        p_fecha varchar2
+                                       )
     is
     begin
         NULL;
     end InformeProduccionEmpresa;
 
-    procedure GenerarInforme (  p_tipo_informe number,
+    procedure GenerarInforme (
+                                p_tipo_informe number,
                                 p_fecha varchar2,
                                 p_parametro varchar2
                              )
