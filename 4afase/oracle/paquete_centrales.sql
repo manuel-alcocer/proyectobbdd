@@ -169,6 +169,15 @@ create or replace package PCentrales2 as
 
     procedure CrearCabeceraAerogenerador(p_codigo aerogeneradores.codigo%TYPE);
 
+    procedure MostrarCabeceraAerogenerador(
+                                            p_codigo aerogeneradores.codigo%TYPE,
+                                            p_fecha varchar2
+                                          );
+    procedure MostrarDesconexiones(
+                                    p_codigo aerogeneradores.codigo%TYPE,
+                                    p_fecha varchar2
+                                  );
+
     procedure InformeProduccionAero(
                                         p_codigo aerogeneradores.codigo%TYPE,
                                         p_fecha varchar2
@@ -205,16 +214,48 @@ create or replace package body PCentrales2 as
         and a.codigo = p_codigo;
     end CrearCabeceraAerogenerador;
 
-    procedure InformeProduccionAero(
-                                    p_codigo aerogeneradores.codigo%type,
-                                    p_fecha varchar2
-                                   )
+    procedure MostrarCabeceraAerogenerador(
+                                            p_codigo aerogeneradores.codigo%TYPE,
+                                            p_fecha varchar2
+                                          )
     is
     begin
         PCentrales1.ExisteAerogenerador(p_codigo);
         PCentrales1.AerogeneradorEnProduccion(p_codigo, p_fecha);
         CrearCabeceraAerogenerador(p_codigo);
+        dbms_output.put_line(
+                            'Aerogenerador ' || registroAerogenerador.codigo || ' '
+                            || registroAerogenerador.marca || ' '
+                            || registroAerogenerador.modelo
+                           );
 
+    end MostrarCabeceraAerogenerador;
+
+    procedure MostrarDesconexiones(
+                                    p_codigo aerogeneradores.codigo%TYPE,
+                                    p_fecha varchar2
+                                  )
+    is
+        v_desc number;
+    begin
+        v_desc := PCentrales1.AerogeneradorDesconectado(p_codigo, p_fecha);
+        case
+            when v_desc > 0 then
+                dbms_output.put_line('Aerogenerador desconectado todo el día.');
+            else
+                NULL;
+            end case;
+    end MostrarDesconexiones;
+
+    procedure InformeProduccionAero(
+                                    p_codigo aerogeneradores.codigo%type,
+                                    p_fecha varchar2
+                                   )
+    is
+        v_desc number;
+    begin
+        MostrarCabeceraAerogenerador(p_codigo, p_fecha);
+        MostrarDesconexiones(p_codigo, p_fecha);
     end InformeProduccionAero;
 
     procedure InformeProduccionCentral (
