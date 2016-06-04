@@ -8,6 +8,10 @@ create or replace package PCentrales1 as
     procedure AerogeneradorEnProduccion (p_codigo_aero aerogeneradores.codigo%TYPE,
                                          p_fecha varchar2);
 
+    procedure AerogeneradorDesconectado (p_codigo_aero aerogeneradores.codigo%TYPE,
+                                         p_fecha varchar2);
+
+    /* Función principal */
     function ProduccionEnergia (p_codigo_aero aerogeneradores.codigo%TYPE,
                                 p_fecha varchar2)
         return number;
@@ -56,6 +60,7 @@ create or replace package body PCentrales1 as
         return v_fecha;
     end;
 
+    /* TODO: Comprobar también si la fecha es inferior a la de comienzo de producción */
     procedure AerogeneradorEnProduccion (p_codigo_aero aerogeneradores.codigo%TYPE,
                                          p_fecha varchar2)
     is
@@ -78,6 +83,26 @@ create or replace package body PCentrales1 as
 
     end AerogeneradorEnProduccion;
 
+    procedure AerogeneradorDesconectado (p_codigo_aero aerogeneradores.codigo%TYPE,
+                                         p_fecha varchar2)
+    is
+        v_desc          number;
+        v_fecha_desc    number;
+    begin
+        v_fecha_desc := to_number(p_fecha || '0000');
+
+        select nvl(count(cod_aerogenerador), 0) into v_desc
+        from desconexiones
+        where cod_aerogenerador = p_codigo_aero
+        and to_number(to_char(fechahora_inicio,'YYYYMMDDHH24MI')) <= v_fecha_desc
+        and to_number(to_char(fechahora_fin,'YYYYMMDD')) > to_number(p_fecha);
+
+        if v_desc > 0 then
+            raise_application_error(-20004, 'Aerogenerador desconectado ese día');
+        end if;
+
+    end AerogeneradorDesconectado;
+
     function ProduccionEnergia (p_codigo_aero aerogeneradores.codigo%TYPE,
                                 p_fecha varchar2)
         return number
@@ -92,18 +117,14 @@ create or replace package body PCentrales1 as
 
         AerogeneradorEnProduccion(p_codigo_aero, v_fecha);
 
-        select nvl(sum(p.produccion / 100 * m.prod_max_horaria),0), count(p.produccion)
-        into v_produccion_dia, v_num_prods
+        AerogeneradorDesconectado(p_codigo_aero, v_fecha);
+
+        select nvl(sum(p.produccion / 100 * m.prod_max_horaria),0)
+        into v_produccion_dia
         from aerogeneradores a, producciones_aerogeneradores p, modelos_aerogeneradores m
         where a.codigo = p_codigo_aero
         and a.nombre_modelo = m.nombre
         and to_char(p.fechahora, 'YYYYMMDD') = v_fecha;
-
-        /* Si v_num_prods == 0 => aerogenerador desconectado ese dia */
-        /* v_num_prods == 23 => todo el día conectado*/
-        if v_num_prods = 0 then
-            raise_application_error(-20004, 'Aerogenerador desconectado ese día');
-        end if;
 
         return v_produccion_dia;
 
@@ -129,36 +150,65 @@ and p.cod_aerogenerador = 'T6380001';
     /* Fin selects de pruebas */
 
 
-
 create or replace package PCentrales2 as
 
-    procedure InformeProduccionAero(p_codigo aerogeneradores.codigo%type);
+    TYPE TipoAerogenerador IS RECORD
+    (
+        codigo aerogeneradores.codigo%TYPE,
+        marca modelos_aerogeneradores.marca%TYPE,
+        modelo modelos_aerogeneradores.nombre%TYPE,
+        produccion_max modelos_aerogeneradores.prod_max_horaria%TYPE
+    );
 
-    procedure InformeProduccionCentral(p_nombrecentral centrales.nombre%type);
+    registroAerogenerador TipoAerogenerador;
 
-    procedure InformeProduccionEmpresa (p_nombre_empresa empresas.nombre%type);
+    procedure InformeProduccionAero(
+                                        p_codigo aerogeneradores.codigo%type,
+                                        p_fecha varchar2
+                                   );
 
-    procedure GenerarInforme (  p_tipo_informe number,
+    procedure InformeProduccionCentral(
+                                        p_nombrecentral centrales.nombre%type,
+                                        p_fecha varchar2
+                                      );
+
+    procedure InformeProduccionEmpresa(
+                                        p_nombre_empresa empresas.nombre%type,
+                                        p_fecha varchar2
+                                      );
+
+    /* Función principal */
+    procedure GenerarInforme(
+                                p_tipo_informe number,
                                 p_fecha varchar2,
-                                p_parametro varchar2);
+                                p_parametro varchar2
+                            );
 end PCentrales2;
 /
 
 create or replace package body PCentrales2 as
 
-    procedure InformeProduccionAero(p_codigo aerogeneradores.codigo%type)
+    procedure InformeProduccionAero(p_codigo aerogeneradores.codigo%type, p_fecha varchar2)
     is
+        v_fecha number;
     begin
-        NULL;
+        PCentrales1.ExisteAerogenerador(p_codigo);
+        PCentrales1.AerogeneradorEnProduccion(p_codigo, p_fecha);
+        select a.codigo, m.marca, m.nombre, m.prod_max_horaria
+        into registroAerogenerador
+        from aerogeneradores a, modelos_aerogeneradores m
+        where a.nombre_modelo = m.nombre
+        and a.codigo = p_codigo;
+
     end InformeProduccionAero;
 
-    procedure InformeProduccionCentral (p_nombrecentral centrales.nombre%type)
+    procedure InformeProduccionCentral (p_nombrecentral centrales.nombre%type, p_fecha varchar2)
     is
     begin
         NULL;
     end InformeProduccionCentral;
 
-    procedure InformeProduccionEmpresa (p_nombre_empresa empresas.nombre%type)
+    procedure InformeProduccionEmpresa (p_nombre_empresa empresas.nombre%type, p_fecha varchar2)
     is
     begin
         NULL;
@@ -166,22 +216,33 @@ create or replace package body PCentrales2 as
 
     procedure GenerarInforme (  p_tipo_informe number,
                                 p_fecha varchar2,
-                                p_parametro varchar2)
+                                p_parametro varchar2
+                             )
     is
+        v_fecha varchar2(8);
     begin
+
+        v_fecha := PCentrales1.ConvertirFecha(p_fecha);
+
         case
             when p_tipo_informe = 1 then
-                InformeProduccionAero(p_parametro);
+                InformeProduccionAero(p_parametro, v_fecha);
             when p_tipo_informe = 2 then
-                InformeProduccionCentral(p_parametro);
+                InformeProduccionCentral(p_parametro, v_fecha);
             when p_tipo_informe = 3 then
-                InformeProduccionEmpresa (p_parametro);
+                InformeProduccionEmpresa (p_parametro, v_fecha);
             else
                 raise_application_error(-20005, 'Tipo de informe: ' || to_char(p_tipo_informe) || ' incorrecto');
         end case;
+
     end GenerarInforme;
 
 end PCentrales2;
 /
 
 exec PCentrales2.GenerarInforme(5,'wee','weee');
+
+select cod_aerogenerador from desconexiones d
+where cod_aerogenerador = 'T6380001'
+and to_number(to_char(d.fechahora_inicio,'YYYYMMDDHH24MI'), '9') <= '201501010000'
+and to_number(to_char(d.fechahora_salida,'YYYYMMDD'), '9') > '20150101'
