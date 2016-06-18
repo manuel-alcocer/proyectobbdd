@@ -101,7 +101,7 @@ create or replace package body PCentrales2 as
     procedure MostrarCabeceraAerogenerador
     is
     begin
-        PCentrales1.ExisteAerogenerador(PC2.aerocodigo);
+        PC1.ExisteAerogenerador(PC2.aerocodigo);
         CrearCabeceraAerogenerador();
         dbms_output.put_line(
                                 'Aerogenerador ' || registroAerogenerador.codigo || ' '
@@ -128,6 +128,7 @@ create or replace package body PCentrales2 as
         formato_fecha varchar2(20) := 'DD-MM-YYYY HH24:MI';
 
     begin
+        TablaListaDesconexiones.delete;
         for v_desconexiones in c_desconexiones loop
             TablaListaDesconexiones(indice).inicio := to_char(v_desconexiones.inicio, formato_fecha);
             TablaListaDesconexiones(indice).fin := to_char(v_desconexiones.fin, formato_fecha);
@@ -404,7 +405,7 @@ create or replace package body PCentrales2 as
         /* Si no está en producción en la fecha pedida, para la ejecución */
         MostrarCabeceraAerogenerador();
         MostrarDia();
-        v_desc := PCentrales1.AerogeneradorDesconectado(PC2.aerocodigo, PC2.fecha);
+        v_desc := PC1.AerogeneradorDesconectado(PC2.aerocodigo, PC2.fecha);
         if v_desc > 0 then
                 dbms_output.put_line(chr(10) || 'Aerogenerador desconectado todo el día.');
                 dbms_output.put_line(chr(10) || 'Energía producida: 0');
@@ -441,7 +442,7 @@ create or replace package body PCentrales2 as
                             )
     is
     begin
-        PC2.fecha := PCentrales1.ConvertirFecha(p_fecha);
+        PC2.fecha := PC1.ConvertirFecha(p_fecha);
         case
             when p_tipo_informe = '1' then
                 PC2.aerocodigo := p_parametro;
