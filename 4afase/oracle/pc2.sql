@@ -44,12 +44,11 @@ create or replace package PCentrales2 as
         nombre      centrales.nombre%TYPE,
         municipio   municipios.nombre%TYPE,
         provincia   provincias.nombre%TYPE,
-        hora        varchar2(10),
         velocidad   predicciones_viento.velocidad%TYPE,
         energia     number
     );
     TYPE TipoTablaRegCentrales is table of TipoRegCentral
-        index by BINARY_INTEGER;
+        index by varchar2(10);
     TablaListaCentral TipoTablaRegCentrales;
 
     TYPE TipoRegEnergiaAero IS RECORD
@@ -252,26 +251,20 @@ create or replace package body PCentrales2 as
             and a.nombre_modelo = mo.nombre
             and a.codigo = p.cod_aerogenerador
             order by p.fechahora asc;
-
-        indice BINARY_INTEGER := 0;
     begin
         TablaListaCentral.delete;
         for v_energiacentral in c_energiacentral loop
-            TablaListaCentral(indice).nombre    := v_energiacentral.cnombre;
-            TablaListaCentral(indice).municipio := v_energiacentral.mnombre;
-            TablaListaCentral(indice).provincia := v_energiacentral.pnombre;
-            TablaListaCentral(indice).hora      := v_energiacentral.hora;
-            TablaListaCentral(indice).velocidad := v_energiacentral.velocidad;
-            TablaListaCentral(indice).energia   := v_energiacentral.energia;
-
-            indice := indice + 1;
-
+            TablaListaCentral(v_energiacentral.hora).nombre    := v_energiacentral.cnombre;
+            TablaListaCentral(v_energiacentral.hora).municipio := v_energiacentral.mnombre;
+            TablaListaCentral(v_energiacentral.hora).provincia := v_energiacentral.pnombre;
+            TablaListaCentral(v_energiacentral.hora).velocidad := v_energiacentral.velocidad;
+            TablaListaCentral(v_energiacentral.hora).energia   := nvl(TablaListaCentral(v_energiacentral.hora).energia,0) + v_energiacentral.energia;
         end loop;
     end RellenarTablaCentral;
 
     procedure CalcularEnergiaTotalDia(p_energia IN OUT number)
     is
-        indice BINARY_INTEGER := TablaListaCentral.first;
+        indice varchar2(10) := TablaListaCentral.first;
     begin
         while indice is not null loop
             p_energia := p_energia + TablaListaCentral(indice).energia;
@@ -292,14 +285,14 @@ create or replace package body PCentrales2 as
 
     procedure MostrarTablaCentral
     is
-        indice BINARY_INTEGER := TablaListaCentral.first;
+        indice varchar2(10) := TablaListaCentral.first;
     begin
         if TablaListaCentral.count > 0 then
             dbms_output.put_line(chr(10) || 'Detalle de producciones');
             dbms_output.put_line('========================');
             while indice is not null loop
                 dbms_output.put_line(
-                                        TablaListaCentral(indice).hora || ': ' ||
+                                        indice || ': ' ||
                                         TablaListaCentral(indice).velocidad || 'km/h - ' ||
                                         TablaListaCentral(indice).energia
                                     );
@@ -355,7 +348,6 @@ create or replace package body PCentrales2 as
             j := 0;
             for v_aeros in c_aeros loop
                 TablaEnergiaCentral(i).aeros(j).codigo := v_aeros.codigo;
-                /* TODO: Si aerogenerador no está en producción hacer whatever */
                 TablaEnergiaCentral(i).aeros(j).energia := v_aeros.energiadia;
                 TablaEnergiaCentral(i).generadodia := TablaEnergiaCentral(i).generadodia + v_aeros.energiadia;
                 j := j + 1;
@@ -402,7 +394,6 @@ create or replace package body PCentrales2 as
     is
         v_desc number;
     begin
-        /* Si no está en producción en la fecha pedida, para la ejecución */
         MostrarCabeceraAerogenerador();
         MostrarDia();
         v_desc := PC1.AerogeneradorDesconectado(PC2.aerocodigo, PC2.fecha);
